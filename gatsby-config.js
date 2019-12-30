@@ -40,6 +40,12 @@ module.exports = {
         lang: "en",
       },
     },
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [require("tailwindcss")],
+      },
+    },
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-favicon`,
     // {
