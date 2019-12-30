@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Header from "../components/Header/index.js"
+
 export default () => (
   <div className="flex">
     <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
