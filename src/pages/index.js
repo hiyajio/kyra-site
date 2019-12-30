@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default () => (
   <div className="flex">
-    <div className="flex-1 bg-golden font-body h-screen w-2/5 overflow-hidden">
+    <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
       <video
         autoplay="true"
         loop="true"
