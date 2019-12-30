@@ -1,3 +1,5 @@
 import React from "react"
 
-export default () => <div>Hello world!</div>
+export default () => (
+  <div className="bg-blue-100 font-body golden">Hello world!</div>
+)
