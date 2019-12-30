@@ -26,23 +26,23 @@ export default () => (
       <div className="justify-center content-center object-center m-auto">
         <ul>
           <Link to="/">
-            <li className="hover:text-white hover:bg-silvered">home</li>
+            <li className="hover:text-white hover:bg-silvered">/home</li>
           </Link>
           <Link to="#collections">
-            <li className="hover:text-white hover:bg-silvered">collections</li>
+            <li className="hover:text-white hover:bg-silvered">/collections</li>
           </Link>
           <a
             href={`../../files/resumeBuenviaje.pdf`}
             rel="noopener noreferrer"
             target="_BLANK"
           >
-            <li className="hover:text-white hover:bg-silvered">resume</li>
+            <li className="hover:text-white hover:bg-silvered">/resume</li>
           </a>
           <Link to="#about">
-            <li className="hover:text-white hover:bg-silvered">about</li>
+            <li className="hover:text-white hover:bg-silvered">/about</li>
           </Link>
           <Link to="#contact">
-            <li className="hover:text-white hover:bg-silvered">contact</li>
+            <li className="hover:text-white hover:bg-silvered">/contact</li>
           </Link>
         </ul>
         <div className="block absolute w-full">
