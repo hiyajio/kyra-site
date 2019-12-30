@@ -25,28 +25,67 @@ export default () => (
       ></img>
       <div className="justify-center content-center object-center m-auto">
         <ul>
-          <li className="hover:text-white">
-            <Link to="#home">Home</Link>
-          </li>
-          <li className="hover:text-white">
-            <Link to="#collections">Collections</Link>
-          </li>
-          <li className="hover:text-white">
-            <a
-              href={`../../files/resumeBuenviaje.pdf`}
-              rel="noopener noreferrer"
-              target="_BLANK"
-            >
-              Resume
-            </a>
-          </li>
-          <li className="hover:text-white">
-            <Link to="#about">About</Link>
-          </li>
-          <li className="hover:text-white">
-            <Link to="#contact">Contact</Link>
-          </li>
+          <Link to="/">
+            <li className="hover:text-white hover:bg-silvered">home</li>
+          </Link>
+          <Link to="#collections">
+            <li className="hover:text-white hover:bg-silvered">collections</li>
+          </Link>
+          <a
+            href={`../../files/resumeBuenviaje.pdf`}
+            rel="noopener noreferrer"
+            target="_BLANK"
+          >
+            <li className="hover:text-white hover:bg-silvered">resume</li>
+          </a>
+          <Link to="#about">
+            <li className="hover:text-white hover:bg-silvered">about</li>
+          </Link>
+          <Link to="#contact">
+            <li className="hover:text-white hover:bg-silvered">contact</li>
+          </Link>
         </ul>
+        <div className="block absolute w-full">
+          <a
+            href="https://instagram.com/kyrainstudio"
+            rel="noopener noreferrer"
+            target="_BLANK"
+            className="hover:opacity-0"
+          >
+            <img
+              src={`../../images/logos/instagram.svg`}
+              alt={"Jio Buenviaje on Instagram"}
+              aria-label="Instagram"
+              className="inline-block h-4 mr-2 opacity-50"
+            />
+          </a>
+          <a
+            href="https://linkedin.com/in/kyrabuenviaje"
+            rel="noopener noreferrer"
+            target="_BLANK"
+            className="opacity-50 hover:opacity-0"
+          >
+            <img
+              src={`../../images/logos/linkedin.svg`}
+              alt={"Jio Buenviaje on LinkedIn"}
+              aria-label="LinkedIn"
+              className="inline-block h-4 mr-2"
+            />
+          </a>
+          <a
+            href="mailto:kyrabuenviaje@gmail.com"
+            rel="noopener noreferrer"
+            target="_BLANK"
+            className="opacity-50 hover:opacity-0"
+          >
+            <img
+              src={`../../images/logos/email.svg`}
+              alt={"Jio Buenviaje on Email"}
+              aria-label="Gmail"
+              className="inline-block h-4 mr-2"
+            />
+          </a>
+        </div>
       </div>
     </div>
     <div className="flex-1 bg-white font-body h-screen w-2/5">
