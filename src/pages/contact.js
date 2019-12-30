@@ -11,7 +11,7 @@ export default () => (
         className="object-cover bg-auto min-w-full h-full"
       >
         <source
-          src={`../../videos/juanaSkirtRGB.webm`}
+          src={`../../videos/juanaVestBW.webm`}
           alt="Juana Skirt Colored"
           type="video/webm"
         />
@@ -89,13 +89,82 @@ export default () => (
       </div>
     </div>
     <div className="flex-1 bg-white font-body h-screen w-2/5">
-      <video autoplay="true" loop="true" muted="true" className="h-full">
-        <source
-          src={`../../videos/juanaSkirtBW.webm`}
-          alt="Juana Skirt BnW"
-          type="video/webm"
-        />
-      </video>
+      <div className="mt-10">
+        <form
+          action="https://formspree.io/FORM_ID"
+          method="POST"
+          className="w-full max-w-lg"
+        >
+          <div className="flex flex-wrap -mx-3 mb-6">
+            <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+              <label
+                className="block tracking-wide text-gray-700 text-sm mb-2"
+                for="grid-first-name"
+              >
+                /first name
+              </label>
+              <input
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                id="grid-first-name"
+                type="text"
+              />
+            </div>
+            <div className="w-full md:w-1/2 px-3">
+              <label
+                className="block tracking-wide text-gray-700 text-sm mb-2"
+                for="grid-last-name"
+              >
+                /last name
+              </label>
+              <input
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                id="grid-last-name"
+                type="text"
+              />
+            </div>
+          </div>
+          <div className="flex flex-wrap -mx-3 mb-6">
+            <div className="w-full px-3">
+              <label
+                className="block tracking-wide text-gray-700 text-sm mb-2"
+                for="grid-password"
+              >
+                /email
+              </label>
+              <input
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                id="email"
+                type="email"
+              />
+            </div>
+          </div>
+          <div className="flex flex-wrap -mx-3 mb-6">
+            <div className="w-full px-3">
+              <label
+                className="block tracking-wide text-gray-700 text-sm mb-2"
+                for="grid-password"
+              >
+                /message
+              </label>
+              <textarea
+                className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                id="message"
+              ></textarea>
+            </div>
+          </div>
+          <div className="md:flex md:items-center">
+            <div className="md:w-1/3">
+              <button
+                className="shadow bg-golden opacity-50 hover:opacity-100 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                type="button"
+              >
+                send
+              </button>
+            </div>
+            <div className="md:w-2/3"></div>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 )
