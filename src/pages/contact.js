@@ -109,7 +109,7 @@ export default () => (
                 type="text"
                 name="name"
                 minlength="2"
-                required=""
+                required="true"
               />
             </div>
           </div>
@@ -127,7 +127,7 @@ export default () => (
                 type="email"
                 name="_replyto"
                 minlength="2"
-                required=""
+                required="true"
               />
             </div>
           </div>
@@ -144,7 +144,7 @@ export default () => (
                 id="message"
                 name="message"
                 minlength="2"
-                required=""
+                required="true"
               ></textarea>
             </div>
           </div>
