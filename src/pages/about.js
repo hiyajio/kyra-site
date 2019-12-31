@@ -14,9 +14,26 @@ export default () => (
         </p>
         <p className="mb-4">
           As a design intern at Zac Posen she was able to assist and contribute
-          in the creation of the Spring/Summer 2020 collection with Steven
-          Sebring and Winnie Harlow. She also learned extensively as a studio
-          intern in Melbourne at Lui Hon.
+          in the creation of the{" "}
+          <a
+            href="https://www.vogue.com/fashion-shows/spring-2020-ready-to-wear/zac-posen"
+            rel="noopener noreferrer"
+            target="_BLANK"
+            className="text-golden hover:text-white"
+          >
+            Spring/Summer 2020 collection
+          </a>{" "}
+          with Steven Sebring and Winnie Harlow. She also learned extensively as
+          a studio intern in Melbourne at{" "}
+          <a
+            href="http://luihon.com/"
+            rel="noopener noreferrer"
+            target="_BLANK"
+            className="text-golden hover:text-white"
+          >
+            Lui Hon
+          </a>
+          .
         </p>
         <p className="mb-4">
           She recently won the YMA Fashion Scholarship Fund Case Study
