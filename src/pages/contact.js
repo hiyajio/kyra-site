@@ -96,45 +96,31 @@ export default () => (
           className="w-full max-w-lg"
         >
           <div className="flex flex-wrap -mx-3 mb-6">
-            <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <div className="w-full px-3">
               <label
                 className="block tracking-wide text-gray-700 text-sm mb-2"
-                for="grid-first-name"
+                for="grid-name"
               >
-                /first name
+                /name
               </label>
               <input
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                id="grid-first-name"
+                className="appearance-none block w-full bg-gray-200 text-silvered border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                id="grid-name"
                 type="text"
-                name="firstName"
-              />
-            </div>
-            <div className="w-full md:w-1/2 px-3">
-              <label
-                className="block tracking-wide text-gray-700 text-sm mb-2"
-                for="grid-last-name"
-              >
-                /last name
-              </label>
-              <input
-                className="appearance-none block w-full bg-gray-300 text-gray-700 border border-gray-300 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                id="grid-last-name"
-                type="text"
-                name="lastName"
+                name="name"
               />
             </div>
           </div>
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
               <label
-                className="block tracking-wide text-silvered text-sm mb-2"
+                className="block tracking-wide text-gray-700 text-sm mb-2"
                 for="grid-password"
               >
-                /email address
+                /email
               </label>
               <input
-                className="appearance-none block w-full bg-gray-200 text-silvered border border-silvered rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-silvered"
+                className="appearance-none block w-full bg-gray-200 text-silvered border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="email"
                 type="email"
                 name="_replyto"
@@ -150,7 +136,7 @@ export default () => (
                 /message
               </label>
               <textarea
-                className="no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                className="no-resize appearance-none block w-full bg-gray-200 text-silvered border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
                 id="message"
                 name="message"
               ></textarea>
