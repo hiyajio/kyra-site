@@ -54,7 +54,7 @@ export default () => (
           >
             <img
               src={`../../images/logos/instagram.svg`}
-              alt={"Jio Buenviaje on Instagram"}
+              alt={"Kyra on Instagram"}
               aria-label="Instagram"
               className="inline-block h-4 mr-2 opacity-50"
             />
@@ -67,7 +67,7 @@ export default () => (
           >
             <img
               src={`../../images/logos/linkedin.svg`}
-              alt={"Jio Buenviaje on LinkedIn"}
+              alt={"Kyra on LinkedIn"}
               aria-label="LinkedIn"
               className="inline-block h-4 mr-2"
             />
@@ -80,7 +80,7 @@ export default () => (
           >
             <img
               src={`../../images/logos/email.svg`}
-              alt={"Jio Buenviaje on Email"}
+              alt={"Kyra on Gmail"}
               aria-label="Gmail"
               className="inline-block h-4 mr-2"
             />
@@ -108,6 +108,8 @@ export default () => (
                 id="grid-name"
                 type="text"
                 name="name"
+                minlength="2"
+                required=""
               />
             </div>
           </div>
@@ -124,6 +126,8 @@ export default () => (
                 id="email"
                 type="email"
                 name="_replyto"
+                minlength="2"
+                required=""
               />
             </div>
           </div>
@@ -139,6 +143,8 @@ export default () => (
                 className="no-resize appearance-none block w-full bg-gray-200 text-silvered border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
                 id="message"
                 name="message"
+                minlength="2"
+                required=""
               ></textarea>
             </div>
           </div>

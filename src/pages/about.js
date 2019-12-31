@@ -54,7 +54,7 @@ export default () => (
           >
             <img
               src={`../../images/logos/instagram.svg`}
-              alt={"Jio Buenviaje on Instagram"}
+              alt={"Kyra on Instagram"}
               aria-label="Instagram"
               className="inline-block h-4 mr-2 opacity-50"
             />
@@ -67,7 +67,7 @@ export default () => (
           >
             <img
               src={`../../images/logos/linkedin.svg`}
-              alt={"Jio Buenviaje on LinkedIn"}
+              alt={"Kyra on LinkedIn"}
               aria-label="LinkedIn"
               className="inline-block h-4 mr-2"
             />
@@ -80,7 +80,7 @@ export default () => (
           >
             <img
               src={`../../images/logos/email.svg`}
-              alt={"Jio Buenviaje on Email"}
+              alt={"Kyra on Gmail"}
               aria-label="Gmail"
               className="inline-block h-4 mr-2"
             />
