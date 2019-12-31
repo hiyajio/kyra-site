@@ -3,19 +3,39 @@ import { Link } from "gatsby"
 
 export default () => (
   <div className="flex">
-    <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
-      <video
-        autoplay="true"
-        loop="true"
-        muted="true"
-        className="object-cover bg-auto min-w-full h-full"
-      >
-        <source
-          src={`../../videos/juanaSkirtRGB.webm`}
-          alt="Juana Skirt Colored"
-          type="video/webm"
-        />
-      </video>
+    <div className="flex bg-white font-body h-screen w-2/5 overflow-hidden">
+      <div className="justify-center content-center object-center m-auto text-sm mx-16 mb-16">
+        <p className="mb-4">
+          Kyra Buenviaje is an undergraduate senior creating her thesis
+          collection at the Rhode Island School of Design. She will graduate in
+          May 2020 with a degree in BFA Apparel Design. Prior to pursuing her
+          fashion education in the US, she studied in both the Philippines and
+          Australia on merit scholarships.
+        </p>
+        <p className="mb-4">
+          As a design intern at Zac Posen she was able to assist and contribute
+          in the creation of the Spring/Summer 2020 collection with Steven
+          Sebring and Winnie Harlow. She also learned extensively as a studio
+          intern in Melbourne at Lui Hon.
+        </p>
+        <p className="mb-4">
+          She recently won the YMA Fashion Scholarship Fund Case Study
+          Competition of 2019 with her take on a collection of power suits for
+          women done through a collaboration between Thom Browne and Goldman
+          Sachs. She was also a finalist at the 2018 MET Costume Institute
+          College Fashion Design Competition for the Heavenly Bodies Exhibited.
+          She exhibited her work at the Metropolitan Museum of Art.
+        </p>
+        <p>
+          She’s a womenswear designer who’s favorite undergraduate class was
+          menswear tailoring. She believes that women’s figures can be joyously
+          celebrated through comfort and space. She drives her designs to be
+          constantly rooted in the classics and she jumps into them
+          conceptually, tweaking cleverly and thoughtfully. It is her goal to
+          keep creating unusual pieces that can be worn excessively and worn
+          comfortably at that.
+        </p>
+      </div>
     </div>
     <div className="flex bg-white font-body h-screen w-1/5 text-gray-700 overflow-visible">
       <img
@@ -89,13 +109,12 @@ export default () => (
       </div>
     </div>
     <div className="flex-1 bg-white font-body h-screen w-2/5">
-      <video autoplay="true" loop="true" muted="true" className="h-full">
-        <source
-          src={`../../videos/juanaSkirtBW.webm`}
-          alt="Juana Skirt BnW"
-          type="video/webm"
-        />
-      </video>
+      <img
+        src={`../../images/kyra.webp`}
+        alt={"Kyra Headshot"}
+        aria-label="Kyra Headshot"
+        className="mt-16"
+      />
     </div>
   </div>
 )
