@@ -8,6 +8,7 @@ export default () => (
         autoplay="true"
         loop="true"
         muted="true"
+        playsinline="true"
         className="object-cover bg-auto min-w-full h-full"
       >
         <source

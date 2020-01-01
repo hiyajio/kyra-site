@@ -8,6 +8,7 @@ export default () => (
         autoplay="true"
         loop="true"
         muted="true"
+        playsinline="true"
         className="object-cover bg-auto min-w-full h-full"
       >
         <source
@@ -93,7 +94,13 @@ export default () => (
       </div>
     </div>
     <div className="flex-1 bg-white font-body h-screen w-2/5">
-      <video autoplay="true" loop="true" muted="true" className="h-full">
+      <video
+        autoplay="true"
+        loop="true"
+        muted="true"
+        playsinline="true"
+        className="h-full"
+      >
         <source
           src={`../../videos/juanaSkirtBW.webm`}
           alt="Juana Skirt BW webm"
