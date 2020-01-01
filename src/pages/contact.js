@@ -97,6 +97,7 @@ export default () => (
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
               <label
+                htmlFor="name"
                 className="block tracking-wide text-gray-700 text-sm mb-2"
                 for="grid-name"
               >
@@ -115,6 +116,7 @@ export default () => (
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
               <label
+                htmlFor="email"
                 className="block tracking-wide text-gray-700 text-sm mb-2"
                 for="grid-password"
               >
@@ -133,6 +135,7 @@ export default () => (
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
               <label
+                htmlFor="message"
                 className="block tracking-wide text-gray-700 text-sm mb-2"
                 for="grid-password"
               >
