@@ -125,12 +125,10 @@ export default () => (
       </div>
     </div>
     <div className="flex-1 bg-white font-body h-screen w-2/5">
-      <img
-        src={`../../images/kyra.webp`}
-        alt={"Kyra Headshot"}
-        aria-label="Kyra Headshot"
-        className="mt-16"
-      />
+      <picture className="mt-16">
+        <source srcset={`../../images/kyra.webp`} type="image/webp" />
+        <img src={`../../images/kyra.png`} alt="Kyra headshot" />
+      </picture>
     </div>
   </div>
 )
