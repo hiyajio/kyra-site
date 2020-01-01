@@ -55,11 +55,10 @@ export default () => (
       </div>
     </div>
     <div className="flex bg-white font-body h-screen w-1/5 text-gray-700 overflow-visible">
-      <img
-        src={`../../images/logo.png`}
-        alt="Kyra logo"
-        className="absolute w-8/12 top-0 right-0"
-      ></img>
+      <picture className="absolute w-8/12 top-0 right-0">
+        <source srcset={`../../images/logo.webp`} type="image/webp" />
+        <img src={`../../images/logo.png`} alt="Kyra logo" />
+      </picture>
       <div className="justify-center content-center object-center m-auto">
         <ul>
           <Link to="/">
