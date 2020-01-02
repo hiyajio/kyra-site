@@ -6,11 +6,11 @@ export default () => (
     <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
       <picture className="object-cover bg-auto min-w-full h-full">
         <source
-          srcset={`../../images/spaceVeganContact.webp`}
+          srcset={`../../images/spaceVeganContactBW.webp`}
           type="image/webp"
         />
         <img
-          src={`../../images/spaceVeganContact.png`}
+          src={`../../images/spaceVeganContactBW.png`}
           alt="Space vegan contact"
           className="object-cover bg-auto min-w-full h-full"
         />
