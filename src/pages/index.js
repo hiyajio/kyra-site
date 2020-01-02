@@ -23,7 +23,7 @@ export default () => (
         />
       </video>
     </div>
-    <div className="flex bg-white font-body h-screen w-1/5 text-gray-700 overflow-visible">
+    <div className="flex bg-white font-body h-screen w-1/5 text-gray-700 overflow-hidden">
       <picture className="absolute w-8/12 top-0 right-0">
         <source srcset={`../../images/logo.webp`} type="image/webp" />
         <img src={`../../images/logo.png`} alt="Kyra logo" />
@@ -93,7 +93,7 @@ export default () => (
         </div>
       </div>
     </div>
-    <div className="flex-1 bg-white font-body h-screen w-2/5">
+    <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
       <video
         autoplay="true"
         loop="true"
