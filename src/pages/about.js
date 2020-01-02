@@ -40,7 +40,7 @@ export default () => (
           Competition of 2019 with her take on a collection of power suits for
           women done through a collaboration between Thom Browne and Goldman
           Sachs. She was also a finalist at the 2018 MET Costume Institute
-          College Fashion Design Competition for the Heavenly Bodies Exhibited.
+          College Fashion Design Competition for the Heavenly Bodies Exhibit.
           She exhibited her work at the Metropolitan Museum of Art.
         </p>
         <p>
