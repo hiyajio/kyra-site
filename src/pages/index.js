@@ -12,13 +12,13 @@ export default () => (
         className="object-cover bg-auto min-w-full h-full"
       >
         <source
-          src={`../../videos/juanaSkirtRGB.webm`}
-          alt="Juana Skirt Colored webm"
+          src={`../../videos/juanaVestBW.webm`}
+          alt="Juana Vest BW webm"
           type='video/webm; codecs="vp8, vorbis"'
         />
         <source
-          src={`../../videos/juanaSkirtRGB.mp4`}
-          alt="Juana Skirt Colored mp4"
+          src={`../../videos/juanaVestBW.mp4`}
+          alt="Juana Vest BW mp4"
           type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
         />
       </video>
@@ -102,13 +102,13 @@ export default () => (
         className="h-full"
       >
         <source
-          src={`../../videos/juanaSkirtBW.webm`}
-          alt="Juana Skirt BW webm"
+          src={`../../videos/juanaSkirtRGB.webm`}
+          alt="Juana Skirt RGB webm"
           type='video/webm; codecs="vp8, vorbis"'
         />
         <source
-          src={`../../videos/juanaSkirtBW.mp4`}
-          alt="Juana Skirt BW mp4"
+          src={`../../videos/juanaSkirtRGB.mp4`}
+          alt="Juana Skirt RGB mp4"
           type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
         />
       </video>
