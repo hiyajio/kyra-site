@@ -4,7 +4,17 @@ import { Link } from "gatsby"
 export default () => (
   <div className="flex">
     <div className="flex bg-white font-body h-screen w-2/5 overflow-hidden"></div>
-    <div className="flex bg-white font-body h-screen w-1/5 text-gray-700 overflow-hidden">
+    <picture className="absolute">
+      <source
+        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch1.webp`}
+        type="image/webp"
+      />
+      <img
+        src={`../../images/collections/grandmasCouch/kbGrandmasCouch1.png`}
+        alt="Grandma's couch 1"
+      />
+    </picture>
+    <div className="flex bg-transparent font-body h-screen w-1/5 text-gray-700 overflow-hidden z-50">
       <picture className="absolute w-8/12 top-0 right-0">
         <source srcset={`../../images/logo.webp`} type="image/webp" />
         <img src={`../../images/logo.png`} alt="Kyra logo" />
