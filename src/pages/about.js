@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 export default () => (
   <div className="flex">
     <div className="flex bg-white font-body h-screen w-2/5 overflow-hidden">
-      <div className="justify-center content-center object-center m-auto text-sm mx-16 mb-16">
+      <div className="justify-center content-center object-center m-auto text-sm mx-12 mb-12">
         <p className="mb-4">
           Kyra Buenviaje is an undergraduate senior creating her thesis
           collection at the Rhode Island School of Design. She will graduate in
