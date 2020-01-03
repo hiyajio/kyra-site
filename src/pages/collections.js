@@ -29,7 +29,7 @@ export default () => (
         />
       </picture>
     </div>
-    <div className="flex bg-transparent font-body h-screen w-1/5 text-gray-700 overflow-hidden z-50">
+    <div className="flex bg-white font-body h-screen w-1/5 text-gray-700 overflow-hidden">
       <picture className="absolute w-8/12 top-0 right-0">
         <source srcset={`../../images/logo.webp`} type="image/webp" />
         <img src={`../../images/logo.png`} alt="Kyra logo" />
@@ -43,25 +43,25 @@ export default () => (
             <li className="hover:text-white hover:bg-silvered">/collections</li>
           </Link>
           <nav>
-            <Link to="collections">
+            <Link to="juanaPartOneC">
               <li className="hover:text-white hover:bg-silvered">
                 juana part 1 - curated
               </li>
             </Link>
-            <Link to="collections">
+            <Link to="juanaPartOne">
               <li className="hover:text-white hover:bg-silvered">
                 juana part 1
               </li>
             </Link>
-            <Link to="collections">
+            <Link to="hold">
               <li className="hover:text-white hover:bg-silvered">hold</li>
             </Link>
-            <Link to="collections">
+            <Link to="spaceVegan">
               <li className="hover:text-white hover:bg-silvered">
                 space vegan
               </li>
             </Link>
-            <Link to="collections">
+            <Link to="grandmasCouch">
               <li className="hover:text-white hover:bg-silvered">
                 grandma's couch
               </li>

@@ -37,25 +37,25 @@ export default () => (
             <li className="hover:text-white hover:bg-silvered">/collections</li>
           </Link>
           <nav>
-            <Link to="collections">
+            <Link to="juanaPartOneC">
               <li className="hover:text-white hover:bg-silvered">
                 juana part 1 - curated
               </li>
             </Link>
-            <Link to="collections">
+            <Link to="juanaPartOne">
               <li className="hover:text-white hover:bg-silvered">
                 juana part 1
               </li>
             </Link>
-            <Link to="collections">
+            <Link to="hold">
               <li className="hover:text-white hover:bg-silvered">hold</li>
             </Link>
-            <Link to="collections">
+            <Link to="spaceVegan">
               <li className="hover:text-white hover:bg-silvered">
                 space vegan
               </li>
             </Link>
-            <Link to="collections">
+            <Link to="grandmasCouch">
               <li className="hover:text-white hover:bg-silvered">
                 grandma's couch
               </li>
