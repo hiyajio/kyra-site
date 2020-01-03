@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 export default () => (
   <div className="flex">
     <div className="flex bg-white font-body h-screen w-2/5 overflow-hidden"></div>
-    <picture className="absolute">
+    <picture>
       <source
         srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch1.webp`}
         type="image/webp"
@@ -12,6 +12,44 @@ export default () => (
       <img
         src={`../../images/collections/grandmasCouch/kbGrandmasCouch1.png`}
         alt="Grandma's couch 1"
+        style={{
+          position: "absolute",
+          height: "40rem",
+          left: "16rem",
+          top: "6rem",
+        }}
+      />
+    </picture>
+    <picture>
+      <source
+        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch2.webp`}
+        type="image/webp"
+      />
+      <img
+        src={`../../images/collections/grandmasCouch/kbGrandmasCouch2.png`}
+        alt="Grandma's couch 2"
+        style={{
+          position: "absolute",
+          height: "36rem",
+          left: "44rem",
+          top: "18rem",
+        }}
+      />
+    </picture>
+    <picture>
+      <source
+        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch3.webp`}
+        type="image/webp"
+      />
+      <img
+        src={`../../images/collections/grandmasCouch/kbGrandmasCouch3.png`}
+        alt="Grandma's couch 3"
+        style={{
+          position: "absolute",
+          height: "32rem",
+          left: "6rem",
+          top: "38rem",
+        }}
       />
     </picture>
     <div className="flex bg-transparent font-body h-screen w-1/5 text-gray-700 overflow-hidden z-50">
