@@ -205,7 +205,7 @@ export default () => (
           target="_BLANK"
           className="hover:text-white hover:bg-silvered"
         >
-          jio buenviaje
+          j.buenviaje
         </a>
       </p>
     </div>
