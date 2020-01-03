@@ -47,8 +47,56 @@ export default () => (
         style={{
           position: "absolute",
           height: "32rem",
-          left: "6rem",
+          left: "3rem",
           top: "38rem",
+        }}
+      />
+    </picture>
+    <picture>
+      <source
+        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch4.webp`}
+        type="image/webp"
+      />
+      <img
+        src={`../../images/collections/grandmasCouch/kbGrandmasCouch4.png`}
+        alt="Grandma's couch 4"
+        style={{
+          position: "absolute",
+          height: "40rem",
+          left: "58rem",
+          top: "62rem",
+        }}
+      />
+    </picture>
+    <picture>
+      <source
+        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch5.webp`}
+        type="image/webp"
+      />
+      <img
+        src={`../../images/collections/grandmasCouch/kbGrandmasCouch5.png`}
+        alt="Grandma's couch 5"
+        style={{
+          position: "absolute",
+          height: "32rem",
+          left: "38rem",
+          top: "88rem",
+        }}
+      />
+    </picture>
+    <picture>
+      <source
+        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch6.webp`}
+        type="image/webp"
+      />
+      <img
+        src={`../../images/collections/grandmasCouch/kbGrandmasCouch6.png`}
+        alt="Grandma's couch 6"
+        style={{
+          position: "absolute",
+          height: "36rem",
+          left: "12rem",
+          top: "100rem",
         }}
       />
     </picture>
