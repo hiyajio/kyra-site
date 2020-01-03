@@ -138,5 +138,18 @@ export default () => (
         />
       </video>
     </div>
+    <div className="absolute bottom-0 right-0 mb-1 mr-1 text-golden font-body text-xs">
+      <p>
+        made by{" "}
+        <a
+          href="https://jbuenviaje.com/"
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="hover:text-white hover:bg-silvered"
+        >
+          jio buenviaje
+        </a>
+      </p>
+    </div>
   </div>
 )

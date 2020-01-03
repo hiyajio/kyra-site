@@ -157,7 +157,7 @@ export default () => (
           href="https://jbuenviaje.com/"
           rel="noopener noreferrer"
           target="_BLANK"
-          className="hover:text-white"
+          className="hover:text-white hover:bg-silvered"
         >
           jio buenviaje
         </a>
