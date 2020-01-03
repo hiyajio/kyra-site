@@ -8,6 +8,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 
 - [x] Fix Contact modal (use Formspree)
 - [x] Catch WebP & WebM error in other browsers through alt png and mp4
+- [ ] Fix site metadata (including title)
 - [ ] Fix scroll-to-top functionality (use gatsby-plugin-smoothscroll)
 - [ ] Fix favicon path (use gatsby-plugin-favicon)
 - [ ] Add 404 error page
@@ -25,5 +26,6 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [ ] Change social icons
 - [ ] Optimize and lazy load images (use gatsby-image and gatsby-background-image)
 - [ ] Further improve site using PWA audit as guide (use gatsby-plugin-google-tagmanager, SEO component)
+- [ ] Add developer watermark
 
 ---
