@@ -27,8 +27,30 @@ export default () => (
             <li className="hover:text-white hover:bg-silvered">/home</li>
           </Link>
           <Link to="collections">
-            <li className="hover:text-white hover:bg-silvered">/collections</li>
+            <li className="hover:text-white hover:bg-silvered">
+              /collections :
+            </li>
           </Link>
+          <nav>
+            <Link to="collections">
+              <li className="hover:text-white hover:bg-silvered">
+                - /grandma's couch
+              </li>
+            </Link>
+            <Link to="collections">
+              <li className="hover:text-white hover:bg-silvered">- /hold</li>
+            </Link>
+            <Link to="collections">
+              <li className="hover:text-white hover:bg-silvered">
+                - /juana part 1
+              </li>
+            </Link>
+            <Link to="collections">
+              <li className="hover:text-white hover:bg-silvered">
+                - /space vegan
+              </li>
+            </Link>
+          </nav>
           <a
             href={`../../files/resumeBuenviaje.pdf`}
             rel="noopener noreferrer"
