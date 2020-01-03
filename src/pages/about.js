@@ -14,7 +14,7 @@ export default () => (
         </p>
         <p className="mb-4">
           As a design intern at Zac Posen she was able to assist and contribute
-          in the creation of the{" "}
+          to the creation of the{" "}
           <a
             href="https://www.vogue.com/fashion-shows/spring-2020-ready-to-wear/zac-posen"
             rel="noopener noreferrer"
