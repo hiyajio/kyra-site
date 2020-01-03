@@ -1,10 +1,10 @@
 # Kyra Website :kimono:
 
-Progressive Web Application (PWA) developed in React through Gatsby using Tailwind (General Style), Reactstrap (Modal, Navigation), Formspree (Contact Form), and Google Analytics (Analytics). The app is hosted on Netlify with domain from Namecheap.
+Progressive Web Application (PWA) developed in React through Gatsby using Tailwind (General Style), Reactstrap (Modal, Navigation), Formspree (Contact Form), and Google Analytics (Analytics). The app is hosted on Netlify.
 
 ---
 
-## Planned Features
+## Active TODOs
 
 - [x] Fix Contact modal (use Formspree)
 - [x] Catch WebP & WebM error in other browsers through alt png and mp4
