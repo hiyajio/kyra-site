@@ -3,103 +3,32 @@ import { Link } from "gatsby"
 
 export default () => (
   <div className="flex">
-    <div className="flex bg-white font-body h-screen w-2/5 overflow-hidden"></div>
-    <picture>
-      <source
-        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch1.webp`}
-        type="image/webp"
-      />
-      <img
-        src={`../../images/collections/grandmasCouch/kbGrandmasCouch1.png`}
-        alt="Grandma's couch 1"
-        style={{
-          position: "absolute",
-          height: "40rem",
-          left: "16rem",
-          top: "6rem",
-        }}
-      />
-    </picture>
-    <picture>
-      <source
-        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch2.webp`}
-        type="image/webp"
-      />
-      <img
-        src={`../../images/collections/grandmasCouch/kbGrandmasCouch2.png`}
-        alt="Grandma's couch 2"
-        style={{
-          position: "absolute",
-          height: "36rem",
-          left: "44rem",
-          top: "18rem",
-        }}
-      />
-    </picture>
-    <picture>
-      <source
-        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch3.webp`}
-        type="image/webp"
-      />
-      <img
-        src={`../../images/collections/grandmasCouch/kbGrandmasCouch3.png`}
-        alt="Grandma's couch 3"
-        style={{
-          position: "absolute",
-          height: "32rem",
-          left: "3rem",
-          top: "38rem",
-        }}
-      />
-    </picture>
-    <picture>
-      <source
-        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch4.webp`}
-        type="image/webp"
-      />
-      <img
-        src={`../../images/collections/grandmasCouch/kbGrandmasCouch4.png`}
-        alt="Grandma's couch 4"
-        style={{
-          position: "absolute",
-          height: "40rem",
-          left: "58rem",
-          top: "62rem",
-        }}
-      />
-    </picture>
-    <picture>
-      <source
-        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch5.webp`}
-        type="image/webp"
-      />
-      <img
-        src={`../../images/collections/grandmasCouch/kbGrandmasCouch5.png`}
-        alt="Grandma's couch 5"
-        style={{
-          position: "absolute",
-          height: "32rem",
-          left: "38rem",
-          top: "88rem",
-        }}
-      />
-    </picture>
-    <picture>
-      <source
-        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch6.webp`}
-        type="image/webp"
-      />
-      <img
-        src={`../../images/collections/grandmasCouch/kbGrandmasCouch6.png`}
-        alt="Grandma's couch 6"
-        style={{
-          position: "absolute",
-          height: "36rem",
-          left: "12rem",
-          top: "100rem",
-        }}
-      />
-    </picture>
+    <div className="flex bg-white font-body h-screen w-1/4 overflow-hidden">
+      <picture className="object-cover bg-auto min-w-full h-full">
+        <source
+          srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch1.webp`}
+          type="image/webp"
+        />
+        <img
+          src={`../../images/collections/grandmasCouch/kbGrandmasCouch1.png`}
+          alt="Space vegan contact"
+          className="object-cover bg-auto min-w-full h-full"
+        />
+      </picture>
+    </div>
+    <div className="flex bg-white font-body h-screen w-1/4 overflow-hidden">
+      <picture className="object-cover bg-auto min-w-full h-full">
+        <source
+          srcset={`../../images/spaceVeganContactBW.webp`}
+          type="image/webp"
+        />
+        <img
+          src={`../../images/spaceVeganContactBW.png`}
+          alt="Space vegan contact"
+          className="object-cover bg-auto min-w-full h-full"
+        />
+      </picture>
+    </div>
     <div className="flex bg-transparent font-body h-screen w-1/5 text-gray-700 overflow-hidden z-50">
       <picture className="absolute w-8/12 top-0 right-0">
         <source srcset={`../../images/logo.webp`} type="image/webp" />
@@ -195,6 +124,31 @@ export default () => (
         </div>
       </div>
     </div>
-    <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden"></div>
+    <div className="flex bg-white font-body h-screen w-1/4 overflow-hidden">
+      <picture className="object-cover bg-auto min-w-full h-full">
+        <source
+          srcset={`../../images/spaceVeganContactBW.webp`}
+          type="image/webp"
+        />
+        <img
+          src={`../../images/spaceVeganContactBW.png`}
+          alt="Space vegan contact"
+          className="object-cover bg-auto min-w-full h-full"
+        />
+      </picture>
+    </div>
+    <div className="flex bg-white font-body h-screen w-1/4 overflow-hidden">
+      <picture className="object-cover bg-auto min-w-full h-full">
+        <source
+          srcset={`../../images/spaceVeganContactBW.webp`}
+          type="image/webp"
+        />
+        <img
+          src={`../../images/spaceVeganContactBW.png`}
+          alt="Space vegan contact"
+          className="object-cover bg-auto min-w-full h-full"
+        />
+      </picture>
+    </div>
   </div>
 )
