@@ -13,239 +13,342 @@ const GrandmasCouchPage = props => {
         ></div>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch1.webp`}
+            srcset={`../../images/collections/hold/kbHold191.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch1.png`}
-            alt="Grandma's couch 1"
+            src={`../../images/collections/hold/kbHold191.png`}
+            alt="Hold 1"
             style={{
               position: "absolute",
-              height: "40rem",
-              width: "auto",
-              left: "16rem",
+              height: "auto",
+              width: "40rem",
+              left: "6rem",
               top: "6rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch2.webp`}
+            srcset={`../../images/collections/hold/kbHold192.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch2.png`}
-            alt="Grandma's couch 2"
+            src={`../../images/collections/hold/kbHold192.png`}
+            alt="Hold 2"
             style={{
               position: "absolute",
               height: "36rem",
               width: "auto",
-              left: "44rem",
-              top: "18rem",
+              left: "64rem",
+              top: "8rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch3.webp`}
+            srcset={`../../images/collections/hold/kbHold193.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch3.png`}
-            alt="Grandma's couch 3"
+            src={`../../images/collections/hold/kbHold193.png`}
+            alt="Hold 3"
             style={{
               position: "absolute",
               height: "32rem",
               width: "auto",
-              left: "3rem",
-              top: "38rem",
+              left: "2rem",
+              top: "43rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch4.webp`}
+            srcset={`../../images/collections/hold/kbHold194.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch4.png`}
-            alt="Grandma's couch 4"
+            src={`../../images/collections/hold/kbHold194.png`}
+            alt="Hold 4"
             style={{
               position: "absolute",
               height: "40rem",
               width: "auto",
-              left: "58rem",
-              top: "62rem",
+              left: "60rem",
+              top: "73rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch5.webp`}
+            srcset={`../../images/collections/hold/kbHold195.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch5.png`}
-            alt="Grandma's couch 5"
+            src={`../../images/collections/hold/kbHold195.png`}
+            alt="Hold 5"
             style={{
               position: "absolute",
               height: "32rem",
               width: "auto",
-              left: "38rem",
-              top: "88rem",
+              left: "41rem",
+              top: "99rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch6.webp`}
+            srcset={`../../images/collections/hold/kbHold196.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch6.png`}
-            alt="Grandma's couch 6"
+            src={`../../images/collections/hold/kbHold196.png`}
+            alt="Hold 6"
             style={{
               position: "absolute",
               height: "36rem",
               width: "auto",
               left: "12rem",
-              top: "80rem",
+              top: "91rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch7.webp`}
+            srcset={`../../images/collections/hold/kbHold197.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch7.png`}
-            alt="Grandma's couch 7"
+            src={`../../images/collections/hold/kbHold197.png`}
+            alt="Hold 7"
             style={{
               position: "absolute",
               height: "40rem",
               width: "auto",
-              left: "16rem",
-              top: "118rem",
+              left: "22rem",
+              top: "129rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch8.webp`}
+            srcset={`../../images/collections/hold/kbHold198.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch8.png`}
-            alt="Grandma's couch 8"
+            src={`../../images/collections/hold/kbHold198.png`}
+            alt="Hold 8"
             style={{
               position: "absolute",
               height: "36rem",
               width: "auto",
-              left: "60rem",
-              top: "145rem",
+              left: "2rem",
+              top: "154rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch9.webp`}
+            srcset={`../../images/collections/hold/kbHold199.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch9.png`}
-            alt="Grandma's couch 9"
+            src={`../../images/collections/hold/kbHold199.png`}
+            alt="Hold 9"
             style={{
               position: "absolute",
               height: "32rem",
               width: "auto",
-              left: "30rem",
-              top: "170rem",
+              left: "41rem",
+              top: "174rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch10.webp`}
+            srcset={`../../images/collections/hold/kbHold1910.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch10.png`}
-            alt="Grandma's couch 10"
+            src={`../../images/collections/hold/kbHold1910.png`}
+            alt="Hold 10"
             style={{
               position: "absolute",
               height: "32rem",
               width: "auto",
               left: "8rem",
-              top: "180rem",
+              top: "194rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch11.webp`}
+            srcset={`../../images/collections/hold/kbHold1911.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch11.png`}
-            alt="Grandma's couch 11"
+            src={`../../images/collections/hold/kbHold1911.png`}
+            alt="Hold 11"
             style={{
               position: "absolute",
               height: "36rem",
               width: "auto",
               left: "15rem",
-              top: "210rem",
+              top: "224rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch12.webp`}
+            srcset={`../../images/collections/hold/kbHold1912.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch12.png`}
-            alt="Grandma's couch 12"
+            src={`../../images/collections/hold/kbHold1912.png`}
+            alt="Hold 12"
             style={{
               position: "absolute",
               height: "40rem",
               width: "auto",
-              left: "55rem",
-              top: "215rem",
+              left: "59rem",
+              top: "229rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch13.webp`}
+            srcset={`../../images/collections/hold/kbHold1913.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch13.png`}
-            alt="Grandma's couch 13"
+            src={`../../images/collections/hold/kbHold1913.png`}
+            alt="Hold 13"
             style={{
               position: "absolute",
               height: "32rem",
               width: "auto",
               left: "40rem",
-              top: "245rem",
+              top: "259rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch14.webp`}
+            srcset={`../../images/collections/hold/kbHold1914.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch14.png`}
-            alt="Grandma's couch 14"
+            src={`../../images/collections/hold/kbHold1914.png`}
+            alt="Hold 14"
             style={{
               position: "absolute",
               height: "36rem",
               width: "auto",
               left: "10rem",
-              top: "260rem",
+              top: "274rem",
+            }}
+          />
+        </picture>
+        <picture>
+          <source
+            srcset={`../../images/collections/hold/kbHold1915.webp`}
+            type="image/webp"
+          />
+          <img
+            src={`../../images/collections/hold/kbHold1915.png`}
+            alt="Hold 15"
+            style={{
+              position: "absolute",
+              height: "32rem",
+              width: "auto",
+              left: "38rem",
+              top: "290rem",
+            }}
+          />
+        </picture>
+        <picture>
+          <source
+            srcset={`../../images/collections/hold/kbHold1916.webp`}
+            type="image/webp"
+          />
+          <img
+            src={`../../images/collections/hold/kbHold1916.png`}
+            alt="Hold 16"
+            style={{
+              position: "absolute",
+              height: "36rem",
+              width: "auto",
+              left: "4rem",
+              top: "309rem",
+            }}
+          />
+        </picture>
+        <picture>
+          <source
+            srcset={`../../images/collections/hold/kbHold1917.webp`}
+            type="image/webp"
+          />
+          <img
+            src={`../../images/collections/hold/kbHold1917.png`}
+            alt="Hold 17"
+            style={{
+              position: "absolute",
+              height: "36rem",
+              width: "auto",
+              left: "60rem",
+              top: "335rem",
+            }}
+          />
+        </picture>
+        <picture>
+          <source
+            srcset={`../../images/collections/hold/kbHold1918.webp`}
+            type="image/webp"
+          />
+          <img
+            src={`../../images/collections/hold/kbHold1918.png`}
+            alt="Hold 18"
+            style={{
+              position: "absolute",
+              height: "36rem",
+              width: "auto",
+              left: "20rem",
+              top: "355rem",
+            }}
+          />
+        </picture>
+        <picture>
+          <source
+            srcset={`../../images/collections/hold/kbHold1919.webp`}
+            type="image/webp"
+          />
+          <img
+            src={`../../images/collections/hold/kbHold1919.png`}
+            alt="Hold 19"
+            style={{
+              position: "absolute",
+              height: "36rem",
+              width: "auto",
+              left: "55rem",
+              top: "370rem",
+            }}
+          />
+        </picture>
+        <picture>
+          <source
+            srcset={`../../images/collections/hold/kbHold1920.webp`}
+            type="image/webp"
+          />
+          <img
+            src={`../../images/collections/hold/kbHold1920.png`}
+            alt="Hold 20"
+            style={{
+              position: "absolute",
+              height: "36rem",
+              width: "auto",
+              left: "4rem",
+              top: "387rem",
+              zIndex: "-1",
               marginBottom: "5rem",
             }}
           />
