@@ -81,19 +81,14 @@ const Header = props => {
                 className="inline-block h-4 mr-2"
               />
             </a>
-            <a
-              href="mailto:kyrabuenviaje@gmail.com"
-              rel="noopener noreferrer"
-              target="_BLANK"
-              className="opacity-50 hover:opacity-0"
-            >
+            <Link to="contact" className="opacity-50 hover:opacity-0">
               <img
                 src={`../../images/logos/email.svg`}
                 alt={"Kyra on Gmail"}
                 aria-label="Gmail"
                 className="inline-block h-4 mr-2"
               />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
