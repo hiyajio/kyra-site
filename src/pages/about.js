@@ -1,5 +1,6 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
+import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
 
 export default () => (
   <div className="flex">
@@ -37,11 +38,12 @@ export default () => (
         </p>
         <p className="mb-4">
           She recently won the YMA Fashion Scholarship Fund Case Study
-          Competition of 2019 with her take on a collection of power suits for
-          women done through a collaboration between Thom Browne and Goldman
-          Sachs. She was also a finalist at the 2018 MET Costume Institute
-          College Fashion Design Competition for the Heavenly Bodies Exhibit.
-          She exhibited her work at the Metropolitan Museum of Art.
+          Competition of 2019 with her take on a{" "}
+          <a href="#modal1">collection of power suits</a> collection of power
+          suits for women done through a collaboration between Thom Browne and
+          Goldman Sachs. She was also a finalist at the 2018 MET Costume
+          Institute College Fashion Design Competition for the Heavenly Bodies
+          Exhibit. She exhibited her work at the Metropolitan Museum of Art.
         </p>
         <p>
           She’s a womenswear designer who’s favorite undergraduate class was
@@ -161,6 +163,17 @@ export default () => (
     </div>
     <div className="absolute bottom-0 right-0 mb-1 mr-1 text-silvered font-body text-xs opacity-25">
       <p>&copy; 2020 Kyra Buenviaje. All rights reserved.</p>
+    </div>
+    <div id="modal1" class="overlay">
+      <a class="cancel" href="#"></a>
+      <div class="modal">
+        <div class="content">
+          <picture>
+            <source srcset={`../../images/powersuits.webp`} type="image/webp" />
+            <img src={`../../images/powersuits.png`} alt="Powersuits" />
+          </picture>
+        </div>
+      </div>
     </div>
   </div>
 )
