@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
 
 export default () => (
   <div className="flex">
