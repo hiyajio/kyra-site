@@ -1,4 +1,5 @@
 import React from "react"
+import scrollTo from "gatsby-plugin-smoothscroll"
 
 import Header from "../components/Header/index.js"
 import Footer from "../components/Footer/index.js"
@@ -6,7 +7,10 @@ import Footer from "../components/Footer/index.js"
 const GrandmasCouchPage = props => {
   return (
     <div className="flex">
-      <div className="flex bg-white font-body h-screen w-2/5 overflow-hidden"></div>
+      <div id="top" className="top-0"></div>
+      <div
+        className={`flex bg-white font-body h-screen w-2/5 overflow-hidden`}
+      ></div>
       <picture>
         <source
           srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch1.webp`}
@@ -249,6 +253,11 @@ const GrandmasCouchPage = props => {
       <Header bgColor="bg-transparent z-50" />
       <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden"></div>
       <Footer />
+      <div className="fixed bottom-0 w-screen text-center mb-1 text-silvered font-body text-xs hover:text-golden">
+        <p id="scroll-to-top" onClick={() => scrollTo("#top")}>
+          scroll to top ↑
+        </p>
+      </div>
     </div>
   )
 }
