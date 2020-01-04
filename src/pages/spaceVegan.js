@@ -13,152 +13,152 @@ const GrandmasCouchPage = props => {
         ></div>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch1.webp`}
+            srcset={`../../images/collections/spaceVegan/kbSpaceVegan1.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch1.png`}
-            alt="Grandma's couch 1"
+            src={`../../images/collections/spaceVegan/kbSpaceVegan1.png`}
+            alt="Space vegan 1"
             style={{
               position: "absolute",
               height: "40rem",
               width: "auto",
-              left: "16rem",
+              left: "56rem",
               top: "6rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch2.webp`}
+            srcset={`../../images/collections/spaceVegan/kbSpaceVegan2.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch2.png`}
-            alt="Grandma's couch 2"
+            src={`../../images/collections/spaceVegan/kbSpaceVegan2.png`}
+            alt="Space vegan 2"
             style={{
               position: "absolute",
-              height: "36rem",
-              width: "auto",
-              left: "44rem",
+              height: "auto",
+              width: "36rem",
+              left: "22rem",
               top: "18rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch3.webp`}
+            srcset={`../../images/collections/spaceVegan/kbSpaceVegan3.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch3.png`}
-            alt="Grandma's couch 3"
+            src={`../../images/collections/spaceVegan/kbSpaceVegan3.png`}
+            alt="Space vegan 3"
             style={{
               position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "3rem",
-              top: "38rem",
+              height: "auto",
+              width: "32rem",
+              left: "44rem",
+              top: "40rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch4.webp`}
+            srcset={`../../images/collections/spaceVegan/kbSpaceVegan4.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch4.png`}
-            alt="Grandma's couch 4"
+            src={`../../images/collections/spaceVegan/kbSpaceVegan4.png`}
+            alt="Space vegan 4"
             style={{
               position: "absolute",
-              height: "40rem",
-              width: "auto",
-              left: "58rem",
-              top: "62rem",
+              height: "auto",
+              width: "40rem",
+              left: "2rem",
+              top: "58rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch5.webp`}
+            srcset={`../../images/collections/spaceVegan/kbSpaceVegan5.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch5.png`}
-            alt="Grandma's couch 5"
-            style={{
-              position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "38rem",
-              top: "88rem",
-            }}
-          />
-        </picture>
-        <picture>
-          <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch6.webp`}
-            type="image/webp"
-          />
-          <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch6.png`}
-            alt="Grandma's couch 6"
+            src={`../../images/collections/spaceVegan/kbSpaceVegan5.png`}
+            alt="Space vegan 5"
             style={{
               position: "absolute",
               height: "36rem",
               width: "auto",
-              left: "12rem",
+              left: "40rem",
               top: "80rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch7.webp`}
+            srcset={`../../images/collections/spaceVegan/kbSpaceVegan6.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch7.png`}
-            alt="Grandma's couch 7"
+            src={`../../images/collections/spaceVegan/kbSpaceVegan6.png`}
+            alt="Space vegan 6"
             style={{
               position: "absolute",
-              height: "40rem",
+              height: "32rem",
               width: "auto",
-              left: "16rem",
+              left: "66rem",
+              top: "98rem",
+            }}
+          />
+        </picture>
+        <picture>
+          <source
+            srcset={`../../images/collections/spaceVegan/kbSpaceVegan7.webp`}
+            type="image/webp"
+          />
+          <img
+            src={`../../images/collections/spaceVegan/kbSpaceVegan7.png`}
+            alt="Space vegan 7"
+            style={{
+              position: "absolute",
+              height: "auto",
+              width: "40rem",
+              left: "8rem",
               top: "118rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch8.webp`}
+            srcset={`../../images/collections/spaceVegan/kbSpaceVegan8.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch8.png`}
-            alt="Grandma's couch 8"
+            src={`../../images/collections/spaceVegan/kbSpaceVegan8.png`}
+            alt="Space vegan 8"
             style={{
               position: "absolute",
-              height: "36rem",
-              width: "auto",
-              left: "60rem",
+              height: "auto",
+              width: "36rem",
+              left: "46rem",
               top: "145rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch9.webp`}
+            srcset={`../../images/collections/spaceVegan/kbSpaceVegan9.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch9.png`}
-            alt="Grandma's couch 9"
+            src={`../../images/collections/spaceVegan/kbSpaceVegan9.png`}
+            alt="Space vegan 9"
             style={{
               position: "absolute",
-              height: "32rem",
-              width: "auto",
+              height: "auto",
+              width: "32rem",
               left: "30rem",
               top: "170rem",
             }}
@@ -166,86 +166,35 @@ const GrandmasCouchPage = props => {
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch10.webp`}
+            srcset={`../../images/collections/spaceVegan/kbSpaceVegan10.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch10.png`}
-            alt="Grandma's couch 10"
+            src={`../../images/collections/spaceVegan/kbSpaceVegan10.png`}
+            alt="Space vegan 10"
             style={{
               position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "8rem",
-              top: "180rem",
+              height: "auto",
+              width: "32rem",
+              left: "6rem",
+              top: "190rem",
             }}
           />
         </picture>
         <picture>
           <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch11.webp`}
+            srcset={`../../images/collections/spaceVegan/kbSpaceVegan11.webp`}
             type="image/webp"
           />
           <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch11.png`}
-            alt="Grandma's couch 11"
+            src={`../../images/collections/spaceVegan/kbSpaceVegan11.png`}
+            alt="Space vegan 11"
             style={{
               position: "absolute",
               height: "36rem",
               width: "auto",
-              left: "15rem",
-              top: "210rem",
-            }}
-          />
-        </picture>
-        <picture>
-          <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch12.webp`}
-            type="image/webp"
-          />
-          <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch12.png`}
-            alt="Grandma's couch 12"
-            style={{
-              position: "absolute",
-              height: "40rem",
-              width: "auto",
-              left: "55rem",
-              top: "215rem",
-            }}
-          />
-        </picture>
-        <picture>
-          <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch13.webp`}
-            type="image/webp"
-          />
-          <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch13.png`}
-            alt="Grandma's couch 13"
-            style={{
-              position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "40rem",
-              top: "245rem",
-            }}
-          />
-        </picture>
-        <picture>
-          <source
-            srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch14.webp`}
-            type="image/webp"
-          />
-          <img
-            src={`../../images/collections/grandmasCouch/kbGrandmasCouch14.png`}
-            alt="Grandma's couch 14"
-            style={{
-              position: "absolute",
-              height: "36rem",
-              width: "auto",
-              left: "10rem",
-              top: "260rem",
+              left: "48rem",
+              top: "206rem",
               marginBottom: "5rem",
             }}
           />
