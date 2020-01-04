@@ -65,13 +65,13 @@ export default () => (
           <Link to="/">
             <li className="hover:text-white hover:bg-silvered">/home</li>
           </Link>
-          <div className="dropdown">
+          <div className="dropdown relative">
             <Link to="collections">
               <li className="hover:text-white hover:bg-silvered">
                 /collections
               </li>
             </Link>
-            <div className="dropdown-content">
+            <div className="dropdown-content relative overflow-hidden h-0">
               <Link to="juanaPartOneC">
                 <li className="hover:text-white hover:bg-silvered">
                   juana part 1 - curated
