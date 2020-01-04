@@ -10,6 +10,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [x] Catch WebP & WebM error in other browsers through alt png and mp4
 - [x] Fix dropdown menu
 - [x] Fix modal
+- [x] Fix nav fade when scroll
 - [x] Separate index.css into components
 - [ ] Finish all collections pages
 - [ ] Import fonts using better method (use typefaces package)
