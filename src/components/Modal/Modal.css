@@ -1,0 +1,4 @@
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}

@@ -5,8 +5,3 @@
 .dropdown:hover .dropdown-content {
     height: 120px;
 }
-
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}

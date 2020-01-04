@@ -1,6 +1,7 @@
 import React from "react"
 
 import Header from "../components/Header/index.js"
+import Modal from "../components/Modal/index.js"
 import Footer from "../components/Footer/index.js"
 
 const AboutPage = props => {
@@ -68,22 +69,12 @@ const AboutPage = props => {
           <img src={`../../images/kyra.png`} alt="Kyra headshot" />
         </picture>
       </div>
-      <div
-        id="powersuits"
-        className="overlay inset-0 absolute invisible opacity-0"
-        style={{
-          background: "rgba(0, 0, 0, 0.5)",
-          transition: "opacity 200ms",
-        }}
-      >
-        <a className="absolute cursor-default h-full w-full" href="#"></a>
-        <div className="rounded border-gray-500 outline-none shadow relative bg-white w-full my-8 p-5 max-w-4xl mx-auto">
-          <picture>
-            <source srcset={`../../images/powersuits.webp`} type="image/webp" />
-            <img src={`../../images/powersuits.png`} alt="Powersuits" />
-          </picture>
-        </div>
-      </div>
+      <Modal
+        linkedTo="powersuits"
+        modalImg={`../../images/powersuits.webp`}
+        modalAlt={`../../images/powersuits.png`}
+        modalImgAlt="Powersuits"
+      />
       <Footer />
     </div>
   )
