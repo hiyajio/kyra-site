@@ -1,0 +1,13 @@
+.dropdown { position: relative; }
+
+.dropdown-content {
+    overflow: hidden;
+    height: 0;
+    position: relative;
+    min-width: 100px;
+    transition: all 1s ease-in;
+}
+
+.dropdown:hover .dropdown-content {
+    height: 120px;
+}

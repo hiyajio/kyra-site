@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import "./index.css"
+
 export default () => (
   <div className="flex">
     <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
@@ -33,34 +35,38 @@ export default () => (
           <Link to="/">
             <li className="hover:text-white hover:bg-silvered">/home</li>
           </Link>
-          <Link to="collections">
-            <li className="hover:text-white hover:bg-silvered">/collections</li>
-          </Link>
-          <nav>
-            <Link to="juanaPartOneC">
+          <div className="dropdown">
+            <Link to="collections">
               <li className="hover:text-white hover:bg-silvered">
-                juana part 1 - curated
+                /collections
               </li>
             </Link>
-            <Link to="juanaPartOne">
-              <li className="hover:text-white hover:bg-silvered">
-                juana part 1
-              </li>
-            </Link>
-            <Link to="hold">
-              <li className="hover:text-white hover:bg-silvered">hold</li>
-            </Link>
-            <Link to="spaceVegan">
-              <li className="hover:text-white hover:bg-silvered">
-                space vegan
-              </li>
-            </Link>
-            <Link to="grandmasCouch">
-              <li className="hover:text-white hover:bg-silvered">
-                grandma's couch
-              </li>
-            </Link>
-          </nav>
+            <div className="dropdown-content">
+              <Link to="juanaPartOneC">
+                <li className="hover:text-white hover:bg-silvered">
+                  juana part 1 - curated
+                </li>
+              </Link>
+              <Link to="juanaPartOne">
+                <li className="hover:text-white hover:bg-silvered">
+                  juana part 1
+                </li>
+              </Link>
+              <Link to="hold">
+                <li className="hover:text-white hover:bg-silvered">hold</li>
+              </Link>
+              <Link to="spaceVegan">
+                <li className="hover:text-white hover:bg-silvered">
+                  space vegan
+                </li>
+              </Link>
+              <Link to="grandmasCouch">
+                <li className="hover:text-white hover:bg-silvered">
+                  grandma's couch
+                </li>
+              </Link>
+            </div>
+          </div>
           <a
             href={`../../files/resumeBuenviaje.pdf`}
             rel="noopener noreferrer"
