@@ -163,15 +163,17 @@ export default () => (
     <div className="absolute bottom-0 right-0 mb-1 mr-1 text-silvered font-body text-xs opacity-25">
       <p>&copy; 2020 Kyra Buenviaje. All rights reserved.</p>
     </div>
-    <div id="modal1" class="overlay">
-      <a class="cancel" href="#"></a>
-      <div class="modal">
-        <div class="content">
-          <picture>
-            <source srcset={`../../images/powersuits.webp`} type="image/webp" />
-            <img src={`../../images/powersuits.png`} alt="Powersuits" />
-          </picture>
-        </div>
+    <div
+      id="modal1"
+      className="overlay inset-0 absolute invisible opacity-0"
+      style={{ background: "rgba(0, 0, 0, 0.5)", transition: "opacity 200ms" }}
+    >
+      <a className="absolute cursor-default h-full w-full" href="#"></a>
+      <div className="rounded border-gray-500 outline-none shadow relative bg-white w-full my-24 p-5 max-w-xl mx-auto">
+        <picture>
+          <source srcset={`../../images/powersuits.webp`} type="image/webp" />
+          <img src={`../../images/powersuits.png`} alt="Powersuits" />
+        </picture>
       </div>
     </div>
   </div>
