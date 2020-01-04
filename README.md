@@ -30,6 +30,5 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [ ] Change social icons
 - [ ] Optimize and lazy load images (use gatsby-image and gatsby-background-image)
 - [ ] Further improve site using PWA audit as guide (use gatsby-plugin-google-tagmanager, SEO component)
-- [ ] Add developer watermark
 
 ---
