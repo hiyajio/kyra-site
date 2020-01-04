@@ -21,9 +21,9 @@ const JuanaPartOnePage = props => {
             alt="Juana part one 1"
             style={{
               position: "absolute",
-              height: "40rem",
+              height: "46rem",
               width: "auto",
-              left: "10rem",
+              left: "8rem",
               top: "6rem",
             }}
           />
@@ -40,8 +40,8 @@ const JuanaPartOnePage = props => {
               position: "absolute",
               height: "36rem",
               width: "auto",
-              left: "36rem",
-              top: "20rem",
+              left: "38rem",
+              top: "24rem",
             }}
           />
         </picture>
@@ -58,7 +58,7 @@ const JuanaPartOnePage = props => {
               height: "32rem",
               width: "auto",
               left: "66rem",
-              top: "38rem",
+              top: "42rem",
             }}
           />
         </picture>
@@ -75,7 +75,7 @@ const JuanaPartOnePage = props => {
               height: "40rem",
               width: "auto",
               left: "46rem",
-              top: "62rem",
+              top: "66rem",
             }}
           />
         </picture>
@@ -89,10 +89,10 @@ const JuanaPartOnePage = props => {
             alt="Juana part one 5"
             style={{
               position: "absolute",
-              height: "32rem",
+              height: "44rem",
               width: "auto",
-              left: "26rem",
-              top: "88rem",
+              left: "20rem",
+              top: "108rem",
               marginBottom: "5rem",
             }}
           />
@@ -109,8 +109,8 @@ const JuanaPartOnePage = props => {
               position: "absolute",
               height: "36rem",
               width: "auto",
-              left: "4rem",
-              top: "80rem",
+              left: "2rem",
+              top: "100rem",
             }}
           />
         </picture>
