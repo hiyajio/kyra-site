@@ -5,7 +5,12 @@ import Footer from "../components/Footer/index.js"
 
 export default () => (
   <div className="flex">
-    <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
+    <div
+      className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden"
+      data-sal="fade"
+      data-sal-duration="500"
+      data-sal-easing="ease"
+    >
       <picture className="object-cover bg-auto min-w-full h-full">
         <source
           srcset={`../../images/spaceVeganContactBW.webp`}
