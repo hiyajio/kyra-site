@@ -20,7 +20,7 @@ export default () => (
     </div>
     <Header />
     <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
-      <div className="absolute bottom-0 mb-8 w-full">
+      <div className="absolute bottom-0 mb-8 w-2/5">
         <form
           action="https://formspree.io/xrgeoooy"
           method="POST"
