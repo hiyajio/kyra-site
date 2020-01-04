@@ -193,7 +193,7 @@ const GrandmasCouchPage = props => {
               position: "absolute",
               height: "36rem",
               width: "auto",
-              left: "48rem",
+              left: "47rem",
               top: "206rem",
               marginBottom: "5rem",
             }}

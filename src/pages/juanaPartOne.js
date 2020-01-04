@@ -41,7 +41,7 @@ const GrandmasCouchPage = props => {
               height: "36rem",
               width: "auto",
               left: "36rem",
-              top: "18rem",
+              top: "20rem",
             }}
           />
         </picture>
