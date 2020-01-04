@@ -17,6 +17,7 @@ export default () => (
         style={{
           position: "absolute",
           height: "40rem",
+          width: "auto",
           left: "16rem",
           top: "6rem",
         }}
@@ -33,6 +34,7 @@ export default () => (
         style={{
           position: "absolute",
           height: "36rem",
+          width: "auto",
           left: "44rem",
           top: "18rem",
         }}
@@ -49,6 +51,7 @@ export default () => (
         style={{
           position: "absolute",
           height: "32rem",
+          width: "auto",
           left: "3rem",
           top: "38rem",
         }}
@@ -65,6 +68,7 @@ export default () => (
         style={{
           position: "absolute",
           height: "40rem",
+          width: "auto",
           left: "58rem",
           top: "62rem",
         }}
@@ -81,6 +85,7 @@ export default () => (
         style={{
           position: "absolute",
           height: "32rem",
+          width: "auto",
           left: "38rem",
           top: "88rem",
         }}
@@ -97,8 +102,146 @@ export default () => (
         style={{
           position: "absolute",
           height: "36rem",
+          width: "auto",
           left: "12rem",
-          top: "100rem",
+          top: "80rem",
+        }}
+      />
+    </picture>
+    <picture>
+      <source
+        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch7.webp`}
+        type="image/webp"
+      />
+      <img
+        src={`../../images/collections/grandmasCouch/kbGrandmasCouch7.png`}
+        alt="Grandma's couch 7"
+        style={{
+          position: "absolute",
+          height: "40rem",
+          width: "auto",
+          left: "16rem",
+          top: "118rem",
+        }}
+      />
+    </picture>
+    <picture>
+      <source
+        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch8.webp`}
+        type="image/webp"
+      />
+      <img
+        src={`../../images/collections/grandmasCouch/kbGrandmasCouch8.png`}
+        alt="Grandma's couch 8"
+        style={{
+          position: "absolute",
+          height: "36rem",
+          width: "auto",
+          left: "60rem",
+          top: "145rem",
+        }}
+      />
+    </picture>
+    <picture>
+      <source
+        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch9.webp`}
+        type="image/webp"
+      />
+      <img
+        src={`../../images/collections/grandmasCouch/kbGrandmasCouch9.png`}
+        alt="Grandma's couch 9"
+        style={{
+          position: "absolute",
+          height: "32rem",
+          width: "auto",
+          left: "30rem",
+          top: "170rem",
+        }}
+      />
+    </picture>
+    <picture>
+      <source
+        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch10.webp`}
+        type="image/webp"
+      />
+      <img
+        src={`../../images/collections/grandmasCouch/kbGrandmasCouch10.png`}
+        alt="Grandma's couch 10"
+        style={{
+          position: "absolute",
+          height: "32rem",
+          width: "auto",
+          left: "8rem",
+          top: "180rem",
+        }}
+      />
+    </picture>
+    <picture>
+      <source
+        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch11.webp`}
+        type="image/webp"
+      />
+      <img
+        src={`../../images/collections/grandmasCouch/kbGrandmasCouch11.png`}
+        alt="Grandma's couch 11"
+        style={{
+          position: "absolute",
+          height: "36rem",
+          width: "auto",
+          left: "15rem",
+          top: "210rem",
+        }}
+      />
+    </picture>
+    <picture>
+      <source
+        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch12.webp`}
+        type="image/webp"
+      />
+      <img
+        src={`../../images/collections/grandmasCouch/kbGrandmasCouch12.png`}
+        alt="Grandma's couch 12"
+        style={{
+          position: "absolute",
+          height: "40rem",
+          width: "auto",
+          left: "55rem",
+          top: "215rem",
+        }}
+      />
+    </picture>
+    <picture>
+      <source
+        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch13.webp`}
+        type="image/webp"
+      />
+      <img
+        src={`../../images/collections/grandmasCouch/kbGrandmasCouch13.png`}
+        alt="Grandma's couch 13"
+        style={{
+          position: "absolute",
+          height: "32rem",
+          width: "auto",
+          left: "40rem",
+          top: "245rem",
+        }}
+      />
+    </picture>
+    <picture>
+      <source
+        srcset={`../../images/collections/grandmasCouch/kbGrandmasCouch14.webp`}
+        type="image/webp"
+      />
+      <img
+        src={`../../images/collections/grandmasCouch/kbGrandmasCouch14.png`}
+        alt="Grandma's couch 14"
+        style={{
+          position: "absolute",
+          height: "36rem",
+          width: "auto",
+          left: "10rem",
+          top: "260rem",
+          marginBottom: "5rem",
         }}
       />
     </picture>
