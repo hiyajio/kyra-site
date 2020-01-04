@@ -140,7 +140,7 @@ const GrandmasCouchPage = props => {
             alt="Grandma's couch 8"
             style={{
               position: "absolute",
-              height: "36rem",
+              height: "48rem",
               width: "auto",
               left: "60rem",
               top: "145rem",
@@ -242,11 +242,12 @@ const GrandmasCouchPage = props => {
             alt="Grandma's couch 14"
             style={{
               position: "absolute",
-              height: "36rem",
+              height: "44rem",
               width: "auto",
-              left: "10rem",
+              left: "8rem",
               top: "260rem",
               marginBottom: "5rem",
+              zIndex: "-1",
             }}
           />
         </picture>
