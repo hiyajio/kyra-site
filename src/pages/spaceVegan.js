@@ -55,9 +55,9 @@ const GrandmasCouchPage = props => {
             alt="Space vegan 3"
             style={{
               position: "absolute",
-              height: "auto",
-              width: "32rem",
-              left: "44rem",
+              height: "32rem",
+              width: "auto",
+              left: "38rem",
               top: "40rem",
             }}
           />
@@ -75,7 +75,7 @@ const GrandmasCouchPage = props => {
               height: "auto",
               width: "40rem",
               left: "2rem",
-              top: "58rem",
+              top: "65rem",
             }}
           />
         </picture>
@@ -92,7 +92,7 @@ const GrandmasCouchPage = props => {
               height: "36rem",
               width: "auto",
               left: "40rem",
-              top: "80rem",
+              top: "87rem",
             }}
           />
         </picture>
@@ -109,7 +109,7 @@ const GrandmasCouchPage = props => {
               height: "32rem",
               width: "auto",
               left: "66rem",
-              top: "98rem",
+              top: "105rem",
             }}
           />
         </picture>
@@ -125,8 +125,8 @@ const GrandmasCouchPage = props => {
               position: "absolute",
               height: "auto",
               width: "40rem",
-              left: "8rem",
-              top: "118rem",
+              left: "4rem",
+              top: "129rem",
             }}
           />
         </picture>
@@ -142,8 +142,8 @@ const GrandmasCouchPage = props => {
               position: "absolute",
               height: "auto",
               width: "36rem",
-              left: "46rem",
-              top: "145rem",
+              left: "52rem",
+              top: "152rem",
             }}
           />
         </picture>
@@ -157,10 +157,10 @@ const GrandmasCouchPage = props => {
             alt="Space vegan 9"
             style={{
               position: "absolute",
-              height: "auto",
-              width: "32rem",
+              height: "34rem",
+              width: "auto",
               left: "30rem",
-              top: "170rem",
+              top: "174rem",
             }}
           />
         </picture>
@@ -175,9 +175,9 @@ const GrandmasCouchPage = props => {
             style={{
               position: "absolute",
               height: "auto",
-              width: "32rem",
-              left: "6rem",
-              top: "190rem",
+              width: "36rem",
+              left: "5rem",
+              top: "206rem",
             }}
           />
         </picture>
@@ -191,10 +191,10 @@ const GrandmasCouchPage = props => {
             alt="Space vegan 11"
             style={{
               position: "absolute",
-              height: "36rem",
+              height: "40rem",
               width: "auto",
               left: "47rem",
-              top: "206rem",
+              top: "213rem",
               marginBottom: "5rem",
             }}
           />
