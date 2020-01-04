@@ -1,9 +1,32 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
+
+import useDocumentScrollThrottled from "./useDocumentScrollThrottled"
 
 import Dropdown from "../Dropdown/index.js"
 
 const Header = props => {
+  const [shouldHideHeader, setShouldHideHeader] = useState(false)
+  const [shouldShowShadow, setShouldShowShadow] = useState(false)
+
+  const MINIMUM_SCROLL = 1
+  const TIMEOUT_DELAY = 50
+
+  useDocumentScrollThrottled(callbackData => {
+    const { previousScrollTop, currentScrollTop } = callbackData
+    const isScrolledDown = previousScrollTop < currentScrollTop
+    const isMinimumScrolled = currentScrollTop > MINIMUM_SCROLL
+
+    setShouldShowShadow(currentScrollTop > 2)
+
+    setTimeout(() => {
+      setShouldHideHeader(isScrolledDown && isMinimumScrolled)
+    }, TIMEOUT_DELAY)
+  })
+
+  const shadowStyle = shouldShowShadow ? "shadow" : ""
+  const hiddenStyle = shouldHideHeader ? "opacity-25" : ""
+
   const bgColor = props.bgColor || "bg-white"
   const headerStyle =
     "flex " +
@@ -12,7 +35,7 @@ const Header = props => {
 
   return (
     <div className={headerStyle}>
-      <picture className="fixed w-8/12 top-0 right-0">
+      <picture className={`fixed w-8/12 top-0 right-0 ${hiddenStyle}`}>
         <source srcset={`../../images/logo.webp`} type="image/webp" />
         <img src={`../../images/logo.png`} alt="Kyra logo" />
       </picture>
