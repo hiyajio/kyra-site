@@ -41,11 +41,14 @@ const AboutPage = props => {
           <p className="mb-4">
             She recently won the YMA Fashion Scholarship Fund Case Study
             Competition of 2019 with her take on a{" "}
-            <a href="#modal1">collection of power suits</a> collection of power
-            suits for women done through a collaboration between Thom Browne and
-            Goldman Sachs. She was also a finalist at the 2018 MET Costume
-            Institute College Fashion Design Competition for the Heavenly Bodies
-            Exhibit. She exhibited her work at the Metropolitan Museum of Art.
+            <a href="#powersuits" className="text-golden hover:text-white">
+              collection of power suits
+            </a>{" "}
+            collection of power suits for women done through a collaboration
+            between Thom Browne and Goldman Sachs. She was also a finalist at
+            the 2018 MET Costume Institute College Fashion Design Competition
+            for the Heavenly Bodies Exhibit. She exhibited her work at the
+            Metropolitan Museum of Art.
           </p>
           <p>
             She’s a womenswear designer who’s favorite undergraduate class was
@@ -66,7 +69,7 @@ const AboutPage = props => {
         </picture>
       </div>
       <div
-        id="modal1"
+        id="powersuits"
         className="overlay inset-0 absolute invisible opacity-0"
         style={{
           background: "rgba(0, 0, 0, 0.5)",
@@ -74,7 +77,7 @@ const AboutPage = props => {
         }}
       >
         <a className="absolute cursor-default h-full w-full" href="#"></a>
-        <div className="rounded border-gray-500 outline-none shadow relative bg-white w-full my-24 p-5 max-w-xl mx-auto">
+        <div className="rounded border-gray-500 outline-none shadow relative bg-white w-full my-8 p-5 max-w-4xl mx-auto">
           <picture>
             <source srcset={`../../images/powersuits.webp`} type="image/webp" />
             <img src={`../../images/powersuits.png`} alt="Powersuits" />
