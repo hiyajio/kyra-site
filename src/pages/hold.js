@@ -4,7 +4,7 @@ import Header from "../components/Header/index.js"
 import TopScroll from "../components/TopScroll/index.js"
 import Footer from "../components/Footer/index.js"
 
-const GrandmasCouchPage = props => {
+const HoldPage = props => {
   return (
     <div className="flex">
       <TopScroll>
@@ -361,4 +361,4 @@ const GrandmasCouchPage = props => {
   )
 }
 
-export default GrandmasCouchPage
+export default HoldPage
