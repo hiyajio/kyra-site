@@ -7,24 +7,18 @@ import Dropdown from "../Dropdown/index.js"
 
 const Header = props => {
   const [shouldHideHeader, setShouldHideHeader] = useState(false)
-  const [shouldShowShadow, setShouldShowShadow] = useState(false)
 
-  const MINIMUM_SCROLL = 1
   const TIMEOUT_DELAY = 50
 
   useDocumentScrollThrottled(callbackData => {
     const { previousScrollTop, currentScrollTop } = callbackData
     const isScrolledDown = previousScrollTop < currentScrollTop
-    const isMinimumScrolled = currentScrollTop > MINIMUM_SCROLL
-
-    setShouldShowShadow(currentScrollTop > 2)
 
     setTimeout(() => {
-      setShouldHideHeader(isScrolledDown && isMinimumScrolled)
+      setShouldHideHeader(isScrolledDown)
     }, TIMEOUT_DELAY)
   })
 
-  const shadowStyle = shouldShowShadow ? "shadow" : ""
   const hiddenStyle = shouldHideHeader ? "opacity-25" : ""
 
   const bgColor = props.bgColor || "bg-white"
@@ -40,7 +34,7 @@ const Header = props => {
         <img src={`../../images/logo.png`} alt="Kyra logo" />
       </picture>
       <div className="w-2/5 justify-center content-center object-center m-auto pb-32 pr-20">
-        <div className="fixed">
+        <div className={`fixed ${hiddenStyle}`}>
           <ul>
             <Link to="/">
               <li className="hover:text-white hover:bg-silvered">/home</li>
