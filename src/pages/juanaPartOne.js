@@ -111,11 +111,7 @@ export default () => (
             <li className="hover:text-white hover:bg-silvered">/home</li>
           </Link>
           <div className="dropdown relative">
-            <Link to="collections">
-              <li className="hover:text-white hover:bg-silvered">
-                /collections
-              </li>
-            </Link>
+            <li className="hover:text-white hover:bg-silvered">/collections</li>
             <div className="dropdown-content relative overflow-hidden h-0">
               <Link to="juanaPartOneC">
                 <li className="hover:text-white hover:bg-silvered">
