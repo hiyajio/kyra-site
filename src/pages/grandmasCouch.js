@@ -15,9 +15,6 @@ const GrandmasCouchPage = props => {
         <img
           src={`../../images/collections/grandmasCouch/kbGrandmasCouch1.png`}
           alt="Grandma's couch 1"
-          data-sal="fade"
-          data-sal-duration="300"
-          data-sal-easing="ease"
           style={{
             position: "absolute",
             height: "40rem",
@@ -35,9 +32,6 @@ const GrandmasCouchPage = props => {
         <img
           src={`../../images/collections/grandmasCouch/kbGrandmasCouch2.png`}
           alt="Grandma's couch 2"
-          data-sal="fade"
-          data-sal-duration="300"
-          data-sal-easing="ease"
           style={{
             position: "absolute",
             height: "36rem",
@@ -55,9 +49,6 @@ const GrandmasCouchPage = props => {
         <img
           src={`../../images/collections/grandmasCouch/kbGrandmasCouch3.png`}
           alt="Grandma's couch 3"
-          data-sal="fade"
-          data-sal-duration="300"
-          data-sal-easing="ease"
           style={{
             position: "absolute",
             height: "32rem",
@@ -75,9 +66,6 @@ const GrandmasCouchPage = props => {
         <img
           src={`../../images/collections/grandmasCouch/kbGrandmasCouch4.png`}
           alt="Grandma's couch 4"
-          data-sal="fade"
-          data-sal-duration="300"
-          data-sal-easing="ease"
           style={{
             position: "absolute",
             height: "40rem",
@@ -95,9 +83,6 @@ const GrandmasCouchPage = props => {
         <img
           src={`../../images/collections/grandmasCouch/kbGrandmasCouch5.png`}
           alt="Grandma's couch 5"
-          data-sal="fade"
-          data-sal-duration="300"
-          data-sal-easing="ease"
           style={{
             position: "absolute",
             height: "32rem",
@@ -115,9 +100,6 @@ const GrandmasCouchPage = props => {
         <img
           src={`../../images/collections/grandmasCouch/kbGrandmasCouch6.png`}
           alt="Grandma's couch 6"
-          data-sal="fade"
-          data-sal-duration="300"
-          data-sal-easing="ease"
           style={{
             position: "absolute",
             height: "36rem",
@@ -135,9 +117,6 @@ const GrandmasCouchPage = props => {
         <img
           src={`../../images/collections/grandmasCouch/kbGrandmasCouch7.png`}
           alt="Grandma's couch 7"
-          data-sal="fade"
-          data-sal-duration="300"
-          data-sal-easing="ease"
           style={{
             position: "absolute",
             height: "40rem",
@@ -155,9 +134,6 @@ const GrandmasCouchPage = props => {
         <img
           src={`../../images/collections/grandmasCouch/kbGrandmasCouch8.png`}
           alt="Grandma's couch 8"
-          data-sal="fade"
-          data-sal-duration="300"
-          data-sal-easing="ease"
           style={{
             position: "absolute",
             height: "36rem",
@@ -175,9 +151,6 @@ const GrandmasCouchPage = props => {
         <img
           src={`../../images/collections/grandmasCouch/kbGrandmasCouch9.png`}
           alt="Grandma's couch 9"
-          data-sal="fade"
-          data-sal-duration="300"
-          data-sal-easing="ease"
           style={{
             position: "absolute",
             height: "32rem",
@@ -195,9 +168,6 @@ const GrandmasCouchPage = props => {
         <img
           src={`../../images/collections/grandmasCouch/kbGrandmasCouch10.png`}
           alt="Grandma's couch 10"
-          data-sal="fade"
-          data-sal-duration="300"
-          data-sal-easing="ease"
           style={{
             position: "absolute",
             height: "32rem",
@@ -215,9 +185,6 @@ const GrandmasCouchPage = props => {
         <img
           src={`../../images/collections/grandmasCouch/kbGrandmasCouch11.png`}
           alt="Grandma's couch 11"
-          data-sal="fade"
-          data-sal-duration="300"
-          data-sal-easing="ease"
           style={{
             position: "absolute",
             height: "36rem",
@@ -235,9 +202,6 @@ const GrandmasCouchPage = props => {
         <img
           src={`../../images/collections/grandmasCouch/kbGrandmasCouch12.png`}
           alt="Grandma's couch 12"
-          data-sal="fade"
-          data-sal-duration="300"
-          data-sal-easing="ease"
           style={{
             position: "absolute",
             height: "40rem",
@@ -255,9 +219,6 @@ const GrandmasCouchPage = props => {
         <img
           src={`../../images/collections/grandmasCouch/kbGrandmasCouch13.png`}
           alt="Grandma's couch 13"
-          data-sal="fade"
-          data-sal-duration="300"
-          data-sal-easing="ease"
           style={{
             position: "absolute",
             height: "32rem",
@@ -275,9 +236,6 @@ const GrandmasCouchPage = props => {
         <img
           src={`../../images/collections/grandmasCouch/kbGrandmasCouch14.png`}
           alt="Grandma's couch 14"
-          data-sal="fade"
-          data-sal-duration="300"
-          data-sal-easing="ease"
           style={{
             position: "absolute",
             height: "36rem",
