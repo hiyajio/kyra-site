@@ -3,8 +3,6 @@ import React from "react"
 import Header from "../components/Header/index.js"
 import Footer from "../components/Footer/index.js"
 
-import "./index.css"
-
 export default () => (
   <div className="flex">
     <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
