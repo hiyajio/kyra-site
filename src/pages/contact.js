@@ -1,6 +1,7 @@
 import React from "react"
 
 import Header from "../components/Header/index.js"
+import Footer from "../components/Footer/index.js"
 
 export default () => (
   <div className="flex">
@@ -95,8 +96,6 @@ export default () => (
         </form>
       </div>
     </div>
-    <div className="absolute bottom-0 right-0 mb-1 mr-1 text-silvered font-body text-xs opacity-25">
-      <p>&copy; 2020 Kyra Buenviaje. All rights reserved.</p>
-    </div>
+    <Footer />
   </div>
 )
