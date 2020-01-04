@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Header from "../components/Header/index.js"
 import Footer from "../components/Footer/index.js"
@@ -6,17 +7,19 @@ import Footer from "../components/Footer/index.js"
 export default () => (
   <div className="flex">
     <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
-      <picture className="object-cover bg-auto min-w-full h-full">
-        <source
-          srcset={`../../images/spaceVeganContactBW.webp`}
-          type="image/webp"
-        />
-        <img
-          src={`../../images/spaceVeganContactBW.png`}
-          alt="Space vegan contact"
-          className="object-cover bg-auto min-w-full h-full"
-        />
-      </picture>
+      <Link to="spaceVegan">
+        <picture className="object-cover bg-auto min-w-full h-full">
+          <source
+            srcset={`../../images/spaceVeganContactBW.webp`}
+            type="image/webp"
+          />
+          <img
+            src={`../../images/spaceVeganContactBW.png`}
+            alt="Space vegan contact"
+            className="object-cover bg-auto min-w-full h-full hover:opacity-75"
+          />
+        </picture>
+      </Link>
     </div>
     <Header />
     <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
