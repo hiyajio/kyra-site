@@ -12,7 +12,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [x] Fix modal
 - [x] Fix nav fade when scroll
 - [x] Separate index.css into components
-- [ ] Finish all collections pages
+- [x] Finish all collections pages
 - [ ] Import fonts using better method (use typefaces package)
 - [ ] Fix site metadata (including title)
 - [ ] Fix scroll-to-top functionality (use gatsby-plugin-smoothscroll)
