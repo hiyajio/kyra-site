@@ -261,7 +261,7 @@ const HoldPage = props => {
               position: "absolute",
               height: "32rem",
               width: "auto",
-              left: "38rem",
+              left: "41rem",
               top: "290rem",
             }}
           />
