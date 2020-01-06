@@ -15,19 +15,19 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [x] Fix nav fade when scroll
 - [x] Separate index.css into components
 - [x] Finish all collections pages
+- [x] Fix site metadata (including title)
+- [x] Fix favicon path (use gatsby-plugin-favicon)
+- [x] Fix scroll-to-top functionality (use gatsby-plugin-smoothscroll)
+- [x] Add auto sitemap generation (use gatsby-plugin-sitemap)
+- [x] Futher improve site through plugins (use gatsby-plugin-remove-trailing-slashes)
+- [x] Add site metadata (use react-helmet, gatsby-plugin-react-helmet)
 - [ ] Import fonts using better method (use typefaces package)
-- [ ] Fix site metadata (including title)
-- [ ] Fix scroll-to-top functionality (use gatsby-plugin-smoothscroll)
-- [ ] Fix favicon path (use gatsby-plugin-favicon)
 - [ ] Add 404 error page
 - [ ] Separate 404 page into components
 - [ ] Separate html page into components
 - [ ] Fix mobile site
 - [ ] Add Google Analytics (use gatsby-plugin-google-analytics)
-- [ ] Add auto sitemap generation (use gatsby-plugin-sitemap)
-- [ ] Futher improve site through plugins (use gatsby-plugin-remove-trailing-slashes)
 - [ ] Optimize to be PWA (use gatsby-plugin-manifest, gatsby-plugin-offline, <noscript>)
-- [ ] Add site metadata (use react-helmet, gatsby-plugin-react-helmet)
 - [ ] Fix page-data.json log 404 error (use gatsby@page-data-404)
 - [ ] Change social icons
 - [ ] Optimize and lazy load images (use gatsby-image and gatsby-background-image)
