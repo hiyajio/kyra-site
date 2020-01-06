@@ -1,12 +1,12 @@
 import React from "react"
 
+import Layout from "../components/Layout/index.js"
 import Header from "../components/Header/index.js"
 import TopScroll from "../components/TopScroll/index.js"
-import Footer from "../components/Footer/index.js"
 
 const HoldPage = props => {
   return (
-    <div className="flex">
+    <Layout>
       <TopScroll>
         <div
           className={`flex bg-white font-body h-screen w-2/5 overflow-hidden`}
@@ -356,8 +356,7 @@ const HoldPage = props => {
         <Header bgColor="bg-transparent z-50" />
         <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden"></div>
       </TopScroll>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 

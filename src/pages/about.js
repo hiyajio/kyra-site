@@ -1,12 +1,12 @@
 import React from "react"
 
+import Layout from "../components/Layout/index.js"
 import Header from "../components/Header/index.js"
 import Modal from "../components/Modal/index.js"
-import Footer from "../components/Footer/index.js"
 
 const AboutPage = props => {
   return (
-    <div className="flex">
+    <Layout>
       <div className="flex bg-white font-body h-screen w-2/5 overflow-hidden">
         <div className="justify-center content-center object-center m-auto text-sm mx-12 mb-12">
           <p className="mb-4">
@@ -75,8 +75,7 @@ const AboutPage = props => {
         modalAlt={`../../images/powersuits.png`}
         modalImgAlt="Powersuits"
       />
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
