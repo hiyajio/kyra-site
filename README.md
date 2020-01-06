@@ -22,7 +22,6 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [x] Futher improve site through plugins (use gatsby-plugin-remove-trailing-slashes)
 - [x] Add site metadata (use react-helmet, gatsby-plugin-react-helmet)
 - [x] Add Google Analytics (use gatsby-plugin-google-analytics)
-- [ ] Import fonts using better method (use typefaces package)
 - [ ] Add 404 error page
 - [ ] Separate 404 page into components
 - [ ] Separate html page into components
