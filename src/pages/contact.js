@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Layout from "../components/Layout/index.js"
 import Header from "../components/Header/index.js"
-import Footer from "../components/Footer/index.js"
 
 export default () => (
-  <div className="flex">
+  <Layout>
     <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
       <Link to="spaceVegan">
         <picture className="object-cover bg-auto min-w-full h-full">
@@ -99,6 +99,5 @@ export default () => (
         </form>
       </div>
     </div>
-    <Footer />
-  </div>
+  </Layout>
 )

@@ -3,8 +3,6 @@ import { Helmet } from "react-helmet"
 
 import Footer from "../Footer/index.js"
 
-import "./Layout.css"
-
 const Layout = props => {
   return (
     <div className="flex">
@@ -42,7 +40,7 @@ const Layout = props => {
         />
         <link rel="canonical" href="https://kyrabuenviaje.com/" />
       </Helmet>
-      <main>{props.children}</main>
+      {props.children}
       <Footer />
     </div>
   )
