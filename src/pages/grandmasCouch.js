@@ -253,8 +253,8 @@ const GrandmasCouchPage = props => {
         </picture>
         <Header bgColor="bg-transparent z-50" />
         <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden"></div>
-        <Footer />
       </TopScroll>
+      <Footer />
     </div>
   )
 }
