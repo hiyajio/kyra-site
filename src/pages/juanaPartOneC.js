@@ -552,7 +552,7 @@ const JuanaPartOneCuratedPage = props => {
               width: "auto",
               left: "8rem",
               top: "600rem",
-              marginBottom: "5rem",
+              paddingBottom: "5rem",
             }}
           />
         </picture>

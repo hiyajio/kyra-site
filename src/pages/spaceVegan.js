@@ -195,7 +195,7 @@ const SpaceVeganPage = props => {
               width: "auto",
               left: "47rem",
               top: "213rem",
-              marginBottom: "5rem",
+              paddingBottom: "5rem",
             }}
           />
         </picture>

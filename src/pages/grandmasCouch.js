@@ -246,7 +246,7 @@ const GrandmasCouchPage = props => {
               width: "auto",
               left: "8rem",
               top: "260rem",
-              marginBottom: "5rem",
+              paddingBottom: "5rem",
               zIndex: "-1",
             }}
           />

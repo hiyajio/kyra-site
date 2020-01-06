@@ -93,7 +93,7 @@ const JuanaPartOnePage = props => {
               width: "auto",
               left: "20rem",
               top: "108rem",
-              marginBottom: "5rem",
+              paddingBottom: "5rem",
             }}
           />
         </picture>

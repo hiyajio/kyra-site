@@ -349,7 +349,7 @@ const HoldPage = props => {
               left: "4rem",
               top: "387rem",
               zIndex: "-1",
-              marginBottom: "5rem",
+              paddingBottom: "5rem",
             }}
           />
         </picture>
