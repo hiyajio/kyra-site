@@ -86,7 +86,7 @@ export default () => (
             </div>
           </div>
           <div className="">
-            <div className="md:w-1/3">
+            <div className="md:w-1/3 px-3">
               <button
                 className="shadow bg-golden opacity-50 hover:opacity-100 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
                 type="submit"
