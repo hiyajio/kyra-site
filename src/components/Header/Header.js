@@ -27,7 +27,7 @@ const Header = props => {
         <source srcset={`../../images/logo.webp`} type="image/webp" />
         <img src={`../../images/logo.png`} alt="Kyra logo" className="z-50" />
       </picture>
-      <div className="z-10 w-2/5 justify-center content-center object-center m-auto pb-32 pr-20">
+      <div className="z-40 w-2/5 justify-center content-center object-center m-auto pb-32 pr-20">
         <div className={`fixed ${hiddenStyle}`}>
           <ul>
             <Link to="/">
