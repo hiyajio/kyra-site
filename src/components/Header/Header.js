@@ -22,12 +22,12 @@ const Header = props => {
   const hiddenStyle = shouldHideHeader ? "opacity-25" : ""
 
   return (
-    <div className="z-40 bg-transparent font-body h-screen w-1/5 text-gray-700 md:pt-64 lg:pt-64 xl:pt-64 md:mt-16 lg:mt-16 xl:mt-16">
-      <picture className={`fixed w-8/12 top-0 right-0 ${hiddenStyle}`}>
+    <div className="bg-transparent font-body h-screen w-1/5 text-gray-700 md:pt-64 lg:pt-64 xl:pt-64 md:mt-16 lg:mt-16 xl:mt-16">
+      <picture className={`fixed w-8/12 top-0 right-0 z-50 ${hiddenStyle}`}>
         <source srcset={`../../images/logo.webp`} type="image/webp" />
         <img src={`../../images/logo.png`} alt="Kyra logo" className="z-50" />
       </picture>
-      <div className="w-2/5 justify-center content-center object-center m-auto pb-32 pr-20">
+      <div className="z-10 w-2/5 justify-center content-center object-center m-auto pb-32 pr-20">
         <div className={`fixed ${hiddenStyle}`}>
           <ul>
             <Link to="/">
