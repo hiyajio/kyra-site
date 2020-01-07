@@ -6,7 +6,7 @@ import Header from "../components/Header/index.js"
 
 export default () => (
   <Layout>
-    <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
+    <div className="flex-1 absolute md:static lg:static xl:static bg-white font-body h-screen w-screen md:w-2/5 lg:w-2/5 xl:w-2/5 overflow-hidden">
       <Link to="spaceVegan">
         <picture className="object-cover bg-auto min-w-full h-full">
           <source
@@ -22,14 +22,14 @@ export default () => (
       </Link>
     </div>
     <Header />
-    <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
-      <div className="absolute bottom-0 mb-8 w-2/5">
+    <div className="flex-1 absolute md:static lg:static xl:static bg-transparent md:bg-white lg:bg-white xl:bg-white font-body h-screen w-screen md:w-2/5 lg:w-2/5 xl:w-2/5 overflow-hidden">
+      <div className="absolute bottom-0 mb-8 w-screen lg:w-2/5 xl:w-2/5">
         <form
           action="https://formspree.io/xrgeoooy"
           method="POST"
           className="w-full max-w-lg"
         >
-          <div className="flex flex-wrap -mx-3 mb-6">
+          <div className="mb-6">
             <div className="w-full px-3">
               <label
                 htmlFor="name"
@@ -48,7 +48,7 @@ export default () => (
               />
             </div>
           </div>
-          <div className="flex flex-wrap -mx-3 mb-6">
+          <div className="mb-6">
             <div className="w-full px-3">
               <label
                 htmlFor="email"
@@ -67,7 +67,7 @@ export default () => (
               />
             </div>
           </div>
-          <div className="flex flex-wrap -mx-3 mb-6">
+          <div className="mb-6">
             <div className="w-full px-3">
               <label
                 htmlFor="message"
@@ -85,7 +85,7 @@ export default () => (
               ></textarea>
             </div>
           </div>
-          <div className="md:flex md:items-center">
+          <div className="">
             <div className="md:w-1/3">
               <button
                 className="shadow bg-golden opacity-50 hover:opacity-100 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"

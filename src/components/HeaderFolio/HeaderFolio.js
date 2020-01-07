@@ -5,7 +5,7 @@ import useDocumentScrollThrottled from "./useDocumentScrollThrottled"
 
 import Dropdown from "../Dropdown/index.js"
 
-const Header = props => {
+const HeaderFolio = props => {
   const [shouldHideHeader, setShouldHideHeader] = useState(false)
 
   const TIMEOUT_DELAY = 50
@@ -23,12 +23,12 @@ const Header = props => {
 
   const bgColor = props.bgColor || "bg-white"
   const headerStyle =
-    "z-50 " +
+    "flex " +
     bgColor +
-    " font-body h-screen w-1/5 text-gray-700 overflow-hidden lg:mt-32 xl:mt-32"
+    " font-body h-screen w-1/5 text-gray-700 overflow-hidden"
 
   return (
-    <div className="z-50 bg-transparent font-body h-screen w-1/5 text-gray-700 overflow-hidden md:pt-64 lg:pt-64 xl:pt-64 md:mt-16 lg:mt-16 xl:mt-16">
+    <div className={headerStyle}>
       <picture className={`fixed w-8/12 top-0 right-0 ${hiddenStyle}`}>
         <source srcset={`../../images/logo.webp`} type="image/webp" />
         <img src={`../../images/logo.png`} alt="Kyra logo" />
@@ -96,4 +96,4 @@ const Header = props => {
   )
 }
 
-export default Header
+export default HeaderFolio

@@ -6,7 +6,7 @@ import Header from "../components/Header/index.js"
 
 export default () => (
   <Layout>
-    <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
+    <div className="flex-1 absolute md:static lg:static xl:static bg-white font-body h-screen w-screen md:w-2/5 lg:w-2/5 xl:w-2/5 overflow-hidden">
       <Link to="juanaPartOneC">
         <video
           autoplay="true"
@@ -29,7 +29,7 @@ export default () => (
       </Link>
     </div>
     <Header />
-    <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden">
+    <div className="flex-1 absolute md:static lg:static xl:static bg-transparent md:bg-white lg:bg-white xl:bg-white font-body h-screen w-screen md:w-2/5 lg:w-2/5 xl:w-2/5 overflow-hidden">
       <Link to="juanaPartOneC">
         <video
           autoplay="true"
