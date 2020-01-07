@@ -75,12 +75,12 @@ const AboutPage = props => {
       </div>
       <Header />
       <div className="flex-1 absolute md:static lg:static xl:static bg-white font-body h-screen w-screen md:w-2/5 lg:w-2/5 xl:w-2/5 overflow-hidden">
-        <picture className="w-full">
+        <picture className="object-cover min-w-full h-full md:max-w-full lg:max-w-full xl:max-w-full">
           <source srcset={`../../images/kyra.webp`} type="image/webp" />
           <img
             src={`../../images/kyra.png`}
             alt="Kyra headshot"
-            className="w-full"
+            className="object-cover min-w-full h-full md:w-full lg:w-full xl:w-full md:h-auto lg:h-auto xl:h-auto "
           />
         </picture>
       </div>
