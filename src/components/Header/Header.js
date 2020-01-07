@@ -21,12 +21,6 @@ const Header = props => {
 
   const hiddenStyle = shouldHideHeader ? "opacity-25" : ""
 
-  const bgColor = props.bgColor || "bg-white"
-  const headerStyle =
-    "z-50 " +
-    bgColor +
-    " font-body h-screen w-1/5 text-gray-700 overflow-hidden lg:mt-32 xl:mt-32"
-
   return (
     <div className="z-50 bg-transparent font-body h-screen w-1/5 text-gray-700 md:pt-64 lg:pt-64 xl:pt-64 md:mt-16 lg:mt-16 xl:mt-16">
       <picture className={`fixed w-8/12 top-0 right-0 ${hiddenStyle}`}>
