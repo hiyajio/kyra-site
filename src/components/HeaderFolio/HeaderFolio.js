@@ -23,9 +23,7 @@ const HeaderFolio = props => {
 
   const bgColor = props.bgColor || "bg-white"
   const headerStyle =
-    "flex " +
-    bgColor +
-    " font-body h-screen w-1/5 text-gray-700 overflow-hidden"
+    "flex " + bgColor + " font-body h-screen w-1/5 text-gray-700"
 
   return (
     <div className={headerStyle}>
