@@ -31,7 +31,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [ ] Separate 404 page into components
 - [ ] Separate html page into components
 - [ ] Change form to formik or react-hook-form
-- [ ] Optimize to be PWA (use gatsby-plugin-manifest, gatsby-plugin-offline, <noscript>)
+- [ ] Optimize to be PWA (use gatsby-plugin-manifest, gatsby-plugin-offline, `<noscript>`)
 - [ ] Fix page-data.json log 404 error (use gatsby@page-data-404)
 - [ ] Further improve site using PWA audit as guide (use gatsby-plugin-google-tagmanager, SEO component)
 
