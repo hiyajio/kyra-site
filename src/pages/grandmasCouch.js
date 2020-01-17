@@ -22,7 +22,7 @@ const GrandmasCouchPage = props => {
             style={{
               position: "absolute",
               height: "40rem",
-              width: "auto",
+              width: "30rem",
               left: "16rem",
               top: "6rem",
             }}
