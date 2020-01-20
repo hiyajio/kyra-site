@@ -4,6 +4,8 @@ import Layout from "../components/Layout/index.js"
 import HeaderFolio from "../components/HeaderFolio/index.js"
 import TopScroll from "../components/TopScroll/index.js"
 
+import "./grandmasCouch.css"
+
 const GrandmasCouchPage = props => {
   return (
     <Layout>
@@ -19,13 +21,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch1.png`}
             alt="Grandma's couch 1"
-            style={{
-              position: "absolute",
-              height: "40rem",
-              width: "auto",
-              left: "16rem",
-              top: "6rem",
-            }}
+            className="one"
           />
         </picture>
         <picture>
@@ -36,13 +32,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch2.png`}
             alt="Grandma's couch 2"
-            style={{
-              position: "absolute",
-              height: "36rem",
-              width: "auto",
-              left: "44rem",
-              top: "18rem",
-            }}
+            className="two"
           />
         </picture>
         <picture>
@@ -53,13 +43,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch3.png`}
             alt="Grandma's couch 3"
-            style={{
-              position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "3rem",
-              top: "38rem",
-            }}
+            className="three"
           />
         </picture>
         <picture>

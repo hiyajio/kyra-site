@@ -1,0 +1,124 @@
+/* Extra small devices (phones, 37.5rem and down) */
+@media only screen and (max-width: 37.5rem) {
+    .one {
+        position: absolute;
+        height: 15rem;
+        width: auto;
+        left: 6rem;
+        top: 3rem;
+    }
+    .two {
+        position: absolute;
+        height: 13rem;
+        width: auto;
+        left: 16rem;
+        top: 6rem;
+    }
+    .three {
+        position: absolute;
+        height: 12rem;
+        width: auto;
+        left: 1rem;
+        top: 14rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 37.5rem and up) */
+@media only screen and (min-width: 37.5rem) {
+    .one {
+        position: absolute;
+        height: 20rem;
+        width: auto;
+        left: 8rem;
+        top: 4rem;
+    }
+    .two {
+        position: absolute;
+        height: 18rem;
+        width: auto;
+        left: 22rem;
+        top: 9rem;
+    }
+    .three {
+        position: absolute;
+        height: 16rem;
+        width: auto;
+        left: 1rem;
+        top: 19rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 48rem and up) */
+@media only screen and (min-width: 48rem) {
+    .one {
+        position: absolute;
+        height: 26rem;
+        width: auto;
+        left: 10rem;
+        top: 4rem;
+    }
+    .two {
+        position: absolute;
+        height: 24rem;
+        width: auto;
+        left: 29rem;
+        top: 12rem;
+    }
+    .three {
+        position: absolute;
+        height: 21rem;
+        width: auto;
+        left: 2rem;
+        top: 25rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 62rem and up) */
+@media only screen and (min-width: 62rem) {
+    .one {
+        position: absolute;
+        height: 33rem;
+        width: auto;
+        left: 13rem;
+        top: 5rem;
+    }
+    .two {
+        position: absolute;
+        height: 30rem;
+        width: auto;
+        left: 36rem;
+        top: 15rem;
+    }
+    .three {
+        position: absolute;
+        height: 26rem;
+        width: auto;
+        left: 2rem;
+        top: 31rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 75rem and up) */
+@media only screen and (min-width: 75rem) {
+    .one {
+        position: absolute;
+        height: 40rem;
+        width: auto;
+        left: 16rem;
+        top: 6rem;
+    }
+    .two {
+        position: absolute;
+        height: 36rem;
+        width: auto;
+        left: 44rem;
+        top: 18rem;
+    }
+    .three {
+        position: absolute;
+        height: 32rem;
+        width: auto;
+        left: 3rem;
+        top: 38rem;
+    }
+}
