@@ -1,124 +1,384 @@
-/* Extra small devices (phones, 37.5rem and down) */
-@media only screen and (max-width: 37.5rem) {
+.abs {
+    position: absolute;
+    width: auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     .one {
-        position: absolute;
-        height: 15rem;
-        width: auto;
-        left: 6rem;
-        top: 3rem;
+        height: calc(40rem*(1/2)*(2/3));
+        left: calc(16rem*(1/2)*(2/3));
+        top: calc(6rem*(1/2)*(2/3));
     }
     .two {
-        position: absolute;
-        height: 13rem;
-        width: auto;
-        left: 16rem;
-        top: 6rem;
+        height: calc(36rem*(1/2)*(2/3));
+        left: calc(44rem*(1/2)*(2/3));
+        top: calc(18rem*(1/2)*(2/3));
     }
     .three {
-        position: absolute;
-        height: 12rem;
-        width: auto;
-        left: 1rem;
-        top: 14rem;
+        height: calc(32rem*(1/2)*(2/3));
+        left: calc(3rem*(1/2)*(2/3));
+        top: calc(38rem*(1/2)*(2/3));
+    }
+    .four {
+        height: calc(40rem*(1/2)*(2/3));
+        left: calc(58rem*(1/2)*(2/3));
+        top: calc(62rem*(1/2)*(2/3));
+    }
+    .five {
+        height: calc(32rem*(1/2)*(2/3));
+        left: calc(38rem*(1/2)*(2/3));
+        top: calc(88rem*(1/2)*(2/3));
+    }
+    .six {
+        height: calc(36rem*(1/2)*(2/3));
+        left: calc(12rem*(1/2)*(2/3));
+        top: calc(80rem*(1/2)*(2/3));
+    }
+    .seven {
+        height: calc(40rem*(1/2)*(2/3));
+        left: calc(16rem*(1/2)*(2/3));
+        top: calc(118rem*(1/2)*(2/3));
+    }
+    .eight {
+        height: calc(48rem*(1/2)*(2/3));
+        left: calc(60rem*(1/2)*(2/3));
+        top: calc(145rem*(1/2)*(2/3));
+    }
+    .nine {
+        height: calc(32rem*(1/2)*(2/3));
+        left: calc(30rem*(1/2)*(2/3));
+        top: calc(170rem*(1/2)*(2/3));
+    }
+    .ten {
+        height: calc(32rem*(1/2)*(2/3));
+        left: calc(8rem*(1/2)*(2/3));
+        top: calc(180rem*(1/2)*(2/3));
+    }
+    .eleven {
+        height: calc(36rem*(1/2)*(2/3));
+        left: calc(15rem*(1/2)*(2/3));
+        top: calc(210rem*(1/2)*(2/3));
+    }
+    .twelve {
+        height: calc(40rem*(1/2)*(2/3));
+        left: calc(55rem*(1/2)*(2/3));
+        top: calc(215rem*(1/2)*(2/3));
+    }
+    .thirteen {
+        height: calc(32rem*(1/2)*(2/3));
+        left: calc(40rem*(1/2)*(2/3));
+        top: calc(245rem*(1/2)*(2/3));
+    }
+    .fourteen {
+        height: calc(44rem*(1/2)*(2/3));
+        left: calc(8rem*(1/2)*(2/3));
+        top: calc(260rem*(1/2)*(2/3));
+        padding-bottom: calc(5rem*(1/2)*(2/3));
+        z-index: -1;
     }
 }
 
-/* Small devices (portrait tablets and large phones, 37.5rem and up) */
-@media only screen and (min-width: 37.5rem) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
     .one {
-        position: absolute;
-        height: 20rem;
-        width: auto;
-        left: 8rem;
-        top: 4rem;
+        height: calc(40rem*(1/2));
+        left: calc(16rem*(1/2));
+        top: calc(6rem*(1/2));
     }
     .two {
-        position: absolute;
-        height: 18rem;
-        width: auto;
-        left: 22rem;
-        top: 9rem;
+        height: calc(36rem*(1/2));
+        left: calc(44rem*(1/2));
+        top: calc(18rem*(1/2));
     }
     .three {
-        position: absolute;
-        height: 16rem;
-        width: auto;
-        left: 1rem;
-        top: 19rem;
+        height: calc(32rem*(1/2));
+        left: calc(3rem*(1/2));
+        top: calc(38rem*(1/2));
+    }
+    .four {
+        height: calc(40rem*(1/2));
+        left: calc(58rem*(1/2));
+        top: calc(62rem*(1/2));
+    }
+    .five {
+        height: calc(32rem*(1/2));
+        left: calc(38rem*(1/2));
+        top: calc(88rem*(1/2));
+    }
+    .six {
+        height: calc(36rem*(1/2));
+        left: calc(12rem*(1/2));
+        top: calc(80rem*(1/2));
+    }
+    .seven {
+        height: calc(40rem*(1/2));
+        left: calc(16rem*(1/2));
+        top: calc(118rem*(1/2));
+    }
+    .eight {
+        height: calc(48rem*(1/2));
+        left: calc(60rem*(1/2));
+        top: calc(145rem*(1/2));
+    }
+    .nine {
+        height: calc(32rem*(1/2));
+        left: calc(30rem*(1/2));
+        top: calc(170rem*(1/2));
+    }
+    .ten {
+        height: calc(32rem*(1/2));
+        left: calc(8rem*(1/2));
+        top: calc(180rem*(1/2));
+    }
+    .eleven {
+        height: calc(36rem*(1/2));
+        left: calc(15rem*(1/2));
+        top: calc(210rem*(1/2));
+    }
+    .twelve {
+        height: calc(40rem*(1/2));
+        left: calc(55rem*(1/2));
+        top: calc(215rem*(1/2));
+    }
+    .thirteen {
+        height: calc(32rem*(1/2));
+        left: calc(40rem*(1/2));
+        top: calc(245rem*(1/2));
+    }
+    .fourteen {
+        height: calc(44rem*(1/2));
+        left: calc(8rem*(1/2));
+        top: calc(260rem*(1/2));
+        padding-bottom: calc(5rem*(1/2));
+        z-index: -1;
     }
 }
 
-/* Medium devices (landscape tablets, 48rem and up) */
-@media only screen and (min-width: 48rem) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
     .one {
-        position: absolute;
-        height: 26rem;
-        width: auto;
-        left: 10rem;
-        top: 4rem;
+        height: calc(40rem*(2/3));
+        left: calc(16rem*(2/3));
+        top: calc(6rem*(2/3));
     }
     .two {
-        position: absolute;
-        height: 24rem;
-        width: auto;
-        left: 29rem;
-        top: 12rem;
+        height: calc(36rem*(2/3));
+        left: calc(44rem*(2/3));
+        top: calc(18rem*(2/3));
     }
     .three {
-        position: absolute;
-        height: 21rem;
-        width: auto;
-        left: 2rem;
-        top: 25rem;
+        height: calc(32rem*(2/3));
+        left: calc(3rem*(2/3));
+        top: calc(38rem*(2/3));
     }
-}
-
-/* Large devices (laptops/desktops, 62rem and up) */
-@media only screen and (min-width: 62rem) {
-    .one {
-        position: absolute;
-        height: 33rem;
-        width: auto;
-        left: 13rem;
-        top: 5rem;
-    }
-    .two {
-        position: absolute;
-        height: 30rem;
-        width: auto;
-        left: 36rem;
-        top: 15rem;
-    }
-    .three {
-        position: absolute;
-        height: 26rem;
-        width: auto;
-        left: 2rem;
-        top: 31rem;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 75rem and up) */
-@media only screen and (min-width: 75rem) {
-    .one {
-        position: absolute;
+    .four {
         height: 40rem;
-        width: auto;
+        left: 58rem;
+        top: 62rem;
+    }
+    .five {
+        height: 32rem;
+        left: 38rem;
+        top: 88rem;
+    }
+    .six {
+        height: 36rem;
+        left: 12rem;
+        top: 80rem;
+    }
+    .seven {
+        height: 40rem;
+        left: 16rem;
+        top: 118rem;
+    }
+    .eight {
+        height: 48rem;
+        left: 60rem;
+        top: 145rem;
+    }
+    .nine {
+        height: 32rem;
+        left: 30rem;
+        top: 170rem;
+    }
+    .ten {
+        height: 32rem;
+        left: 8rem;
+        top: 180rem;
+    }
+    .eleven {
+        height: 36rem;
+        left: 15rem;
+        top: 210rem;
+    }
+    .twelve {
+        height: 40rem;
+        left: 55rem;
+        top: 215rem;
+    }
+    .thirteen {
+        height: 32rem;
+        left: 40rem;
+        top: 245rem;
+    }
+    .fourteen {
+        height: 44rem;
+        left: 8rem;
+        top: 260rem;
+        padding-bottom: 5rem;
+        z-index: -1;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .one {
+        height: calc(40rem*(5/6));
+        left: calc(16rem*(5/6));
+        top: calc(6rem*(5/6));
+    }
+    .two {
+        height: calc(36rem*(5/6));
+        left: calc(44rem*(5/6));
+        top: calc(18rem*(5/6));
+    }
+    .three {
+        height: calc(32rem*(5/6));
+        left: calc(3rem*(5/6));
+        top: calc(38rem*(5/6));
+    }
+    .four {
+        height: 40rem;
+        left: 58rem;
+        top: 62rem;
+    }
+    .five {
+        height: 32rem;
+        left: 38rem;
+        top: 88rem;
+    }
+    .six {
+        height: 36rem;
+        left: 12rem;
+        top: 80rem;
+    }
+    .seven {
+        height: 40rem;
+        left: 16rem;
+        top: 118rem;
+    }
+    .eight {
+        height: 48rem;
+        left: 60rem;
+        top: 145rem;
+    }
+    .nine {
+        height: 32rem;
+        left: 30rem;
+        top: 170rem;
+    }
+    .ten {
+        height: 32rem;
+        left: 8rem;
+        top: 180rem;
+    }
+    .eleven {
+        height: 36rem;
+        left: 15rem;
+        top: 210rem;
+    }
+    .twelve {
+        height: 40rem;
+        left: 55rem;
+        top: 215rem;
+    }
+    .thirteen {
+        height: 32rem;
+        left: 40rem;
+        top: 245rem;
+    }
+    .fourteen {
+        height: 44rem;
+        left: 8rem;
+        top: 260rem;
+        padding-bottom: 5rem;
+        z-index: -1;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .one {
+        height: 40rem;
         left: 16rem;
         top: 6rem;
     }
     .two {
-        position: absolute;
         height: 36rem;
-        width: auto;
         left: 44rem;
         top: 18rem;
     }
     .three {
-        position: absolute;
         height: 32rem;
-        width: auto;
         left: 3rem;
         top: 38rem;
+    }
+    .four {
+        height: 40rem;
+        left: 58rem;
+        top: 62rem;
+    }
+    .five {
+        height: 32rem;
+        left: 38rem;
+        top: 88rem;
+    }
+    .six {
+        height: 36rem;
+        left: 12rem;
+        top: 80rem;
+    }
+    .seven {
+        height: 40rem;
+        left: 16rem;
+        top: 118rem;
+    }
+    .eight {
+        height: 48rem;
+        left: 60rem;
+        top: 145rem;
+    }
+    .nine {
+        height: 32rem;
+        left: 30rem;
+        top: 170rem;
+    }
+    .ten {
+        height: 32rem;
+        left: 8rem;
+        top: 180rem;
+    }
+    .eleven {
+        height: 36rem;
+        left: 15rem;
+        top: 210rem;
+    }
+    .twelve {
+        height: 40rem;
+        left: 55rem;
+        top: 215rem;
+    }
+    .thirteen {
+        height: 32rem;
+        left: 40rem;
+        top: 245rem;
+    }
+    .fourteen {
+        height: 44rem;
+        left: 8rem;
+        top: 260rem;
+        padding-bottom: 5rem;
+        z-index: -1;
     }
 }
