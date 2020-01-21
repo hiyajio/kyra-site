@@ -3,70 +3,70 @@
     width: auto;
 }
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phone-ns, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .one {
+    .one-js {
         height: calc(46rem*(1/2)*(5/8));
         left: calc(8rem*(1/2)*(5/8));
         top: calc(6rem*(1/2)*(5/8));
     }
-    .two {
+    .two-js {
         height: calc(36rem*(1/2)*(5/8));
         left: calc(38rem*(1/2)*(5/8));
         top: calc(24rem*(1/2)*(5/8));
     }
-    .three {
+    .three-js {
         height: calc(32rem*(1/2)*(5/8));
         left: calc(66rem*(1/2)*(5/8));
         top: calc(42rem*(1/2)*(5/8));
     }
-    .four {
+    .four-js {
         height: calc(40rem*(1/2)*(5/8));
         left: calc(46rem*(1/2)*(5/8));
         top: calc(66rem*(1/2)*(5/8));
     }
-    .five {
+    .five-js {
         height: calc(44rem*(1/2)*(5/8));
         left: calc(20rem*(1/2)*(5/8));
         top: calc(108rem*(1/2)*(5/8));
         padding-bottom: calc(5rem*(1/2)*(5/8));
     }
-    .six {
+    .six-js {
         height: calc(36rem*(1/2)*(5/8));
         left: calc(2rem*(1/2)*(5/8));
         top: calc(100rem*(1/2)*(5/8));
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phone-ns, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .one {
+    .one-js {
         height: calc(46rem*(1/2));
         left: calc(8rem*(1/2));
         top: calc(6rem*(1/2));
     }
-    .two {
+    .two-js {
         height: calc(36rem*(1/2));
         left: calc(38rem*(1/2));
         top: calc(24rem*(1/2));
     }
-    .three {
+    .three-js {
         height: calc(32rem*(1/2));
         left: calc(66rem*(1/2));
         top: calc(42rem*(1/2));
     }
-    .four {
+    .four-js {
         height: calc(40rem*(1/2));
         left: calc(46rem*(1/2));
         top: calc(66rem*(1/2));
     }
-    .five {
+    .five-js {
         height: calc(44rem*(1/2));
         left: calc(20rem*(1/2));
         top: calc(108rem*(1/2));
         padding-bottom: calc(5rem*(1/2));
     }
-    .six {
+    .six-js {
         height: calc(36rem*(1/2));
         left: calc(2rem*(1/2));
         top: calc(100rem*(1/2));
@@ -75,33 +75,33 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .one {
+    .one-js {
         height: calc(46rem*(2/3));
         left: calc(8rem*(2/3));
         top: calc(6rem*(2/3));
     }
-    .two {
+    .two-js {
         height: calc(36rem*(2/3));
         left: calc(38rem*(2/3));
         top: calc(24rem*(2/3));
     }
-    .three {
+    .three-js {
         height: calc(32rem*(2/3));
         left: calc(66rem*(2/3));
         top: calc(42rem*(2/3));
     }
-    .four {
+    .four-js {
         height: calc(40rem*(2/3));
         left: calc(46rem*(2/3));
         top: calc(66rem*(2/3));
     }
-    .five {
+    .five-js {
         height: calc(44rem*(2/3));
         left: calc(20rem*(2/3));
         top: calc(108rem*(2/3));
         padding-bottom: calc(5rem*(2/3));
     }
-    .six {
+    .six-js {
         height: calc(36rem*(2/3));
         left: calc(2rem*(2/3));
         top: calc(100rem*(2/3));
@@ -110,33 +110,33 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .one {
+    .one-js {
         height: calc(46rem*(5/6));
         left: calc(8rem*(5/6));
         top: calc(6rem*(5/6));
     }
-    .two {
+    .two-js {
         height: calc(36rem*(5/6));
         left: calc(38rem*(5/6));
         top: calc(24rem*(5/6));
     }
-    .three {
+    .three-js {
         height: calc(32rem*(5/6));
         left: calc(66rem*(5/6));
         top: calc(42rem*(5/6));
     }
-    .four {
+    .four-js {
         height: calc(40rem*(5/6));
         left: calc(46rem*(5/6));
         top: calc(66rem*(5/6));
     }
-    .five {
+    .five-js {
         height: calc(44rem*(5/6));
         left: calc(20rem*(5/6));
         top: calc(108rem*(5/6));
         padding-bottom: calc(5rem*(5/6));
     }
-    .six {
+    .six-js {
         height: calc(36rem*(5/6));
         left: calc(2rem*(5/6));
         top: calc(100rem*(5/6));
@@ -145,33 +145,33 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .one {
+    .one-js {
         height: 46rem;
         left: 8rem;
         top: 6rem;
     }
-    .two {
+    .two-js {
         height: 36rem;
         left: 38rem;
         top: 24rem;
     }
-    .three {
+    .three-js {
         height: 32rem;
         left: 66rem;
         top: 42rem;
     }
-    .four {
+    .four-js {
         height: 40rem;
         left: 46rem;
         top: 66rem;
     }
-    .five {
+    .five-js {
         height: 44rem;
         left: 20rem;
         top: 108rem;
         padding-bottom: 5rem;
     }
-    .six {
+    .six-js {
         height: 36rem;
         left: 2rem;
         top: 100rem;

@@ -4,6 +4,8 @@ import Layout from "../components/Layout/index.js"
 import HeaderFolio from "../components/HeaderFolio/index.js"
 import TopScroll from "../components/TopScroll/index.js"
 
+import "./spaceVegan.css"
+
 const SpaceVeganPage = props => {
   return (
     <Layout>
@@ -19,13 +21,7 @@ const SpaceVeganPage = props => {
           <img
             src={`../../images/collections/spaceVegan/kbSpaceVegan1.png`}
             alt="Space vegan 1"
-            style={{
-              position: "absolute",
-              height: "40rem",
-              width: "auto",
-              left: "56rem",
-              top: "6rem",
-            }}
+            className="one-sv abs w-auto"
           />
         </picture>
         <picture>

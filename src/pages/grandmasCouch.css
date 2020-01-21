@@ -3,74 +3,74 @@
     width: auto;
 }
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phone-gcs, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .one {
+    .one-gc {
         height: calc(40rem*(1/2)*(5/8));
         left: calc(16rem*(1/2)*(5/8));
         top: calc(6rem*(1/2)*(5/8));
     }
-    .two {
+    .two-gc {
         height: calc(36rem*(1/2)*(5/8));
         left: calc(44rem*(1/2)*(5/8));
         top: calc(18rem*(1/2)*(5/8));
     }
-    .three {
+    .three-gc {
         height: calc(32rem*(1/2)*(5/8));
         left: calc(3rem*(1/2)*(5/8));
         top: calc(38rem*(1/2)*(5/8));
     }
-    .four {
+    .four-gc {
         height: calc(40rem*(1/2)*(5/8));
         left: calc(58rem*(1/2)*(5/8));
         top: calc(62rem*(1/2)*(5/8));
     }
-    .five {
+    .five-gc {
         height: calc(32rem*(1/2)*(5/8));
         left: calc(38rem*(1/2)*(5/8));
         top: calc(88rem*(1/2)*(5/8));
     }
-    .six {
+    .six-gc {
         height: calc(36rem*(1/2)*(5/8));
         left: calc(12rem*(1/2)*(5/8));
         top: calc(80rem*(1/2)*(5/8));
     }
-    .seven {
+    .seven-gc {
         height: calc(40rem*(1/2)*(5/8));
         left: calc(16rem*(1/2)*(5/8));
         top: calc(118rem*(1/2)*(5/8));
     }
-    .eight {
+    .eight-gc {
         height: calc(48rem*(1/2)*(5/8));
         left: calc(60rem*(1/2)*(5/8));
         top: calc(145rem*(1/2)*(5/8));
     }
-    .nine {
+    .nine-gc {
         height: calc(32rem*(1/2)*(5/8));
         left: calc(30rem*(1/2)*(5/8));
         top: calc(170rem*(1/2)*(5/8));
     }
-    .ten {
+    .ten-gc {
         height: calc(32rem*(1/2)*(5/8));
         left: calc(8rem*(1/2)*(5/8));
         top: calc(180rem*(1/2)*(5/8));
     }
-    .eleven {
+    .eleven-gc {
         height: calc(36rem*(1/2)*(5/8));
         left: calc(15rem*(1/2)*(5/8));
         top: calc(210rem*(1/2)*(5/8));
     }
-    .twelve {
+    .twelve-gc {
         height: calc(40rem*(1/2)*(5/8));
         left: calc(55rem*(1/2)*(5/8));
         top: calc(215rem*(1/2)*(5/8));
     }
-    .thirteen {
+    .thirteen-gc {
         height: calc(32rem*(1/2)*(5/8));
         left: calc(40rem*(1/2)*(5/8));
         top: calc(245rem*(1/2)*(5/8));
     }
-    .fourteen {
+    .fourteen-gc {
         height: calc(44rem*(1/2)*(5/8));
         left: calc(8rem*(1/2)*(5/8));
         top: calc(260rem*(1/2)*(5/8));
@@ -79,74 +79,74 @@
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phone-gcs, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .one {
+    .one-gc {
         height: calc(40rem*(1/2));
         left: calc(16rem*(1/2));
         top: calc(6rem*(1/2));
     }
-    .two {
+    .two-gc {
         height: calc(36rem*(1/2));
         left: calc(44rem*(1/2));
         top: calc(18rem*(1/2));
     }
-    .three {
+    .three-gc {
         height: calc(32rem*(1/2));
         left: calc(3rem*(1/2));
         top: calc(38rem*(1/2));
     }
-    .four {
+    .four-gc {
         height: calc(40rem*(1/2));
         left: calc(58rem*(1/2));
         top: calc(62rem*(1/2));
     }
-    .five {
+    .five-gc {
         height: calc(32rem*(1/2));
         left: calc(38rem*(1/2));
         top: calc(88rem*(1/2));
     }
-    .six {
+    .six-gc {
         height: calc(36rem*(1/2));
         left: calc(12rem*(1/2));
         top: calc(80rem*(1/2));
     }
-    .seven {
+    .seven-gc {
         height: calc(40rem*(1/2));
         left: calc(16rem*(1/2));
         top: calc(118rem*(1/2));
     }
-    .eight {
+    .eight-gc {
         height: calc(48rem*(1/2));
         left: calc(60rem*(1/2));
         top: calc(145rem*(1/2));
     }
-    .nine {
+    .nine-gc {
         height: calc(32rem*(1/2));
         left: calc(30rem*(1/2));
         top: calc(170rem*(1/2));
     }
-    .ten {
+    .ten-gc {
         height: calc(32rem*(1/2));
         left: calc(8rem*(1/2));
         top: calc(180rem*(1/2));
     }
-    .eleven {
+    .eleven-gc {
         height: calc(36rem*(1/2));
         left: calc(15rem*(1/2));
         top: calc(210rem*(1/2));
     }
-    .twelve {
+    .twelve-gc {
         height: calc(40rem*(1/2));
         left: calc(55rem*(1/2));
         top: calc(215rem*(1/2));
     }
-    .thirteen {
+    .thirteen-gc {
         height: calc(32rem*(1/2));
         left: calc(40rem*(1/2));
         top: calc(245rem*(1/2));
     }
-    .fourteen {
+    .fourteen-gc {
         height: calc(44rem*(1/2));
         left: calc(8rem*(1/2));
         top: calc(260rem*(1/2));
@@ -157,72 +157,72 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .one {
+    .one-gc {
         height: calc(40rem*(2/3));
         left: calc(16rem*(2/3));
         top: calc(6rem*(2/3));
     }
-    .two {
+    .two-gc {
         height: calc(36rem*(2/3));
         left: calc(44rem*(2/3));
         top: calc(18rem*(2/3));
     }
-    .three {
+    .three-gc {
         height: calc(32rem*(2/3));
         left: calc(3rem*(2/3));
         top: calc(38rem*(2/3));
     }
-    .four {
+    .four-gc {
         height: calc(40rem*(2/3));
         left: calc(58rem*(2/3));
         top: calc(62rem*(2/3));
     }
-    .five {
+    .five-gc {
         height: calc(32rem*(2/3));
         left: calc(38rem*(2/3));
         top: calc(88rem*(2/3));
     }
-    .six {
+    .six-gc {
         height: calc(36rem*(2/3));
         left: calc(12rem*(2/3));
         top: calc(80rem*(2/3));
     }
-    .seven {
+    .seven-gc {
         height: calc(40rem*(2/3));
         left: calc(16rem*(2/3));
         top: calc(118rem*(2/3));
     }
-    .eight {
+    .eight-gc {
         height: calc(48rem*(2/3));
         left: calc(60rem*(2/3));
         top: calc(145rem*(2/3));
     }
-    .nine {
+    .nine-gc {
         height: calc(32rem*(2/3));
         left: calc(30rem*(2/3));
         top: calc(170rem*(2/3));
     }
-    .ten {
+    .ten-gc {
         height: calc(32rem*(2/3));
         left: calc(8rem*(2/3));
         top: calc(180rem*(2/3));
     }
-    .eleven {
+    .eleven-gc {
         height: calc(36rem*(2/3));
         left: calc(15rem*(2/3));
         top: calc(210rem*(2/3));
     }
-    .twelve {
+    .twelve-gc {
         height: calc(40rem*(2/3));
         left: calc(55rem*(2/3));
         top: calc(215rem*(2/3));
     }
-    .thirteen {
+    .thirteen-gc {
         height: calc(32rem*(2/3));
         left: calc(40rem*(2/3));
         top: calc(245rem*(2/3));
     }
-    .fourteen {
+    .fourteen-gc {
         height: calc(44rem*(2/3));
         left: calc(8rem*(2/3));
         top: calc(260rem*(2/3));
@@ -233,72 +233,72 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .one {
+    .one-gc {
         height: calc(40rem*(5/6));
         left: calc(16rem*(5/6));
         top: calc(6rem*(5/6));
     }
-    .two {
+    .two-gc {
         height: calc(36rem*(5/6));
         left: calc(44rem*(5/6));
         top: calc(18rem*(5/6));
     }
-    .three {
+    .three-gc {
         height: calc(32rem*(5/6));
         left: calc(3rem*(5/6));
         top: calc(38rem*(5/6));
     }
-    .four {
+    .four-gc {
         height: calc(40rem*(5/6));
         left: calc(58rem*(5/6));
         top: calc(62rem*(5/6));
     }
-    .five {
+    .five-gc {
         height: calc(32rem*(5/6));
         left: calc(38rem*(5/6));
         top: calc(88rem*(5/6));
     }
-    .six {
+    .six-gc {
         height: calc(36rem*(5/6));
         left: calc(12rem*(5/6));
         top: calc(80rem*(5/6));
     }
-    .seven {
+    .seven-gc {
         height: calc(40rem*(5/6));
         left: calc(16rem*(5/6));
         top: calc(118rem*(5/6));
     }
-    .eight {
+    .eight-gc {
         height: calc(48rem*(5/6));
         left: calc(60rem*(5/6));
         top: calc(145rem*(5/6));
     }
-    .nine {
+    .nine-gc {
         height: calc(32rem*(5/6));
         left: calc(30rem*(5/6));
         top: calc(170rem*(5/6));
     }
-    .ten {
+    .ten-gc {
         height: calc(32rem*(5/6));
         left: calc(8rem*(5/6));
         top: calc(180rem*(5/6));
     }
-    .eleven {
+    .eleven-gc {
         height: calc(36rem*(5/6));
         left: calc(15rem*(5/6));
         top: calc(210rem*(5/6));
     }
-    .twelve {
+    .twelve-gc {
         height: calc(40rem*(5/6));
         left: calc(55rem*(5/6));
         top: calc(215rem*(5/6));
     }
-    .thirteen {
+    .thirteen-gc {
         height: calc(32rem*(5/6));
         left: calc(40rem*(5/6));
         top: calc(245rem*(5/6));
     }
-    .fourteen {
+    .fourteen-gc {
         height: calc(44rem*(5/6));
         left: calc(8rem*(5/6));
         top: calc(260rem*(5/6));
@@ -309,72 +309,72 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .one {
+    .one-gc {
         height: 40rem;
         left: 16rem;
         top: 6rem;
     }
-    .two {
+    .two-gc {
         height: 36rem;
         left: 44rem;
         top: 18rem;
     }
-    .three {
+    .three-gc {
         height: 32rem;
         left: 3rem;
         top: 38rem;
     }
-    .four {
+    .four-gc {
         height: 40rem;
         left: 58rem;
         top: 62rem;
     }
-    .five {
+    .five-gc {
         height: 32rem;
         left: 38rem;
         top: 88rem;
     }
-    .six {
+    .six-gc {
         height: 36rem;
         left: 12rem;
         top: 80rem;
     }
-    .seven {
+    .seven-gc {
         height: 40rem;
         left: 16rem;
         top: 118rem;
     }
-    .eight {
+    .eight-gc {
         height: 48rem;
         left: 60rem;
         top: 145rem;
     }
-    .nine {
+    .nine-gc {
         height: 32rem;
         left: 30rem;
         top: 170rem;
     }
-    .ten {
+    .ten-gc {
         height: 32rem;
         left: 8rem;
         top: 180rem;
     }
-    .eleven {
+    .eleven-gc {
         height: 36rem;
         left: 15rem;
         top: 210rem;
     }
-    .twelve {
+    .twelve-gc {
         height: 40rem;
         left: 55rem;
         top: 215rem;
     }
-    .thirteen {
+    .thirteen-gc {
         height: 32rem;
         left: 40rem;
         top: 245rem;
     }
-    .fourteen {
+    .fourteen-gc {
         height: 44rem;
         left: 8rem;
         top: 260rem;

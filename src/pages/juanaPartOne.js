@@ -21,7 +21,7 @@ const JuanaPartOnePage = props => {
           <img
             src={`../../images/collections/juanaPartOne/kbJuana1.png`}
             alt="Juana part one 1"
-            className="one abs"
+            className="one-js abs"
           />
         </picture>
         <picture>
@@ -32,7 +32,7 @@ const JuanaPartOnePage = props => {
           <img
             src={`../../images/collections/juanaPartOne/kbJuana2.png`}
             alt="Juana part one 2"
-            className="two abs"
+            className="two-js abs"
           />
         </picture>
         <picture>
@@ -43,7 +43,7 @@ const JuanaPartOnePage = props => {
           <img
             src={`../../images/collections/juanaPartOne/kbJuana3.png`}
             alt="Juana part one 3"
-            className="three abs"
+            className="three-js abs"
           />
         </picture>
         <picture>
@@ -54,7 +54,7 @@ const JuanaPartOnePage = props => {
           <img
             src={`../../images/collections/juanaPartOne/kbJuana4.png`}
             alt="Juana part one 4"
-            className="four abs"
+            className="four-js abs"
           />
         </picture>
         <picture>
@@ -65,7 +65,7 @@ const JuanaPartOnePage = props => {
           <img
             src={`../../images/collections/juanaPartOne/kbJuana5.png`}
             alt="Juana part one 5"
-            className="five abs"
+            className="five-js abs"
           />
         </picture>
         <picture>
@@ -76,7 +76,7 @@ const JuanaPartOnePage = props => {
           <img
             src={`../../images/collections/juanaPartOne/kbJuana6.png`}
             alt="Juana part one 6"
-            className="six abs"
+            className="six-js abs"
           />
         </picture>
         <HeaderFolio bgColor="bg-transparent z-50" />

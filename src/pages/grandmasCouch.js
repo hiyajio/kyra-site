@@ -21,7 +21,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch1.png`}
             alt="Grandma's couch 1"
-            className="one abs"
+            className="one-gc abs"
           />
         </picture>
         <picture>
@@ -32,7 +32,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch2.png`}
             alt="Grandma's couch 2"
-            className="two abs"
+            className="two-gc abs"
           />
         </picture>
         <picture>
@@ -43,7 +43,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch3.png`}
             alt="Grandma's couch 3"
-            className="three abs"
+            className="three-gc abs"
           />
         </picture>
         <picture>
@@ -54,7 +54,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch4.png`}
             alt="Grandma's couch 4"
-            className="four abs"
+            className="four-gc abs"
           />
         </picture>
         <picture>
@@ -65,7 +65,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch5.png`}
             alt="Grandma's couch 5"
-            className="five abs"
+            className="five-gc abs"
           />
         </picture>
         <picture>
@@ -76,7 +76,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch6.png`}
             alt="Grandma's couch 6"
-            className="six abs"
+            className="six-gc abs"
           />
         </picture>
         <picture>
@@ -87,7 +87,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch7.png`}
             alt="Grandma's couch 7"
-            className="seven abs"
+            className="seven-gc abs"
           />
         </picture>
         <picture>
@@ -98,7 +98,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch8.png`}
             alt="Grandma's couch 8"
-            className="eight abs"
+            className="eight-gc abs"
           />
         </picture>
         <picture>
@@ -109,7 +109,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch9.png`}
             alt="Grandma's couch 9"
-            className="nine abs"
+            className="nine-gc abs"
           />
         </picture>
         <picture>
@@ -120,7 +120,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch10.png`}
             alt="Grandma's couch 10"
-            className="ten abs"
+            className="ten-gc abs"
           />
         </picture>
         <picture>
@@ -131,7 +131,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch11.png`}
             alt="Grandma's couch 11"
-            className="eleven abs"
+            className="eleven-gc abs"
           />
         </picture>
         <picture>
@@ -142,7 +142,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch12.png`}
             alt="Grandma's couch 12"
-            className="twelve abs"
+            className="twelve-gc abs"
           />
         </picture>
         <picture>
@@ -153,7 +153,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch13.png`}
             alt="Grandma's couch 13"
-            className="thirteen abs"
+            className="thirteen-gc abs"
           />
         </picture>
         <picture>
@@ -164,7 +164,7 @@ const GrandmasCouchPage = props => {
           <img
             src={`../../images/collections/grandmasCouch/kbGrandmasCouch14.png`}
             alt="Grandma's couch 14"
-            className="fourteen abs"
+            className="fourteen-gc abs"
           />
         </picture>
         <HeaderFolio bgColor="bg-transparent z-50" />
