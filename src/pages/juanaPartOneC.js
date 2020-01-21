@@ -21,13 +21,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart11.png`}
             alt="Juana part one curated 1"
-            style={{
-              position: "absolute",
-              height: "auto",
-              width: "40rem",
-              left: "48rem",
-              top: "6rem",
-            }}
+            className="one-jc"
           />
         </picture>
         <picture>
@@ -38,13 +32,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart12.png`}
             alt="Juana part one curated 2"
-            style={{
-              position: "absolute",
-              height: "36rem",
-              width: "auto",
-              left: "13rem",
-              top: "10rem",
-            }}
+            className="two-jc abs"
           />
         </picture>
         <picture>
@@ -55,13 +43,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart13.png`}
             alt="Juana part one curated 3"
-            style={{
-              position: "absolute",
-              height: "44rem",
-              width: "auto",
-              left: "25rem",
-              top: "43rem",
-            }}
+            className="three-jc abs"
           />
         </picture>
         <picture>
@@ -72,13 +54,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart14.png`}
             alt="Juana part one curated 4"
-            style={{
-              position: "absolute",
-              height: "auto",
-              width: "40rem",
-              left: "1rem",
-              top: "89rem",
-            }}
+            className="four-jc"
           />
         </picture>
         <picture>
@@ -89,13 +65,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart15.png`}
             alt="Juana part one curated 5"
-            style={{
-              position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "62rem",
-              top: "92rem",
-            }}
+            className="five-jc abs"
           />
         </picture>
         <picture>
@@ -106,13 +76,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart16.png`}
             alt="Juana part one curated 6"
-            style={{
-              position: "absolute",
-              height: "36rem",
-              width: "auto",
-              left: "36rem",
-              top: "112rem",
-            }}
+            className="six-jc abs"
           />
         </picture>
         <picture>
@@ -123,13 +87,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart17.png`}
             alt="Juana part one curated 7"
-            style={{
-              position: "absolute",
-              height: "auto",
-              width: "32rem",
-              left: "54rem",
-              top: "152rem",
-            }}
+            className="seven-jc"
           />
         </picture>
         <picture>
@@ -140,13 +98,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart18.png`}
             alt="Juana part one curated 8"
-            style={{
-              position: "absolute",
-              height: "36rem",
-              width: "auto",
-              left: "4rem",
-              top: "154rem",
-            }}
+            className="eight-jc abs"
           />
         </picture>
         <picture>
@@ -157,13 +109,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart19.png`}
             alt="Juana part one curated 9"
-            style={{
-              position: "absolute",
-              height: "40rem",
-              width: "auto",
-              left: "62rem",
-              top: "180rem",
-            }}
+            className="nine-jc abs"
           />
         </picture>
         <picture>
@@ -174,13 +120,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart110.png`}
             alt="Juana part one curated 10"
-            style={{
-              position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "20rem",
-              top: "186rem",
-            }}
+            className="ten-jc abs"
           />
         </picture>
         <picture>
@@ -191,13 +131,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart111.png`}
             alt="Juana part one curated 11"
-            style={{
-              position: "absolute",
-              height: "44rem",
-              width: "auto",
-              left: "32rem",
-              top: "216rem",
-            }}
+            className="eleven-jc abs"
           />
         </picture>
         <picture>
@@ -208,13 +142,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart112.png`}
             alt="Juana part one curated 12"
-            style={{
-              position: "absolute",
-              height: "40rem",
-              width: "auto",
-              left: "58rem",
-              top: "229rem",
-            }}
+            className="twelve-jc abs"
           />
         </picture>
         <picture>
@@ -225,13 +153,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart113.png`}
             alt="Juana part one curated 13"
-            style={{
-              position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "40rem",
-              top: "261rem",
-            }}
+            className="thirteen-jc abs"
           />
         </picture>
         <picture>
@@ -242,13 +164,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart114.png`}
             alt="Juana part one curated 14"
-            style={{
-              position: "absolute",
-              height: "36rem",
-              width: "auto",
-              left: "10rem",
-              top: "270rem",
-            }}
+            className="fourteen-jc abs"
           />
         </picture>
         <picture>
@@ -259,13 +175,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart115.png`}
             alt="Juana part one curated 15"
-            style={{
-              position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "68rem",
-              top: "290rem",
-            }}
+            className="fifteen-jc abs"
           />
         </picture>
         <picture>
@@ -276,13 +186,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart116.png`}
             alt="Juana part one curated 16"
-            style={{
-              position: "absolute",
-              height: "36rem",
-              width: "auto",
-              left: "16rem",
-              top: "309rem",
-            }}
+            className="sixteen-jc abs"
           />
         </picture>
         <picture>
@@ -293,13 +197,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart117.png`}
             alt="Juana part one curated 17"
-            style={{
-              position: "absolute",
-              height: "36rem",
-              width: "auto",
-              left: "50rem",
-              top: "325rem",
-            }}
+            className="seventeen-jc abs"
           />
         </picture>
         <picture>
@@ -310,13 +208,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart118.png`}
             alt="Juana part one curated 18"
-            style={{
-              position: "absolute",
-              height: "36rem",
-              width: "auto",
-              left: "30rem",
-              top: "347rem",
-            }}
+            className="eighteen-jc abs"
           />
         </picture>
         <picture>
@@ -327,13 +219,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart119.png`}
             alt="Juana part one curated 19"
-            style={{
-              position: "absolute",
-              height: "40rem",
-              width: "auto",
-              left: "5rem",
-              top: "376rem",
-            }}
+            className="nineteen-jc abs"
           />
         </picture>
         <picture>
@@ -344,13 +230,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart120.png`}
             alt="Juana part one curated 20"
-            style={{
-              position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "64rem",
-              top: "392rem",
-            }}
+            className="twenty-jc abs"
           />
         </picture>
         <picture>
@@ -361,13 +241,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart121.png`}
             alt="Juana part one curated 21"
-            style={{
-              position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "46rem",
-              top: "421rem",
-            }}
+            className="twentyone-jc abs"
           />
         </picture>
         <picture>
@@ -378,13 +252,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart122.png`}
             alt="Juana part one curated 22"
-            style={{
-              position: "absolute",
-              height: "44rem",
-              width: "auto",
-              left: "10rem",
-              top: "419rem",
-            }}
+            className="twentytwo-jc abs"
           />
         </picture>
         <picture>
@@ -395,13 +263,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart123.png`}
             alt="Juana part one curated 23"
-            style={{
-              position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "60rem",
-              top: "449rem",
-            }}
+            className="twentythree-jc abs"
           />
         </picture>
         <picture>
@@ -412,13 +274,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart124.png`}
             alt="Juana part one curated 24"
-            style={{
-              position: "absolute",
-              height: "40rem",
-              width: "auto",
-              left: "22rem",
-              top: "462rem",
-            }}
+            className="twentyfour-jc abs"
           />
         </picture>
         <picture>
@@ -429,13 +285,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart125.png`}
             alt="Juana part one curated 25"
-            style={{
-              position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "3rem",
-              top: "480rem",
-            }}
+            className="twentyfive-jc abs"
           />
         </picture>
         <picture>
@@ -446,13 +296,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart126.png`}
             alt="Juana part one curated 26"
-            style={{
-              position: "absolute",
-              height: "36rem",
-              width: "auto",
-              left: "29rem",
-              top: "504rem",
-            }}
+            className="twentysix-jc abs"
           />
         </picture>
         <picture>
@@ -463,13 +307,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart127.png`}
             alt="Juana part one curated 27"
-            style={{
-              position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "6rem",
-              top: "520rem",
-            }}
+            className="twentyseven-jc abs"
           />
         </picture>
         <picture>
@@ -480,13 +318,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart128.png`}
             alt="Juana part one curated 28"
-            style={{
-              position: "absolute",
-              height: "36rem",
-              width: "auto",
-              left: "19rem",
-              top: "550rem",
-            }}
+            className="twentyeight-jc abs"
           />
         </picture>
         <picture>
@@ -497,13 +329,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart129.png`}
             alt="Juana part one curated 29"
-            style={{
-              position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "64rem",
-              top: "608rem",
-            }}
+            className="twentynine-jc abs"
           />
         </picture>
         <picture>
@@ -514,13 +340,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart130.png`}
             alt="Juana part one curated 30"
-            style={{
-              position: "absolute",
-              height: "auto",
-              width: "36rem",
-              left: "51rem",
-              top: "553rem",
-            }}
+            className="thirty-jc"
           />
         </picture>
         <picture>
@@ -531,13 +351,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart131.png`}
             alt="Juana part one curated 31"
-            style={{
-              position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "44rem",
-              top: "581rem",
-            }}
+            className="thirtyone-jc abs"
           />
         </picture>
         <picture>
@@ -548,14 +362,7 @@ const JuanaPartOneCuratedPage = props => {
           <img
             src={`../../images/collections/juanaPartOneC/kbJuanaPart132.png`}
             alt="Juana part one curated 32"
-            style={{
-              position: "absolute",
-              height: "49rem",
-              width: "auto",
-              left: "8rem",
-              top: "600rem",
-              paddingBottom: "5rem",
-            }}
+            className="thirtytwo-jc abs"
           />
         </picture>
         <HeaderFolio bgColor="bg-transparent z-50" />
