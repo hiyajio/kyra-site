@@ -22,11 +22,11 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [x] Futher improve site through plugins (use gatsby-plugin-remove-trailing-slashes)
 - [x] Add site metadata (use react-helmet, gatsby-plugin-react-helmet)
 - [x] Add Google Analytics (use gatsby-plugin-google-analytics)
+- [x] Collections: Fix responsive design
 - [ ] Collections: Create image transitions on scroll (?)
 - [ ] Collections: Create parallax effect on scroll (?)
 - [ ] Collections: Make header reappear at end of scroll
 - [ ] Collections: Optimize and lazy load images (use gatsby-image, gatsby-background-image)
-- [ ] Collections: Fix responsive design
 - [ ] Add 404 error page
 - [ ] Separate 404 page into components
 - [ ] Separate html page into components
