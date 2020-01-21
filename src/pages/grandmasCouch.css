@@ -6,75 +6,75 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .one {
-        height: calc(40rem*(1/2)*(2/3));
-        left: calc(16rem*(1/2)*(2/3));
-        top: calc(6rem*(1/2)*(2/3));
+        height: calc(40rem*(1/2)*(5/8));
+        left: calc(16rem*(1/2)*(5/8));
+        top: calc(6rem*(1/2)*(5/8));
     }
     .two {
-        height: calc(36rem*(1/2)*(2/3));
-        left: calc(44rem*(1/2)*(2/3));
-        top: calc(18rem*(1/2)*(2/3));
+        height: calc(36rem*(1/2)*(5/8));
+        left: calc(44rem*(1/2)*(5/8));
+        top: calc(18rem*(1/2)*(5/8));
     }
     .three {
-        height: calc(32rem*(1/2)*(2/3));
-        left: calc(3rem*(1/2)*(2/3));
-        top: calc(38rem*(1/2)*(2/3));
+        height: calc(32rem*(1/2)*(5/8));
+        left: calc(3rem*(1/2)*(5/8));
+        top: calc(38rem*(1/2)*(5/8));
     }
     .four {
-        height: calc(40rem*(1/2)*(2/3));
-        left: calc(58rem*(1/2)*(2/3));
-        top: calc(62rem*(1/2)*(2/3));
+        height: calc(40rem*(1/2)*(5/8));
+        left: calc(58rem*(1/2)*(5/8));
+        top: calc(62rem*(1/2)*(5/8));
     }
     .five {
-        height: calc(32rem*(1/2)*(2/3));
-        left: calc(38rem*(1/2)*(2/3));
-        top: calc(88rem*(1/2)*(2/3));
+        height: calc(32rem*(1/2)*(5/8));
+        left: calc(38rem*(1/2)*(5/8));
+        top: calc(88rem*(1/2)*(5/8));
     }
     .six {
-        height: calc(36rem*(1/2)*(2/3));
-        left: calc(12rem*(1/2)*(2/3));
-        top: calc(80rem*(1/2)*(2/3));
+        height: calc(36rem*(1/2)*(5/8));
+        left: calc(12rem*(1/2)*(5/8));
+        top: calc(80rem*(1/2)*(5/8));
     }
     .seven {
-        height: calc(40rem*(1/2)*(2/3));
-        left: calc(16rem*(1/2)*(2/3));
-        top: calc(118rem*(1/2)*(2/3));
+        height: calc(40rem*(1/2)*(5/8));
+        left: calc(16rem*(1/2)*(5/8));
+        top: calc(118rem*(1/2)*(5/8));
     }
     .eight {
-        height: calc(48rem*(1/2)*(2/3));
-        left: calc(60rem*(1/2)*(2/3));
-        top: calc(145rem*(1/2)*(2/3));
+        height: calc(48rem*(1/2)*(5/8));
+        left: calc(60rem*(1/2)*(5/8));
+        top: calc(145rem*(1/2)*(5/8));
     }
     .nine {
-        height: calc(32rem*(1/2)*(2/3));
-        left: calc(30rem*(1/2)*(2/3));
-        top: calc(170rem*(1/2)*(2/3));
+        height: calc(32rem*(1/2)*(5/8));
+        left: calc(30rem*(1/2)*(5/8));
+        top: calc(170rem*(1/2)*(5/8));
     }
     .ten {
-        height: calc(32rem*(1/2)*(2/3));
-        left: calc(8rem*(1/2)*(2/3));
-        top: calc(180rem*(1/2)*(2/3));
+        height: calc(32rem*(1/2)*(5/8));
+        left: calc(8rem*(1/2)*(5/8));
+        top: calc(180rem*(1/2)*(5/8));
     }
     .eleven {
-        height: calc(36rem*(1/2)*(2/3));
-        left: calc(15rem*(1/2)*(2/3));
-        top: calc(210rem*(1/2)*(2/3));
+        height: calc(36rem*(1/2)*(5/8));
+        left: calc(15rem*(1/2)*(5/8));
+        top: calc(210rem*(1/2)*(5/8));
     }
     .twelve {
-        height: calc(40rem*(1/2)*(2/3));
-        left: calc(55rem*(1/2)*(2/3));
-        top: calc(215rem*(1/2)*(2/3));
+        height: calc(40rem*(1/2)*(5/8));
+        left: calc(55rem*(1/2)*(5/8));
+        top: calc(215rem*(1/2)*(5/8));
     }
     .thirteen {
-        height: calc(32rem*(1/2)*(2/3));
-        left: calc(40rem*(1/2)*(2/3));
-        top: calc(245rem*(1/2)*(2/3));
+        height: calc(32rem*(1/2)*(5/8));
+        left: calc(40rem*(1/2)*(5/8));
+        top: calc(245rem*(1/2)*(5/8));
     }
     .fourteen {
-        height: calc(44rem*(1/2)*(2/3));
-        left: calc(8rem*(1/2)*(2/3));
-        top: calc(260rem*(1/2)*(2/3));
-        padding-bottom: calc(5rem*(1/2)*(2/3));
+        height: calc(44rem*(1/2)*(5/8));
+        left: calc(8rem*(1/2)*(5/8));
+        top: calc(260rem*(1/2)*(5/8));
+        padding-bottom: calc(5rem*(1/2)*(5/8));
         z-index: -1;
     }
 }
@@ -173,60 +173,60 @@
         top: calc(38rem*(2/3));
     }
     .four {
-        height: 40rem;
-        left: 58rem;
-        top: 62rem;
+        height: calc(40rem*(2/3));
+        left: calc(58rem*(2/3));
+        top: calc(62rem*(2/3));
     }
     .five {
-        height: 32rem;
-        left: 38rem;
-        top: 88rem;
+        height: calc(32rem*(2/3));
+        left: calc(38rem*(2/3));
+        top: calc(88rem*(2/3));
     }
     .six {
-        height: 36rem;
-        left: 12rem;
-        top: 80rem;
+        height: calc(36rem*(2/3));
+        left: calc(12rem*(2/3));
+        top: calc(80rem*(2/3));
     }
     .seven {
-        height: 40rem;
-        left: 16rem;
-        top: 118rem;
+        height: calc(40rem*(2/3));
+        left: calc(16rem*(2/3));
+        top: calc(118rem*(2/3));
     }
     .eight {
-        height: 48rem;
-        left: 60rem;
-        top: 145rem;
+        height: calc(48rem*(2/3));
+        left: calc(60rem*(2/3));
+        top: calc(145rem*(2/3));
     }
     .nine {
-        height: 32rem;
-        left: 30rem;
-        top: 170rem;
+        height: calc(32rem*(2/3));
+        left: calc(30rem*(2/3));
+        top: calc(170rem*(2/3));
     }
     .ten {
-        height: 32rem;
-        left: 8rem;
-        top: 180rem;
+        height: calc(32rem*(2/3));
+        left: calc(8rem*(2/3));
+        top: calc(180rem*(2/3));
     }
     .eleven {
-        height: 36rem;
-        left: 15rem;
-        top: 210rem;
+        height: calc(36rem*(2/3));
+        left: calc(15rem*(2/3));
+        top: calc(210rem*(2/3));
     }
     .twelve {
-        height: 40rem;
-        left: 55rem;
-        top: 215rem;
+        height: calc(40rem*(2/3));
+        left: calc(55rem*(2/3));
+        top: calc(215rem*(2/3));
     }
     .thirteen {
-        height: 32rem;
-        left: 40rem;
-        top: 245rem;
+        height: calc(32rem*(2/3));
+        left: calc(40rem*(2/3));
+        top: calc(245rem*(2/3));
     }
     .fourteen {
-        height: 44rem;
-        left: 8rem;
-        top: 260rem;
-        padding-bottom: 5rem;
+        height: calc(44rem*(2/3));
+        left: calc(8rem*(2/3));
+        top: calc(260rem*(2/3));
+        padding-bottom: calc(5rem*(2/3));
         z-index: -1;
     }
 }
@@ -249,60 +249,60 @@
         top: calc(38rem*(5/6));
     }
     .four {
-        height: 40rem;
-        left: 58rem;
-        top: 62rem;
+        height: calc(40rem*(5/6));
+        left: calc(58rem*(5/6));
+        top: calc(62rem*(5/6));
     }
     .five {
-        height: 32rem;
-        left: 38rem;
-        top: 88rem;
+        height: calc(32rem*(5/6));
+        left: calc(38rem*(5/6));
+        top: calc(88rem*(5/6));
     }
     .six {
-        height: 36rem;
-        left: 12rem;
-        top: 80rem;
+        height: calc(36rem*(5/6));
+        left: calc(12rem*(5/6));
+        top: calc(80rem*(5/6));
     }
     .seven {
-        height: 40rem;
-        left: 16rem;
-        top: 118rem;
+        height: calc(40rem*(5/6));
+        left: calc(16rem*(5/6));
+        top: calc(118rem*(5/6));
     }
     .eight {
-        height: 48rem;
-        left: 60rem;
-        top: 145rem;
+        height: calc(48rem*(5/6));
+        left: calc(60rem*(5/6));
+        top: calc(145rem*(5/6));
     }
     .nine {
-        height: 32rem;
-        left: 30rem;
-        top: 170rem;
+        height: calc(32rem*(5/6));
+        left: calc(30rem*(5/6));
+        top: calc(170rem*(5/6));
     }
     .ten {
-        height: 32rem;
-        left: 8rem;
-        top: 180rem;
+        height: calc(32rem*(5/6));
+        left: calc(8rem*(5/6));
+        top: calc(180rem*(5/6));
     }
     .eleven {
-        height: 36rem;
-        left: 15rem;
-        top: 210rem;
+        height: calc(36rem*(5/6));
+        left: calc(15rem*(5/6));
+        top: calc(210rem*(5/6));
     }
     .twelve {
-        height: 40rem;
-        left: 55rem;
-        top: 215rem;
+        height: calc(40rem*(5/6));
+        left: calc(55rem*(5/6));
+        top: calc(215rem*(5/6));
     }
     .thirteen {
-        height: 32rem;
-        left: 40rem;
-        top: 245rem;
+        height: calc(32rem*(5/6));
+        left: calc(40rem*(5/6));
+        top: calc(245rem*(5/6));
     }
     .fourteen {
-        height: 44rem;
-        left: 8rem;
-        top: 260rem;
-        padding-bottom: 5rem;
+        height: calc(44rem*(5/6));
+        left: calc(8rem*(5/6));
+        top: calc(260rem*(5/6));
+        padding-bottom: calc(5rem*(5/6));
         z-index: -1;
     }
 }
