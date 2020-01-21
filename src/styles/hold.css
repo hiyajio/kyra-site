@@ -1,0 +1,539 @@
+.abs {
+    position: absolute;
+    width: auto;
+}
+
+/* Extra small devices (phone-ns, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .one-ho {
+        position: absolute;
+        width: calc(40rem*(1/2)*(5/8));
+        left: calc(6rem*(1/2)*(5/8));
+        top: calc(6rem*(1/2)*(5/8));
+    }
+    .two-ho {
+        height: calc(36rem*(1/2)*(5/8));
+        left: calc(64rem*(1/2)*(5/8));
+        top: calc(8rem*(1/2)*(5/8));
+    }
+    .three-ho {
+        height: calc(32rem*(1/2)*(5/8));
+        left: calc(2rem*(1/2)*(5/8));
+        top: calc(43rem*(1/2)*(5/8));
+    }
+    .four-ho {
+        height: calc(40rem*(1/2)*(5/8));
+        left: calc(60rem*(1/2)*(5/8));
+        top: calc(73rem*(1/2)*(5/8));
+    }
+    .five-ho {
+        height: calc(32rem*(1/2)*(5/8));
+        left: calc(41rem*(1/2)*(5/8));
+        top: calc(99rem*(1/2)*(5/8));
+    }
+    .six-ho {
+        height: calc(36rem*(1/2)*(5/8));
+        left: calc(12rem*(1/2)*(5/8));
+        top: calc(91rem*(1/2)*(5/8));
+    }
+    .seven-ho {
+        height: calc(40rem*(1/2)*(5/8));
+        left: calc(22rem*(1/2)*(5/8));
+        top: calc(129rem*(1/2)*(5/8));
+    }
+    .eight-ho {
+        height: calc(36rem*(1/2)*(5/8));
+        left: calc(2rem*(1/2)*(5/8));
+        top: calc(154rem*(1/2)*(5/8));
+    }
+    .nine-ho {
+        height: calc(32rem*(1/2)*(5/8));
+        left: calc(41rem*(1/2)*(5/8));
+        top: calc(174rem*(1/2)*(5/8));
+    }
+    .ten-ho {
+        height: calc(32rem*(1/2)*(5/8));
+        left: calc(8rem*(1/2)*(5/8));
+        top: calc(194rem*(1/2)*(5/8));
+    }
+    .eleven-ho {
+        height: calc(40rem*(1/2)*(5/8));
+        left: calc(15rem*(1/2)*(5/8));
+        top: calc(224rem*(1/2)*(5/8));
+    }
+    .twelve-ho {
+        height: calc(40rem*(1/2)*(5/8));
+        left: calc(59rem*(1/2)*(5/8));
+        top: calc(229rem*(1/2)*(5/8));
+    }
+    .thirteen-ho {
+        height: calc(32rem*(1/2)*(5/8));
+        left: calc(40rem*(1/2)*(5/8));
+        top: calc(259rem*(1/2)*(5/8));
+    }
+    .fourteen-ho {
+        height: calc(36rem*(1/2)*(5/8));
+        left: calc(10rem*(1/2)*(5/8));
+        top: calc(274rem*(1/2)*(5/8));
+    }
+    .fifteen-ho {
+        height: calc(32rem*(1/2)*(5/8));
+        left: calc(41rem*(1/2)*(5/8));
+        top: calc(290rem*(1/2)*(5/8));
+    }
+    .sixteen-ho {
+        height: calc(36rem*(1/2)*(5/8));
+        left: calc(4rem*(1/2)*(5/8));
+        top: calc(309rem*(1/2)*(5/8));
+    }
+    .seventeen-ho {
+        height: calc(36rem*(1/2)*(5/8));
+        left: calc(60rem*(1/2)*(5/8));
+        top: calc(335rem*(1/2)*(5/8));
+    }
+    .eighteen-ho {
+        height: calc(36rem*(1/2)*(5/8));
+        left: calc(20rem*(1/2)*(5/8));
+        top: calc(355rem*(1/2)*(5/8));
+    }
+    .nineteen-ho {
+        height: calc(36rem*(1/2)*(5/8));
+        left: calc(55rem*(1/2)*(5/8));
+        top: calc(370rem*(1/2)*(5/8));
+    }
+    .twenty-ho {
+        height: calc(36rem*(1/2)*(5/8));
+        left: calc(4rem*(1/2)*(5/8));
+        top: calc(387rem*(1/2)*(5/8));
+        padding-bottom: calc(5rem*(1/2)*(5/8));
+        z-index: -1;
+    }
+}
+
+/* Small devices (portrait tablets and large phone-ns, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .one-ho {
+        position: absolute;
+        width: calc(40rem*(1/2));
+        left: calc(6rem*(1/2));
+        top: calc(6rem*(1/2));
+    }
+    .two-ho {
+        height: calc(36rem*(1/2));
+        left: calc(64rem*(1/2));
+        top: calc(8rem*(1/2));
+    }
+    .three-ho {
+        height: calc(32rem*(1/2));
+        left: calc(2rem*(1/2));
+        top: calc(43rem*(1/2));
+    }
+    .four-ho {
+        height: calc(40rem*(1/2));
+        left: calc(60rem*(1/2));
+        top: calc(73rem*(1/2));
+    }
+    .five-ho {
+        height: calc(32rem*(1/2));
+        left: calc(41rem*(1/2));
+        top: calc(99rem*(1/2));
+    }
+    .six-ho {
+        height: calc(36rem*(1/2));
+        left: calc(12rem*(1/2));
+        top: calc(91rem*(1/2));
+    }
+    .seven-ho {
+        height: calc(40rem*(1/2));
+        left: calc(22rem*(1/2));
+        top: calc(129rem*(1/2));
+    }
+    .eight-ho {
+        height: calc(36rem*(1/2));
+        left: calc(2rem*(1/2));
+        top: calc(154rem*(1/2));
+    }
+    .nine-ho {
+        height: calc(32rem*(1/2));
+        left: calc(41rem*(1/2));
+        top: calc(174rem*(1/2));
+    }
+    .ten-ho {
+        height: calc(32rem*(1/2));
+        left: calc(8rem*(1/2));
+        top: calc(194rem*(1/2));
+    }
+    .eleven-ho {
+        height: calc(40rem*(1/2));
+        left: calc(15rem*(1/2));
+        top: calc(224rem*(1/2));
+    }
+    .twelve-ho {
+        height: calc(40rem*(1/2));
+        left: calc(59rem*(1/2));
+        top: calc(229rem*(1/2));
+    }
+    .thirteen-ho {
+        height: calc(32rem*(1/2));
+        left: calc(40rem*(1/2));
+        top: calc(259rem*(1/2));
+    }
+    .fourteen-ho {
+        height: calc(36rem*(1/2));
+        left: calc(10rem*(1/2));
+        top: calc(274rem*(1/2));
+    }
+    .fifteen-ho {
+        height: calc(32rem*(1/2));
+        left: calc(41rem*(1/2));
+        top: calc(290rem*(1/2));
+    }
+    .sixteen-ho {
+        height: calc(36rem*(1/2));
+        left: calc(4rem*(1/2));
+        top: calc(309rem*(1/2));
+    }
+    .seventeen-ho {
+        height: calc(36rem*(1/2));
+        left: calc(60rem*(1/2));
+        top: calc(335rem*(1/2));
+    }
+    .eighteen-ho {
+        height: calc(36rem*(1/2));
+        left: calc(20rem*(1/2));
+        top: calc(355rem*(1/2));
+    }
+    .nineteen-ho {
+        height: calc(36rem*(1/2));
+        left: calc(55rem*(1/2));
+        top: calc(370rem*(1/2));
+    }
+    .twenty-ho {
+        height: calc(36rem*(1/2));
+        left: calc(4rem*(1/2));
+        top: calc(387rem*(1/2));
+        padding-bottom: calc(5rem*(1/2));
+        z-index: -1;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .one-ho {
+        position: absolute;
+        width: calc(40rem*(2/3));
+        left: calc(6rem*(2/3));
+        top: calc(6rem*(2/3));
+    }
+    .two-ho {
+        height: calc(36rem*(2/3));
+        left: calc(64rem*(2/3));
+        top: calc(8rem*(2/3));
+    }
+    .three-ho {
+        height: calc(32rem*(2/3));
+        left: calc(2rem*(2/3));
+        top: calc(43rem*(2/3));
+    }
+    .four-ho {
+        height: calc(40rem*(2/3));
+        left: calc(60rem*(2/3));
+        top: calc(73rem*(2/3));
+    }
+    .five-ho {
+        height: calc(32rem*(2/3));
+        left: calc(41rem*(2/3));
+        top: calc(99rem*(2/3));
+    }
+    .six-ho {
+        height: calc(36rem*(2/3));
+        left: calc(12rem*(2/3));
+        top: calc(91rem*(2/3));
+    }
+    .seven-ho {
+        height: calc(40rem*(2/3));
+        left: calc(22rem*(2/3));
+        top: calc(129rem*(2/3));
+    }
+    .eight-ho {
+        height: calc(36rem*(2/3));
+        left: calc(2rem*(2/3));
+        top: calc(154rem*(2/3));
+    }
+    .nine-ho {
+        height: calc(32rem*(2/3));
+        left: calc(41rem*(2/3));
+        top: calc(174rem*(2/3));
+    }
+    .ten-ho {
+        height: calc(32rem*(2/3));
+        left: calc(8rem*(2/3));
+        top: calc(194rem*(2/3));
+    }
+    .eleven-ho {
+        height: calc(40rem*(2/3));
+        left: calc(15rem*(2/3));
+        top: calc(224rem*(2/3));
+    }
+    .twelve-ho {
+        height: calc(40rem*(2/3));
+        left: calc(59rem*(2/3));
+        top: calc(229rem*(2/3));
+    }
+    .thirteen-ho {
+        height: calc(32rem*(2/3));
+        left: calc(40rem*(2/3));
+        top: calc(259rem*(2/3));
+    }
+    .fourteen-ho {
+        height: calc(36rem*(2/3));
+        left: calc(10rem*(2/3));
+        top: calc(274rem*(2/3));
+    }
+    .fifteen-ho {
+        height: calc(32rem*(2/3));
+        left: calc(41rem*(2/3));
+        top: calc(290rem*(2/3));
+    }
+    .sixteen-ho {
+        height: calc(36rem*(2/3));
+        left: calc(4rem*(2/3));
+        top: calc(309rem*(2/3));
+    }
+    .seventeen-ho {
+        height: calc(36rem*(2/3));
+        left: calc(60rem*(2/3));
+        top: calc(335rem*(2/3));
+    }
+    .eighteen-ho {
+        height: calc(36rem*(2/3));
+        left: calc(20rem*(2/3));
+        top: calc(355rem*(2/3));
+    }
+    .nineteen-ho {
+        height: calc(36rem*(2/3));
+        left: calc(55rem*(2/3));
+        top: calc(370rem*(2/3));
+    }
+    .twenty-ho {
+        height: calc(36rem*(2/3));
+        left: calc(4rem*(2/3));
+        top: calc(387rem*(2/3));
+        padding-bottom: calc(5rem*(2/3));
+        z-index: -1;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .one-ho {
+        position: absolute;
+        width: calc(40rem*(5/6));
+        left: calc(6rem*(5/6));
+        top: calc(6rem*(5/6));
+    }
+    .two-ho {
+        height: calc(36rem*(5/6));
+        left: calc(64rem*(5/6));
+        top: calc(8rem*(5/6));
+    }
+    .three-ho {
+        height: calc(32rem*(5/6));
+        left: calc(2rem*(5/6));
+        top: calc(43rem*(5/6));
+    }
+    .four-ho {
+        height: calc(40rem*(5/6));
+        left: calc(60rem*(5/6));
+        top: calc(73rem*(5/6));
+    }
+    .five-ho {
+        height: calc(32rem*(5/6));
+        left: calc(41rem*(5/6));
+        top: calc(99rem*(5/6));
+    }
+    .six-ho {
+        height: calc(36rem*(5/6));
+        left: calc(12rem*(5/6));
+        top: calc(91rem*(5/6));
+    }
+    .seven-ho {
+        height: calc(40rem*(5/6));
+        left: calc(22rem*(5/6));
+        top: calc(129rem*(5/6));
+    }
+    .eight-ho {
+        height: calc(36rem*(5/6));
+        left: calc(2rem*(5/6));
+        top: calc(154rem*(5/6));
+    }
+    .nine-ho {
+        height: calc(32rem*(5/6));
+        left: calc(41rem*(5/6));
+        top: calc(174rem*(5/6));
+    }
+    .ten-ho {
+        height: calc(32rem*(5/6));
+        left: calc(8rem*(5/6));
+        top: calc(194rem*(5/6));
+    }
+    .eleven-ho {
+        height: calc(40rem*(5/6));
+        left: calc(15rem*(5/6));
+        top: calc(224rem*(5/6));
+    }
+    .twelve-ho {
+        height: calc(40rem*(5/6));
+        left: calc(59rem*(5/6));
+        top: calc(229rem*(5/6));
+    }
+    .thirteen-ho {
+        height: calc(32rem*(5/6));
+        left: calc(40rem*(5/6));
+        top: calc(259rem*(5/6));
+    }
+    .fourteen-ho {
+        height: calc(36rem*(5/6));
+        left: calc(10rem*(5/6));
+        top: calc(274rem*(5/6));
+    }
+    .fifteen-ho {
+        height: calc(32rem*(5/6));
+        left: calc(41rem*(5/6));
+        top: calc(290rem*(5/6));
+    }
+    .sixteen-ho {
+        height: calc(36rem*(5/6));
+        left: calc(4rem*(5/6));
+        top: calc(309rem*(5/6));
+    }
+    .seventeen-ho {
+        height: calc(36rem*(5/6));
+        left: calc(60rem*(5/6));
+        top: calc(335rem*(5/6));
+    }
+    .eighteen-ho {
+        height: calc(36rem*(5/6));
+        left: calc(20rem*(5/6));
+        top: calc(355rem*(5/6));
+    }
+    .nineteen-ho {
+        height: calc(36rem*(5/6));
+        left: calc(55rem*(5/6));
+        top: calc(370rem*(5/6));
+    }
+    .twenty-ho {
+        height: calc(36rem*(5/6));
+        left: calc(4rem*(5/6));
+        top: calc(387rem*(5/6));
+        padding-bottom: calc(5rem*(5/6));
+        z-index: -1;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .one-ho {
+        position: absolute;
+        width: 40rem;
+        left: 6rem;
+        top: 6rem;
+    }
+    .two-ho {
+        height: 36rem;
+        left: 64rem;
+        top: 8rem;
+    }
+    .three-ho {
+        height: 32rem;
+        left: 2rem;
+        top: 43rem;
+    }
+    .four-ho {
+        height: 40rem;
+        left: 60rem;
+        top: 73rem;
+    }
+    .five-ho {
+        height: 32rem;
+        left: 41rem;
+        top: 99rem;
+    }
+    .six-ho {
+        height: 36rem;
+        left: 12rem;
+        top: 91rem;
+    }
+    .seven-ho {
+        height: 40rem;
+        left: 22rem;
+        top: 129rem;
+    }
+    .eight-ho {
+        height: 36rem;
+        left: 2rem;
+        top: 154rem;
+    }
+    .nine-ho {
+        height: 32rem;
+        left: 41rem;
+        top: 174rem;
+    }
+    .ten-ho {
+        height: 32rem;
+        left: 8rem;
+        top: 194rem;
+    }
+    .eleven-ho {
+        height: 40rem;
+        left: 15rem;
+        top: 224rem;
+    }
+    .twelve-ho {
+        height: 40rem;
+        left: 59rem;
+        top: 229rem;
+    }
+    .thirteen-ho {
+        height: 32rem;
+        left: 40rem;
+        top: 259rem;
+    }
+    .fourteen-ho {
+        height: 36rem;
+        left: 10rem;
+        top: 274rem;
+    }
+    .fifteen-ho {
+        height: 32rem;
+        left: 41rem;
+        top: 290rem;
+    }
+    .sixteen-ho {
+        height: 36rem;
+        left: 4rem;
+        top: 309rem;
+    }
+    .seventeen-ho {
+        height: 36rem;
+        left: 60rem;
+        top: 335rem;
+    }
+    .eighteen-ho {
+        height: 36rem;
+        left: 20rem;
+        top: 355rem;
+    }
+    .nineteen-ho {
+        height: 36rem;
+        left: 55rem;
+        top: 370rem;
+    }
+    .twenty-ho {
+        height: 36rem;
+        left: 4rem;
+        top: 387rem;
+        padding-bottom: 5rem;
+        z-index: -1;
+    }
+}
