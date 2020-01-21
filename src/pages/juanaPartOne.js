@@ -4,6 +4,8 @@ import Layout from "../components/Layout/index.js"
 import HeaderFolio from "../components/HeaderFolio/index.js"
 import TopScroll from "../components/TopScroll/index.js"
 
+import "./juanaPartOne.css"
+
 const JuanaPartOnePage = props => {
   return (
     <Layout>
@@ -19,13 +21,7 @@ const JuanaPartOnePage = props => {
           <img
             src={`../../images/collections/juanaPartOne/kbJuana1.png`}
             alt="Juana part one 1"
-            style={{
-              position: "absolute",
-              height: "46rem",
-              width: "auto",
-              left: "8rem",
-              top: "6rem",
-            }}
+            className="one abs"
           />
         </picture>
         <picture>
@@ -36,13 +32,7 @@ const JuanaPartOnePage = props => {
           <img
             src={`../../images/collections/juanaPartOne/kbJuana2.png`}
             alt="Juana part one 2"
-            style={{
-              position: "absolute",
-              height: "36rem",
-              width: "auto",
-              left: "38rem",
-              top: "24rem",
-            }}
+            className="two abs"
           />
         </picture>
         <picture>
@@ -53,13 +43,7 @@ const JuanaPartOnePage = props => {
           <img
             src={`../../images/collections/juanaPartOne/kbJuana3.png`}
             alt="Juana part one 3"
-            style={{
-              position: "absolute",
-              height: "32rem",
-              width: "auto",
-              left: "66rem",
-              top: "42rem",
-            }}
+            className="three abs"
           />
         </picture>
         <picture>
@@ -70,13 +54,7 @@ const JuanaPartOnePage = props => {
           <img
             src={`../../images/collections/juanaPartOne/kbJuana4.png`}
             alt="Juana part one 4"
-            style={{
-              position: "absolute",
-              height: "40rem",
-              width: "auto",
-              left: "46rem",
-              top: "66rem",
-            }}
+            className="four abs"
           />
         </picture>
         <picture>
@@ -87,14 +65,7 @@ const JuanaPartOnePage = props => {
           <img
             src={`../../images/collections/juanaPartOne/kbJuana5.png`}
             alt="Juana part one 5"
-            style={{
-              position: "absolute",
-              height: "44rem",
-              width: "auto",
-              left: "20rem",
-              top: "108rem",
-              paddingBottom: "5rem",
-            }}
+            className="five abs"
           />
         </picture>
         <picture>
@@ -105,13 +76,7 @@ const JuanaPartOnePage = props => {
           <img
             src={`../../images/collections/juanaPartOne/kbJuana6.png`}
             alt="Juana part one 6"
-            style={{
-              position: "absolute",
-              height: "36rem",
-              width: "auto",
-              left: "2rem",
-              top: "100rem",
-            }}
+            className="six abs"
           />
         </picture>
         <HeaderFolio bgColor="bg-transparent z-50" />
