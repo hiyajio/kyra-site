@@ -4,6 +4,8 @@ import Layout from "../components/Layout/index.js"
 import HeaderFolio from "../components/HeaderFolio/index.js"
 import TopScroll from "../components/TopScroll/index.js"
 
+import "../styles/juanaPartOneC.css"
+
 const JuanaPartOneCuratedPage = props => {
   return (
     <Layout>

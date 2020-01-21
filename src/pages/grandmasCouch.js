@@ -4,7 +4,7 @@ import Layout from "../components/Layout/index.js"
 import HeaderFolio from "../components/HeaderFolio/index.js"
 import TopScroll from "../components/TopScroll/index.js"
 
-import "./grandmasCouch.css"
+import "../styles/grandmasCouch.css"
 
 const GrandmasCouchPage = props => {
   return (
