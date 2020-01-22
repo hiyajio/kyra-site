@@ -25,6 +25,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [x] Collections: Fix responsive design
 - [ ] Collections: Create image transitions on scroll (?)
 - [ ] Collections: Create parallax effect on scroll (?)
+- [ ] Collections: Make modal gallery with navigation
 - [ ] Collections: Make header reappear at end of scroll
 - [ ] Collections: Optimize and lazy load images (use gatsby-image, gatsby-background-image)
 - [ ] Add 404 error page
