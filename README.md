@@ -23,6 +23,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [x] Add site metadata (use react-helmet, gatsby-plugin-react-helmet)
 - [x] Add Google Analytics (use gatsby-plugin-google-analytics)
 - [x] Collections: Fix responsive design
+- [x] Optimize to be PWA (use gatsby-plugin-manifest, gatsby-plugin-offline, `<noscript>`)
 - [ ] Collections: Create image transitions on scroll (?)
 - [ ] Collections: Create parallax effect on scroll (?)
 - [ ] Collections: Make modal gallery with navigation
@@ -33,8 +34,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [ ] Separate 404 page into components
 - [ ] Separate html page into components
 - [ ] Change form to formik or react-hook-form
-- [ ] Optimize to be PWA (use gatsby-plugin-manifest, gatsby-plugin-offline, `<noscript>`)
 - [ ] Fix page-data.json log 404 error (use gatsby@page-data-404)
-- [ ] Further improve site using PWA audit as guide (use gatsby-plugin-google-tagmanager, SEO component)
+- [ ] Further improve site using PWA audit as guide (use SEO component)
 
 ---
