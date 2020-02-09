@@ -20,7 +20,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [x] Fix scroll-to-top functionality (gatsby-plugin-smoothscroll)
 - [x] Futher improve site through plugins (gatsby-plugin-remove-trailing-slashes)
 - [x] Add site metadata (react-helmet, gatsby-plugin-react-helmet)
-- [x] Integrate Google Analytics API (atsby-plugin-google-analytics)
+- [x] Integrate Google Analytics API (gatsby-plugin-google-analytics)
 - [x] Collections: Fix responsive design
 - [x] Optimize to be PWA (gatsby-plugin-manifest, gatsby-plugin-offline, `<noscript>`)
 - [x] Add 404 error page
