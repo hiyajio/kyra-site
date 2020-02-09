@@ -2,11 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/Layout/index.js"
-import Header from "../components/Header/index.js"
+import HeaderFolio from "../components/HeaderFolio/index.js"
 
 export default () => (
   <Layout>
-    <div className="flex-1 absolute md:static lg:static xl:static bg-white font-body h-screen w-screen md:w-2/5 lg:w-2/5 xl:w-2/5 overflow-hidden">
+    <div className="flex-1 static bg-white font-body h-screen w-2/5 overflow-hidden">
       <Link to="juanaPartOneC">
         <video
           autoplay="true"
@@ -28,15 +28,15 @@ export default () => (
         </video>
       </Link>
     </div>
-    <Header />
-    <div className="flex-1 absolute md:static lg:static xl:static bg-transparent md:bg-white lg:bg-white xl:bg-white font-body h-screen w-screen md:w-2/5 lg:w-2/5 xl:w-2/5 opacity-75 md:opacity-100 lg:opacity-100 xl:opacity-100 overflow-hidden">
+    <HeaderFolio />
+    <div className="flex-1 static bg-white font-body h-screen w-2/5 opacity-100 overflow-hidden">
       <Link to="juanaPartOneC">
         <video
           autoplay="true"
           loop="true"
           muted="true"
           playsinline="true"
-          className="h-full hover:opacity-50 md:hover:opacity-75 lg:hover:opacity-75 xl:hover:opacity-75"
+          className="h-full hover:opacity-75"
         >
           <source
             src={`../../videos/juanaSkirtRGB.webm`}

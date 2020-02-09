@@ -2,11 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/Layout/index.js"
-import Header from "../components/Header/index.js"
+import HeaderFolio from "../components/HeaderFolio/index.js"
 
 export default () => (
   <Layout>
-    <div className="flex-1 absolute md:static lg:static xl:static bg-white font-body h-screen w-screen md:w-2/5 lg:w-2/5 xl:w-2/5 overflow-hidden">
+    <div className="flex-1 static bg-white font-body h-screen w-2/5 overflow-hidden">
       <Link to="spaceVegan">
         <picture className="object-cover bg-auto min-w-full h-full">
           <source
@@ -21,9 +21,9 @@ export default () => (
         </picture>
       </Link>
     </div>
-    <Header />
-    <div className="flex-1 absolute md:static lg:static xl:static bg-transparent md:bg-white lg:bg-white xl:bg-white font-body h-screen w-screen md:w-2/5 lg:w-2/5 xl:w-2/5 overflow-hidden">
-      <div className="absolute bottom-0 mb-8 w-screen lg:w-2/5 xl:w-2/5">
+    <HeaderFolio />
+    <div className="flex-1 static bg-white font-body h-screen w-2/5 overflow-hidden">
+      <div className="absolute bottom-0 mb-8 w-2/5">
         <form
           action="https://formspree.io/xrgeoooy"
           method="POST"
