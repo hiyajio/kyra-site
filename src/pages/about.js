@@ -7,7 +7,7 @@ import Modal from "../components/Modal/index.js"
 const AboutPage = props => {
   return (
     <Layout>
-      <div className="flex z-10 static bg-transparent font-body h-screen w-2/5 overflow-hidden">
+      <div className="flex static bg-transparent font-body h-screen w-2/5 overflow-hidden">
         <div className="text-black justify-center content-center object-center m-auto text-xs lg:text-sm xl:text-sm mx-1 sm:mx-2 md:mx-6 lg:mx-12 lg:mb-12 xl:mx-12 xl:mb-12">
           <div className="opacity-100 bg-transparent">
             <p className="mb-4 opacity-100">
@@ -17,8 +17,6 @@ const AboutPage = props => {
               her fashion education in the US, she studied in both the
               Philippines and Australia on merit scholarships.
             </p>
-          </div>
-          <div className="opacity-100 bg-transparent">
             <p className="mb-4 opacity-100">
               As a design intern at Zac Posen she was able to assist and
               contribute to the creation of the{" "}
@@ -42,8 +40,6 @@ const AboutPage = props => {
               </a>
               .
             </p>
-          </div>
-          <div className="opacity-100 bg-transparent">
             <p className="mb-4 opacity-100">
               She recently won the YMA Fashion Scholarship Fund Case Study
               Competition of 2019 with her take on a{" "}
@@ -56,8 +52,6 @@ const AboutPage = props => {
               for the Heavenly Bodies Exhibit. She exhibited her work at the
               Metropolitan Museum of Art.
             </p>
-          </div>
-          <div className="opacity-100 bg-transparent">
             <p className="mb-4 opacity-100">
               She’s a womenswear designer who’s favorite undergraduate class was
               menswear tailoring. She believes that women’s figures can be
