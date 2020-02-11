@@ -8,7 +8,7 @@ const AboutPage = props => {
   return (
     <Layout>
       <div className="flex z-10 static bg-transparent font-body h-screen w-2/5 overflow-hidden">
-        <div className="text-black justify-center content-center object-center m-auto text-xs lg:text-sm xl:text-sm mx-6 lg:mx-12 lg:mb-12 xl:mx-12 xl:mb-12">
+        <div className="text-black justify-center content-center object-center m-auto text-xs lg:text-sm xl:text-sm mx-1 sm:mx-2 md:mx-6 lg:mx-12 lg:mb-12 xl:mx-12 xl:mb-12">
           <div className="opacity-100 bg-transparent">
             <p className="mb-4 opacity-100">
               Kyra Buenviaje is an undergraduate senior creating her thesis
