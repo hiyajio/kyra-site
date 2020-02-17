@@ -4,6 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../components/Layout/index.js"
 import HeaderFolio from "../components/HeaderFolio/index.js"
 
+import "../styles/index.css"
+
 export default () => (
   <Layout>
     <div className="flex-1 static bg-white font-body h-screen w-2/5 overflow-hidden">
@@ -29,7 +31,7 @@ export default () => (
       </Link>
     </div>
     <HeaderFolio />
-    <div className="flex-1 static bg-white font-body h-screen w-2/5 opacity-100 overflow-hidden">
+    {/*<div className="flex-1 static bg-white font-body h-screen w-2/5 opacity-100 overflow-hidden">
       <Link to="juanaPartOneC">
         <video
           autoplay="true"
@@ -49,6 +51,18 @@ export default () => (
             type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
           />
         </video>
+      </Link>
+</div>*/}
+    <div className="flex-1 relative bg-white font-body h-screen w-2/5 bottom-0 opacity-100 overflow-hidden">
+      <Link to="juanaPartOne">
+        <picture className="object-cover hover:opacity-75 bottom-0 ">
+          <source srcset={`../../images/juanaDressHP.webp`} type="image/webp" />
+          <img
+            src={`../../images/juanaDressHP.png`}
+            alt="Kyra headshot"
+            className="absolute bottom-0 right-1 object-cover hover:opacity-75 h-screen"
+          />
+        </picture>
       </Link>
     </div>
   </Layout>
