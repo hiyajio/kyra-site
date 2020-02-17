@@ -60,7 +60,7 @@ export default () => (
           <img
             src={`../../images/juanaDressHP.png`}
             alt="Kyra headshot"
-            className="absolute bottom-0 right-1 object-cover hover:opacity-75 h-screen"
+            className="absolute bottom-0 right-1 object-cover hover:opacity-75 homepage"
           />
         </picture>
       </Link>
