@@ -22,7 +22,7 @@ export default () => (
       </Link>
     </div>
     <HeaderFolio />
-    <div className="flex-1 static bg-white font-body h-screen w-2/5 overflow-hidden">
+    <div className="flex-1 static bg-white font-body h-screen w-2/5 overflow-hidden z-20">
       <div className="absolute bottom-0 mb-8 w-2/5">
         <form
           action="https://formspree.io/xrgeoooy"
