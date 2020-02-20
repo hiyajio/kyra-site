@@ -59,7 +59,7 @@ export default () => (
           <source srcset={`../../images/juanaDressHP.webp`} type="image/webp" />
           <img
             src={`../../images/juanaDressHP.png`}
-            alt="Kyra headshot"
+            alt="Juana homepage"
             className="absolute bottom-0 right-1 object-cover hover:opacity-75 homepage"
           />
         </picture>
