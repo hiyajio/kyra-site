@@ -2,7 +2,7 @@
 
 Progressive Web Application (PWA) developed in React through Gatsby using Tailwind (General Style), Formspree (Contact Form), and Google Analytics (Analytics). PWA is hosted on Netlify.
 
-![web-screenshot](https://user-images.githubusercontent.com/50670255/74896600-b4984580-5362-11ea-8fba-0f4ab4d34f54.png)
+![web-screenshot](https://user-images.githubusercontent.com/50670255/76829260-1c726c80-67f9-11ea-84b2-3b134ff8eb9d.png)
 
 ---
 
