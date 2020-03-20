@@ -7,7 +7,7 @@ import HeaderFolio from "../components/HeaderFolio/index.js"
 export default () => (
   <Layout>
     <div className="flex-1 static bg-white font-body h-screen w-2/5 overflow-hidden">
-      <Link to="spaceVegan">
+      <Link to="spaceVegan" aria-label="Space vegan">
         <picture className="object-cover bg-auto min-w-full h-full">
           <source
             srcset={`../../images/spaceVeganContactBW.webp`}
