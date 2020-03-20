@@ -40,7 +40,7 @@ const Layout = props => {
         />
         <link rel="canonical" href="https://kyrabuenviaje.com/" />
       </Helmet>
-      {props.children}
+      <main>{props.children}</main>
       <Footer />
     </div>
   )
