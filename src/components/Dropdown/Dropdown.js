@@ -7,28 +7,42 @@ const Dropdown = props => {
   return (
     <div className="dropdown relative">
       <ul>
-        <li className="hover:text-white hover:bg-silvered">/collections</li>
+        <ul>
+          <li className="hover:text-white hover:bg-silvered">/collections</li>
+        </ul>
         <div className="dropdown-content relative overflow-hidden h-0">
           <Link to="juanaPartOneC">
-            <li className="hover:text-white hover:bg-silvered">
-              juana part i - curated
-            </li>
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">
+                juana part i - curated
+              </li>
+            </ul>
           </Link>
           <Link to="juanaPartOne">
-            <li className="hover:text-white hover:bg-silvered">
-              juana part i - 100% recycled denim
-            </li>
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">
+                juana part i - 100% recycled denim
+              </li>
+            </ul>
           </Link>
           <Link to="hold">
-            <li className="hover:text-white hover:bg-silvered">hold</li>
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">hold</li>
+            </ul>
           </Link>
           <Link to="spaceVegan">
-            <li className="hover:text-white hover:bg-silvered">space vegan</li>
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">
+                space vegan
+              </li>
+            </ul>
           </Link>
           <Link to="grandmasCouch">
-            <li className="hover:text-white hover:bg-silvered">
-              grandma's couch
-            </li>
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">
+                grandma's couch
+              </li>
+            </ul>
           </Link>
         </div>
       </ul>

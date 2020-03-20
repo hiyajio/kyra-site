@@ -35,7 +35,9 @@ const HeaderFolio = props => {
         <div className={`fixed ${hiddenStyle}`}>
           <ul>
             <Link to="/" aria-label="Home">
-              <li className="hover:text-white hover:bg-silvered">/home</li>
+              <ul>
+                <li className="hover:text-white hover:bg-silvered">/home</li>
+              </ul>
             </Link>
             <Dropdown />
             <a
@@ -44,13 +46,19 @@ const HeaderFolio = props => {
               target="_BLANK"
               aria-label="Kyra resume"
             >
-              <li className="hover:text-white hover:bg-silvered">/resume</li>
+              <ul>
+                <li className="hover:text-white hover:bg-silvered">/resume</li>
+              </ul>
             </a>
             <Link to="about" aria-label="About">
-              <li className="hover:text-white hover:bg-silvered">/about</li>
+              <ul>
+                <li className="hover:text-white hover:bg-silvered">/about</li>
+              </ul>
             </Link>
             <Link to="contact" aria-label="Contact">
-              <li className="hover:text-white hover:bg-silvered">/contact</li>
+              <ul>
+                <li className="hover:text-white hover:bg-silvered">/contact</li>
+              </ul>
             </Link>
           </ul>
           <div className="block">
