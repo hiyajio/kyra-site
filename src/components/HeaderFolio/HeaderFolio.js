@@ -33,34 +33,32 @@ const HeaderFolio = props => {
       </picture>
       <div className="w-2/5 justify-center content-center object-center m-auto pb-32 pr-20 z-10">
         <div className={`fixed ${hiddenStyle}`}>
-          <ul>
-            <Link to="/" aria-label="Home">
-              <ul>
-                <li className="hover:text-white hover:bg-silvered">/home</li>
-              </ul>
-            </Link>
-            <Dropdown />
-            <a
-              href={`../../files/resumeBuenviaje.pdf`}
-              rel="noopener noreferrer"
-              target="_BLANK"
-              aria-label="Kyra resume"
-            >
-              <ul>
-                <li className="hover:text-white hover:bg-silvered">/resume</li>
-              </ul>
-            </a>
-            <Link to="about" aria-label="About">
-              <ul>
-                <li className="hover:text-white hover:bg-silvered">/about</li>
-              </ul>
-            </Link>
-            <Link to="contact" aria-label="Contact">
-              <ul>
-                <li className="hover:text-white hover:bg-silvered">/contact</li>
-              </ul>
-            </Link>
-          </ul>
+          <Link to="/" aria-label="Home">
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">/home</li>
+            </ul>
+          </Link>
+          <Dropdown />
+          <a
+            href={`../../files/resumeBuenviaje.pdf`}
+            rel="noopener noreferrer"
+            target="_BLANK"
+            aria-label="Kyra resume"
+          >
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">/resume</li>
+            </ul>
+          </a>
+          <Link to="about" aria-label="About">
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">/about</li>
+            </ul>
+          </Link>
+          <Link to="contact" aria-label="Contact">
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">/contact</li>
+            </ul>
+          </Link>
           <div className="block">
             <a
               href="https://instagram.com/kyrainstudio"
