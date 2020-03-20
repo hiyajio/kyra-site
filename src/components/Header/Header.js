@@ -30,7 +30,7 @@ const Header = props => {
       <div className="w-2/5 justify-center content-center object-center m-auto pb-32 pr-20">
         <div className={`fixed ${hiddenStyle}`}>
           <ul>
-            <Link to="/">
+            <Link to="/" aria-label="Home">
               <li className="hover:text-white hover:bg-silvered">/home</li>
             </Link>
             <Dropdown />
@@ -38,13 +38,14 @@ const Header = props => {
               href={`../../files/resumeBuenviaje.pdf`}
               rel="noopener noreferrer"
               target="_BLANK"
+              aria-label="Kyra resume"
             >
               <li className="hover:text-white hover:bg-silvered">/resume</li>
             </a>
-            <Link to="about">
+            <Link to="about" aria-label="About">
               <li className="hover:text-white hover:bg-silvered">/about</li>
             </Link>
-            <Link to="contact">
+            <Link to="contact" aria-label="Contact">
               <li className="hover:text-white hover:bg-silvered">/contact</li>
             </Link>
           </ul>
@@ -54,6 +55,7 @@ const Header = props => {
               rel="noopener noreferrer"
               target="_BLANK"
               className="hover:opacity-0"
+              aria-label="Kyra instagram"
             >
               <img
                 src={`../../images/logos/instagram.svg`}
@@ -67,6 +69,7 @@ const Header = props => {
               rel="noopener noreferrer"
               target="_BLANK"
               className="opacity-50 hover:opacity-0"
+              aria-label="Kyra linkedin"
             >
               <img
                 src={`../../images/logos/linkedin.svg`}
@@ -75,7 +78,11 @@ const Header = props => {
                 className="inline-block h-4 mr-2"
               />
             </a>
-            <Link to="contact" className="opacity-50 hover:opacity-0">
+            <Link
+              to="contact"
+              className="opacity-50 hover:opacity-0"
+              aria-label="Kyra email"
+            >
               <img
                 src={`../../images/logos/email.svg`}
                 alt={"Kyra on Gmail"}
