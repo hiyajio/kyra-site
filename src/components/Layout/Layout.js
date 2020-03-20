@@ -24,15 +24,15 @@ const Layout = props => {
         <meta property="twitter:title" content="Kyra Buenviaje" />
         <meta
           name="description"
-          content="Portfolio website of Kyra Gabrielle Buenviaje: Clothing Enthusiast, Fashion Designer, Artist, Creative and proud Filipino!"
+          content="Portfolio website of Kyra Gabrielle Buenviaje: Clothing Enthusiast, Fashion Designer, Artist, Creative and proud Filipino."
         />
         <meta
           property="og:description"
-          content="Portfolio website of Kyra Gabrielle Buenviaje: Clothing Enthusiast, Fashion Designer, Artist, Creative and proud Filipino!"
+          content="Portfolio website of Kyra Gabrielle Buenviaje: Clothing Enthusiast, Fashion Designer, Artist, Creative and proud Filipino."
         />
         <meta
           property="twitter:description"
-          content="Portfolio website of Kyra Gabrielle Buenviaje: Clothing Enthusiast, Fashion Designer, Artist, Creative and proud Filipino!"
+          content="Portfolio website of Kyra Gabrielle Buenviaje: Clothing Enthusiast, Fashion Designer, Artist, Creative and proud Filipino."
         />
         <meta
           name="keywords"
