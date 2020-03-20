@@ -25,6 +25,7 @@ const AboutPage = props => {
                 rel="noopener noreferrer"
                 target="_BLANK"
                 className="text-golden hover:text-white"
+                aria-label="Vogue link"
               >
                 Spring/Summer 2020 collection
               </a>{" "}
@@ -35,6 +36,7 @@ const AboutPage = props => {
                 rel="noopener noreferrer"
                 target="_BLANK"
                 className="text-golden hover:text-white"
+                aria-label="Lui Hon link"
               >
                 Lui Hon
               </a>
@@ -43,7 +45,11 @@ const AboutPage = props => {
             <p className="mb-4 opacity-100">
               She recently won the YMA Fashion Scholarship Fund Case Study
               Competition of 2019 with her take on a{" "}
-              <a href="#powersuits" className="text-golden hover:text-white">
+              <a
+                href="#powersuits"
+                className="text-golden hover:text-white"
+                aria-label="YMA power suits"
+              >
                 collection of power suits
               </a>{" "}
               collection of power suits for women done through a collaboration

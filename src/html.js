@@ -18,7 +18,9 @@ export default function HTML(props) {
         <noscript>
           This website requires JavaScript. If you need to contact me, please
           send me an email at:{" "}
-          <a href="mailto:kyrabuenviaje@gmail.com">kyrabuenviaje@gmail.com</a>
+          <a href="mailto:kyrabuenviaje@gmail.com" aria-label="Kyra email">
+            kyrabuenviaje@gmail.com
+          </a>
         </noscript>
         <div
           key={`body`}
