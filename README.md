@@ -24,17 +24,16 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [x] Collections: Fix responsive design
 - [x] Optimize to be PWA (gatsby-plugin-manifest, gatsby-plugin-offline, `<noscript>`)
 - [x] Add 404 error page
+- [ ] Fix 404 error page
+- [ ] Optimize and lazy load images (gatsby-image, gatsby-background-image)
 - [ ] Collections: Create image transitions on scroll (?)
 - [ ] Collections: Create parallax effect on scroll (?)
 - [ ] Collections: Make modal gallery with navigation
 - [ ] Collections: Make header reappear at end of scroll
 - [ ] Add p5.js for animations
 - [ ] Integrate Contentful API for more client control
-- [ ] Optimize and lazy load images (gatsby-image, gatsby-background-image)
 - [ ] Separate 404 page into components
 - [ ] Separate html page into components
 - [ ] Change form to formik or react-hook-form
-- [ ] Fix page-data.json log 404 error (gatsby@page-data-404)
-- [ ] Further improve site using PWA audit as guide (SEO component)
 
 ---
