@@ -23,6 +23,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [x] Integrate Google Analytics API (gatsby-plugin-google-analytics)
 - [x] Collections: Fix responsive design
 - [x] Optimize to be PWA (gatsby-plugin-manifest, gatsby-plugin-offline, `<noscript>`)
+- [x] Optimize site performance through PWA lighthouse audit
 - [x] Add 404 error page
 - [ ] Fix 404 error page
 - [ ] Optimize and lazy load images (gatsby-image, gatsby-background-image)
