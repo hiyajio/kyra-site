@@ -35,5 +35,6 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [ ] Separate 404 page into components
 - [ ] Separate html page into components
 - [ ] Change form to formik or react-hook-form
+- [ ] Delete unused dependencies (depcheck/npm-check-unused)
 
 ---
