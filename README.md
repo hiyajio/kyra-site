@@ -25,6 +25,8 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [x] Optimize to be PWA (gatsby-plugin-manifest, gatsby-plugin-offline, `<noscript>`)
 - [x] Optimize site performance through PWA lighthouse audit
 - [x] Add 404 error page
+- [ ] Fix metadata image
+- [ ] Fix favicon sizes
 - [ ] Fix 404 error page
 - [ ] Optimize and lazy load images (gatsby-image, gatsby-background-image)
 - [ ] Collections: Create image transitions on scroll (?)
