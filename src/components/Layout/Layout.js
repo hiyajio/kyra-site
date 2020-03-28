@@ -49,6 +49,11 @@ const Layout = props => {
           name="keywords"
           content="kyra,gabrielle,kyragabrielle,kyragabriellebuenviaje,risd,rhodeislandschoolofdesign,risdapparel,risdappareldesign,rhodeisland,ri,providence,design,designstudent,fashionstudent,fashion,fashiongraduate,fashiondesign,fashiondesigner,appareldesign,appareldesigner,womenswear,womensweardesigner,menswear,mensweardesigner,contemporary,contemporaryclothes,classic,classicclothes,assistant,assistantdesigner,associatedesigner,productdeveloper,productdevelopment,woven,wovendesigner,zacposen,zacposeninternship,zacposencollection,zacposenss2020,zacposenwinnieharlow,stevensebring,zacposen360,newyorkcity,ny,newyork,manhattan,newyorkcitydesigner,nycdesigner,nycfashion,newyorkfashion,designerclothes,rtwdesigner,rtw,womensrtw,philippines,philippinefashiondesigner,philippinefashion,filipinodesigner,filipinodesign,rmit,melbournefashion,rmitfashion,luihonintern,upandcoming,metdesigncompetition,heavenlybodies,heavenlybodiesdesign,metexhibit,ymafsf,fashionscholarshipfund,fashionscholarshipfundwinner,metromagazine,metromagazinefeature"
         />
+        <meta
+          property="twitter:image"
+          content="https://user-images.githubusercontent.com/50670255/76829260-1c726c80-67f9-11ea-84b2-3b134ff8eb9d.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://kyrabuenviaje.com/" />
       </Helmet>
       {props.children}
