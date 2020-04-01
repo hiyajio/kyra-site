@@ -1,6 +1,6 @@
 # Kyra Website :kimono:
 
-Progressive Web Application (PWA) developed in React through Gatsby using Tailwind (General Style), Formspree (Contact Form), and Google Analytics (Analytics). PWA is hosted on Netlify.
+Progressive Web Application (PWA) developed in React through Gatsby using styled-components and Tailwind (General Style), Formspree (Contact Form), and Google Analytics (Analytics). PWA is hosted on Netlify.
 
 ![web-screenshot](https://user-images.githubusercontent.com/50670255/76829260-1c726c80-67f9-11ea-84b2-3b134ff8eb9d.png)
 
@@ -26,6 +26,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Tailwi
 - [x] Optimize site performance through PWA lighthouse audit
 - [x] Add 404 error page
 - [x] Fix metadata image
+- [x] Integrate styled-components
 - [ ] Fix favicon sizes
 - [ ] Fix 404 error page
 - [ ] Optimize and lazy load images (gatsby-image, gatsby-background-image)
