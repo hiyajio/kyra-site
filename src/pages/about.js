@@ -1,8 +1,8 @@
 import React from "react"
 
-import Layout from "../components/Layout/index.js"
-import HeaderFolio from "../components/HeaderFolio/index.js"
-import Modal from "../components/Modal/index.js"
+import Layout from "../components/Layout"
+import HeaderFolio from "../components/HeaderFolio"
+import Modal from "../components/Modal"
 
 const AboutPage = props => {
   return (

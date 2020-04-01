@@ -1,8 +1,8 @@
 import React from "react"
 
-import Layout from "../components/Layout/index.js"
-import HeaderFolio from "../components/HeaderFolio/index.js"
-import TopScroll from "../components/TopScroll/index.js"
+import Layout from "../components/Layout"
+import HeaderFolio from "../components/HeaderFolio"
+import TopScroll from "../components/TopScroll"
 
 import "../styles/juanaPartOneC.css"
 

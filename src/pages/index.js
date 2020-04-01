@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/Layout/index.js"
-import HeaderFolio from "../components/HeaderFolio/index.js"
+import Layout from "../components/Layout"
+import HeaderFolio from "../components/HeaderFolio"
 
 import "../styles/index.css"
 

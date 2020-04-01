@@ -1,7 +1,0 @@
-.dropdown-content {
-    transition: all 0.5s ease-in;
-}
-
-.dropdown:hover .dropdown-content {
-    height: 7.5rem;
-}

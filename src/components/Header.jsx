@@ -2,8 +2,7 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 
 import useDocumentScrollThrottled from "./useDocumentScrollThrottled"
-
-import Dropdown from "../Dropdown/index.js"
+import Dropdown from "./Dropdown"
 
 const Header = props => {
   const [shouldHideHeader, setShouldHideHeader] = useState(false)

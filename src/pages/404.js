@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/Layout/index.js"
-import Header from "../components/Header/index.js"
+import Layout from "../components/Layout"
+import Header from "../components/Header"
 
 const ErrorPage = props => {
   return (
