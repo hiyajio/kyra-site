@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "acorn": "^7.1.1",
+    "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.18.17",
     "gatsby-cli": "^2.8.22",
     "gatsby-image": "^2.2.37",
@@ -30,11 +31,13 @@
     "gatsby-plugin-sharp": "^2.3.10",
     "gatsby-plugin-sitemap": "^2.2.24",
     "gatsby-plugin-smoothscroll": "^1.0.4",
+    "gatsby-plugin-styled-components": "^3.2.1",
     "gatsby-source-filesystem": "^2.1.43",
     "gatsby-transformer-sharp": "^2.3.9",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
+    "styled-components": "^5.0.1",
     "tailwindcss": "^1.1.4"
   },
   "devDependencies": {
