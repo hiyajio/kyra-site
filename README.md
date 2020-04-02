@@ -29,6 +29,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using styled
 - [x] Integrate styled-components
 - [ ] Fix favicon sizes
 - [ ] Fix 404 error page
+- [ ] Convert JavaScript to TypeScript
 - [ ] Optimize and lazy load images (gatsby-image, gatsby-background-image)
 - [ ] Collections: Create image transitions on scroll (?)
 - [ ] Collections: Create parallax effect on scroll (?)
