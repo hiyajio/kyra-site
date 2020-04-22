@@ -16,25 +16,24 @@
         top: calc(24rem*(1/2)*(5/8));
     }
     .three-js {
-        height: calc(32rem*(1/2)*(5/8));
+        height: calc(50rem*(1/2)*(5/8));
         left: calc(66rem*(1/2)*(5/8));
         top: calc(42rem*(1/2)*(5/8));
     }
     .four-js {
         height: calc(40rem*(1/2)*(5/8));
-        left: calc(46rem*(1/2)*(5/8));
+        left: calc(33rem*(1/2)*(5/8));
         top: calc(66rem*(1/2)*(5/8));
     }
     .five-js {
         height: calc(44rem*(1/2)*(5/8));
-        left: calc(20rem*(1/2)*(5/8));
-        top: calc(108rem*(1/2)*(5/8));
-        padding-bottom: calc(5rem*(1/2)*(5/8));
+        left: calc(10rem*(1/2)*(5/8));
+        top: calc(90rem*(1/2)*(5/8));
     }
     .six-js {
-        height: calc(36rem*(1/2)*(5/8));
-        left: calc(2rem*(1/2)*(5/8));
-        top: calc(100rem*(1/2)*(5/8));
+        height: calc(48rem*(1/2)*(5/8));
+        left: calc(80rem*(1/2)*(5/8));
+        top: calc(120rem*(1/2)*(5/8));
     }
 }
 
@@ -51,25 +50,24 @@
         top: calc(24rem*(1/2));
     }
     .three-js {
-        height: calc(32rem*(1/2));
+        height: calc(50rem*(1/2));
         left: calc(66rem*(1/2));
         top: calc(42rem*(1/2));
     }
     .four-js {
         height: calc(40rem*(1/2));
-        left: calc(46rem*(1/2));
+        left: calc(33rem*(1/2));
         top: calc(66rem*(1/2));
     }
     .five-js {
         height: calc(44rem*(1/2));
-        left: calc(20rem*(1/2));
-        top: calc(108rem*(1/2));
-        padding-bottom: calc(5rem*(1/2));
+        left: calc(10rem*(1/2));
+        top: calc(90rem*(1/2));
     }
     .six-js {
-        height: calc(36rem*(1/2));
-        left: calc(2rem*(1/2));
-        top: calc(100rem*(1/2));
+        height: calc(48rem*(1/2));
+        left: calc(80rem*(1/2));
+        top: calc(120rem*(1/2));
     }
 }
 
@@ -86,25 +84,24 @@
         top: calc(24rem*(2/3));
     }
     .three-js {
-        height: calc(32rem*(2/3));
+        height: calc(50rem*(2/3));
         left: calc(66rem*(2/3));
         top: calc(42rem*(2/3));
     }
     .four-js {
         height: calc(40rem*(2/3));
-        left: calc(46rem*(2/3));
+        left: calc(33rem*(2/3));
         top: calc(66rem*(2/3));
     }
     .five-js {
         height: calc(44rem*(2/3));
-        left: calc(20rem*(2/3));
-        top: calc(108rem*(2/3));
-        padding-bottom: calc(5rem*(2/3));
+        left: calc(10rem*(2/3));
+        top: calc(90rem*(2/3));
     }
     .six-js {
-        height: calc(36rem*(2/3));
-        left: calc(2rem*(2/3));
-        top: calc(100rem*(2/3));
+        height: calc(48rem*(2/3));
+        left: calc(80rem*(2/3));
+        top: calc(120rem*(2/3));
     }
 }
 
@@ -121,25 +118,24 @@
         top: calc(24rem*(5/6));
     }
     .three-js {
-        height: calc(32rem*(5/6));
+        height: calc(50rem*(5/6));
         left: calc(66rem*(5/6));
         top: calc(42rem*(5/6));
     }
     .four-js {
         height: calc(40rem*(5/6));
-        left: calc(46rem*(5/6));
+        left: calc(33rem*(5/6));
         top: calc(66rem*(5/6));
     }
     .five-js {
         height: calc(44rem*(5/6));
-        left: calc(20rem*(5/6));
-        top: calc(108rem*(5/6));
-        padding-bottom: calc(5rem*(5/6));
+        left: calc(10rem*(5/6));
+        top: calc(90rem*(5/6));
     }
     .six-js {
-        height: calc(36rem*(5/6));
-        left: calc(2rem*(5/6));
-        top: calc(100rem*(5/6));
+        height: calc(48rem*(5/6));
+        left: calc(80rem*(5/6));
+        top: calc(120rem*(5/6));
     }
 }
 
@@ -156,24 +152,71 @@
         top: 24rem;
     }
     .three-js {
-        height: 32rem;
+        height: 50rem;
         left: 66rem;
         top: 42rem;
     }
     .four-js {
         height: 40rem;
-        left: 46rem;
+        left: 33rem;
         top: 66rem;
     }
     .five-js {
         height: 44rem;
-        left: 20rem;
-        top: 108rem;
-        padding-bottom: 5rem;
+        left: 10rem;
+        top: 90rem;
     }
     .six-js {
+        height: 48rem;
+        left: 80rem;
+        top: 120rem;
+    }
+    .seven-js {
+        height: 44rem;
+        left: 46rem;
+        top: 128rem;
+    }
+    .eight-js {
         height: 36rem;
+        left: 28rem;
+        top: 150rem;
+    }
+    .nine-js {
+        height: 40rem;
         left: 2rem;
-        top: 100rem;
+        top: 141rem;
+    }
+    .ten-js {
+        height: 56rem;
+        left: 5rem;
+        top: 190rem;
+    }
+    .eleven-js {
+        height: 60rem;
+        left: 67rem;
+        top: 198rem;
+    }
+    .twelve-js {
+        height: 36rem;
+        left: 8rem;
+        top: 255rem;
+    }
+    .thirteen-js {
+        height: 46rem;
+        left: 26rem;
+        top: 274rem;
+    }
+    .fourteen-js {
+        height: 48rem;
+        left: 59rem;
+        top: 282rem;
+    }
+    .fifteen-js {
+        height: 44rem;
+        left: 88rem;
+        top: 300rem;
+        padding-bottom: 5rem;
     }
 }
+
+/* padding-bottom: 5rem; */
