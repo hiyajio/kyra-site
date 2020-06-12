@@ -868,8 +868,181 @@
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Semi large devices (laptops/desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .one-jc {
+        position: absolute;
+        height: auto;
+        width: calc(40rem*(0.83));
+        left: calc(48rem*(0.83));
+        top: calc(6rem*(0.83));
+    }
+    .two-jc {
+        height: calc(36rem*(0.83));
+        left: calc(13rem*(0.83));
+        top: calc(10rem*(0.83));
+    }
+    .three-jc {
+        height: calc(44rem*(0.83));
+        left: calc(25rem*(0.83));
+        top: calc(43rem*(0.83));
+    }
+    .four-jc {
+        position: absolute;
+        height: auto;
+        width: calc(40rem*(0.83));
+        left: calc(1rem*(0.83));
+        top: calc(89rem*(0.83));
+    }
+    .five-jc {
+        height: calc(32rem*(0.83));
+        left: calc(62rem*(0.83));
+        top: calc(92rem*(0.83));
+    }
+    .six-jc {
+        height: calc(36rem*(0.83));
+        left: calc(36rem*(0.83));
+        top: calc(112rem*(0.83));
+    }
+    .seven-jc {
+        position: absolute;
+        height: auto;
+        width: calc(32rem*(0.83));
+        left: calc(54rem*(0.83));
+        top: calc(152rem*(0.83));
+    }
+    .eight-jc {
+        height: calc(36rem*(0.83));
+        left: calc(4rem*(0.83));
+        top: calc(154rem*(0.83));
+    }
+    .nine-jc {
+        height: calc(40rem*(0.83));
+        left: calc(62rem*(0.83));
+        top: calc(180rem*(0.83));
+    }
+    .ten-jc {
+        height: calc(32rem*(0.83));
+        left: calc(20rem*(0.83));
+        top: calc(186rem*(0.83));
+    }
+    .eleven-jc {
+        height: calc(44rem*(0.83));
+        left: calc(32rem*(0.83));
+        top: calc(216rem*(0.83));
+    }
+    .twelve-jc {
+        height: calc(40rem*(0.83));
+        left: calc(58rem*(0.83));
+        top: calc(229rem*(0.83));
+    }
+    .thirteen-jc {
+        height: calc(32rem*(0.83));
+        left: calc(40rem*(0.83));
+        top: calc(261rem*(0.83));
+    }
+    .fourteen-jc {
+        height: calc(36rem*(0.83));
+        left: calc(10rem*(0.83));
+        top: calc(270rem*(0.83));
+    }
+    .fifteen-jc {
+        height: calc(32rem*(0.83));
+        left: calc(68rem*(0.83));
+        top: calc(290rem*(0.83));
+    }
+    .sixteen-jc {
+        height: calc(36rem*(0.83));
+        left: calc(16rem*(0.83));
+        top: calc(309rem*(0.83));
+    }
+    .seventeen-jc {
+        height: calc(36rem*(0.83));
+        left: calc(50rem*(0.83));
+        top: calc(325rem*(0.83));
+    }
+    .eighteen-jc {
+        height: calc(36rem*(0.83));
+        left: calc(30rem*(0.83));
+        top: calc(347rem*(0.83));
+    }
+    .nineteen-jc {
+        height: calc(40rem*(0.83));
+        left: calc(5rem*(0.83));
+        top: calc(376rem*(0.83));
+    }
+    .twenty-jc {
+        height: calc(32rem*(0.83));
+        left: calc(64rem*(0.83));
+        top: calc(392rem*(0.83));
+    }
+    .twentyone-jc {
+        height: calc(32rem*(0.83));
+        left: calc(46rem*(0.83));
+        top: calc(421rem*(0.83));
+    }
+    .twentytwo-jc {
+        height: calc(44rem*(0.83));
+        left: calc(10rem*(0.83));
+        top: calc(419rem*(0.83));
+    }
+    .twentythree-jc {
+        height: calc(32rem*(0.83));
+        left: calc(60rem*(0.83));
+        top: calc(449rem*(0.83));
+    }
+    .twentyfour-jc {
+        height: calc(40rem*(0.83));
+        left: calc(22rem*(0.83));
+        top: calc(462rem*(0.83));
+    }
+    .twentyfive-jc {
+        height: calc(32rem*(0.83));
+        left: calc(3rem*(0.83));
+        top: calc(480rem*(0.83));
+    }
+    .twentysix-jc {
+        height: calc(36rem*(0.83));
+        left: calc(29rem*(0.83));
+        top: calc(504rem*(0.83));
+    }
+    .twentyseven-jc {
+        height: calc(32rem*(0.83));
+        left: calc(6rem*(0.83));
+        top: calc(520rem*(0.83));
+    }
+    .twentyeight-jc {
+        height: calc(36rem*(0.83));
+        left: calc(19rem*(0.83));
+        top: calc(550rem*(0.83));
+    }
+    .twentynine-jc {
+        height: calc(32rem*(0.83));
+        left: calc(64rem*(0.83));
+        top: calc(608rem*(0.83));
+    }
+    .thirty-jc {
+        position: absolute;
+        height: auto;
+        width: calc(36rem*(0.83));
+        left: calc(51rem*(0.83));
+        top: calc(553rem*(0.83));
+    }
+    .thirtyone-jc {
+        height: calc(32rem*(0.83));
+        left: calc(44rem*(0.83));
+        top: calc(581rem*(0.83));
+    }
+    .thirtytwo-jc {
+        height: calc(49rem*(0.83));
+        left: calc(8rem*(0.83));
+        top: calc(600rem*(0.83));
+        padding-bottom: calc(5rem*(0.83));
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1440px) {
     .one-jc {
         position: absolute;
         height: auto;
