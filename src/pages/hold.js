@@ -19,7 +19,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold191.png`}
+            src={`../../images/collections/hold/kbHold191.jpg`}
             alt="Hold 1"
             className="one-ho"
           />
@@ -30,7 +30,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold192.png`}
+            src={`../../images/collections/hold/kbHold192.jpg`}
             alt="Hold 2"
             className="two-ho abs"
           />
@@ -41,7 +41,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold193.png`}
+            src={`../../images/collections/hold/kbHold193.jpg`}
             alt="Hold 3"
             className="three-ho abs"
           />
@@ -52,7 +52,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold194.png`}
+            src={`../../images/collections/hold/kbHold194.jpg`}
             alt="Hold 4"
             className="four-ho abs"
           />
@@ -63,7 +63,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold195.png`}
+            src={`../../images/collections/hold/kbHold195.jpg`}
             alt="Hold 5"
             className="five-ho abs"
           />
@@ -74,7 +74,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold196.png`}
+            src={`../../images/collections/hold/kbHold196.jpg`}
             alt="Hold 6"
             className="six-ho abs"
           />
@@ -85,7 +85,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold197.png`}
+            src={`../../images/collections/hold/kbHold197.jpg`}
             alt="Hold 7"
             className="seven-ho abs"
           />
@@ -96,7 +96,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold198.png`}
+            src={`../../images/collections/hold/kbHold198.jpg`}
             alt="Hold 8"
             className="eight-ho abs"
           />
@@ -107,7 +107,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold199.png`}
+            src={`../../images/collections/hold/kbHold199.jpg`}
             alt="Hold 9"
             className="nine-ho abs"
           />
@@ -118,7 +118,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold1910.png`}
+            src={`../../images/collections/hold/kbHold1910.jpg`}
             alt="Hold 10"
             className="ten-ho abs"
           />
@@ -129,7 +129,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold1911.png`}
+            src={`../../images/collections/hold/kbHold1911.jpg`}
             alt="Hold 11"
             className="eleven-ho abs"
           />
@@ -140,7 +140,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold1912.png`}
+            src={`../../images/collections/hold/kbHold1912.jpg`}
             alt="Hold 12"
             className="twelve-ho abs"
           />
@@ -151,7 +151,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold1913.png`}
+            src={`../../images/collections/hold/kbHold1913.jpg`}
             alt="Hold 13"
             className="thirteen-ho abs"
           />
@@ -162,7 +162,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold1914.png`}
+            src={`../../images/collections/hold/kbHold1914.jpg`}
             alt="Hold 14"
             className="fourteen-ho abs"
           />
@@ -173,7 +173,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold1915.png`}
+            src={`../../images/collections/hold/kbHold1915.jpg`}
             alt="Hold 15"
             className="fifteen-ho abs"
           />
@@ -184,7 +184,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold1916.png`}
+            src={`../../images/collections/hold/kbHold1916.jpg`}
             alt="Hold 16"
             className="sixteen-ho abs"
           />
@@ -195,7 +195,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold1917.png`}
+            src={`../../images/collections/hold/kbHold1917.jpg`}
             alt="Hold 17"
             className="seventeen-ho abs"
           />
@@ -206,7 +206,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold1918.png`}
+            src={`../../images/collections/hold/kbHold1918.jpg`}
             alt="Hold 18"
             className="eighteen-ho abs"
           />
@@ -217,7 +217,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold1919.png`}
+            src={`../../images/collections/hold/kbHold1919.jpg`}
             alt="Hold 19"
             className="nineteen-ho abs"
           />
@@ -228,7 +228,7 @@ const HoldPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/hold/kbHold1920.png`}
+            src={`../../images/collections/hold/kbHold1920.jpg`}
             alt="Hold 20"
             className="twenty-ho abs"
           />
