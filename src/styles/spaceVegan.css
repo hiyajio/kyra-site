@@ -331,8 +331,73 @@
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Semi large devices (laptops/desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .one-sv {
+        height: calc(40rem*(0.83));
+        left: calc(56rem*(0.83));
+        top: calc(6rem*(0.83));
+    }
+    .two-sv {
+        height: auto;
+        width: calc(36rem*(0.83));
+        left: calc(22rem*(0.83));
+        top: calc(18rem*(0.83));
+    }
+    .three-sv {
+        height: calc(32rem*(0.83));
+        left: calc(38rem*(0.83));
+        top: calc(40rem*(0.83));
+    }
+    .four-sv {
+        height: auto;
+        width: calc(40rem*(0.83));
+        left: calc(2rem*(0.83));
+        top: calc(65rem*(0.83));
+    }
+    .five-sv {
+        height: calc(36rem*(0.83));
+        left: calc(40rem*(0.83));
+        top: calc(87rem*(0.83));
+    }
+    .six-sv {
+        height: calc(32rem*(0.83));
+        left: calc(66rem*(0.83));
+        top: calc(105rem*(0.83));
+    }
+    .seven-sv {
+        height: auto;
+        width: calc(40rem*(0.83));
+        left: calc(4rem*(0.83));
+        top: calc(129rem*(0.83));
+    }
+    .eight-sv {
+        height: auto;
+        width: calc(36rem*(0.83));
+        left: calc(52rem*(0.83));
+        top: calc(152rem*(0.83));
+    }
+    .nine-sv {
+        height: calc(34rem*(0.83));
+        left: calc(30rem*(0.83));
+        top: calc(174rem*(0.83));
+    }
+    .ten-sv {
+        height: auto;
+        width: calc(36rem*(0.83));
+        left: calc(5rem*(0.83));
+        top: calc(206rem*(0.83));
+    }
+    .eleven-sv {
+        height: calc(40rem*(0.83));
+        left: calc(47rem*(0.83));
+        top: calc(213rem*(0.83));
+        padding-bottom: calc(5rem*(0.83));
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1440px) {
     .one-sv {
         height: 40rem;
         left: 56rem;
