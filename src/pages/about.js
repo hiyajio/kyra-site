@@ -75,7 +75,7 @@ const AboutPage = props => {
         <picture className="object-cover h-full max-w-full">
           <source srcset={`../../images/kyra.webp`} type="image/webp" />
           <img
-            src={`../../images/kyra.png`}
+            src={`../../images/kyra.jpg`}
             alt="Kyra headshot"
             className="object-cover w-full h-auto"
           />
@@ -84,7 +84,7 @@ const AboutPage = props => {
       <Modal
         linkedTo="powersuits"
         modalImg={`../../images/powersuits.webp`}
-        modalAlt={`../../images/powersuits.png`}
+        modalAlt={`../../images/powersuits.jpg`}
         modalImgAlt="Powersuits"
       />
     </Layout>

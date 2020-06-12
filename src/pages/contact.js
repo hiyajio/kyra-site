@@ -14,7 +14,7 @@ export default () => (
             type="image/webp"
           />
           <img
-            src={`../../images/spaceVeganContactBW.png`}
+            src={`../../images/spaceVeganContactBW.jpg`}
             alt="Space vegan contact"
             className="object-cover bg-auto min-w-full h-full hover:opacity-75"
           />

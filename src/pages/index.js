@@ -58,7 +58,7 @@ export default () => (
         <picture className="object-cover hover:opacity-75 bottom-0 ">
           <source srcset={`../../images/juanaDressHP.webp`} type="image/webp" />
           <img
-            src={`../../images/juanaDressHP.png`}
+            src={`../../images/juanaDressHP.jpg`}
             alt="Juana homepage"
             className="absolute bottom-0 right-1 object-cover hover:opacity-75 homepage"
           />
