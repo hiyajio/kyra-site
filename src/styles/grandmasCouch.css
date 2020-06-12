@@ -459,8 +459,8 @@
     }
 }
 
-/* Extra extra large devices (laptops/desktops, 1680px and up) */
-@media only screen and (min-width: 1680px) {
+/* Extra extra large devices (laptops/desktops, 1679px and up) */
+@media only screen and (min-width: 1679px) {
     .one-gc {
         height: calc(40rem*(1.16));
         left: calc(16rem*(1.16));
