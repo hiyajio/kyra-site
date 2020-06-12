@@ -27,7 +27,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using styled
 - [x] Add 404 error page
 - [x] Fix metadata image
 - [x] Integrate styled-components
-- [x] Convert to jpgs and optimize all images
+- [x] Convert to jpgs and optimize all images through Netlify plugin
 - [ ] Fix favicon sizes
 - [ ] Fix 404 error page
 - [ ] Lazy load images (gatsby-image, gatsby-background-image)
