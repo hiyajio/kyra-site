@@ -19,7 +19,7 @@ const SpaceVeganPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/spaceVegan/kbSpaceVegan1.png`}
+            src={`../../images/collections/spaceVegan/kbSpaceVegan1.jpg`}
             alt="Space vegan 1"
             className="one-sv abs w-auto"
           />
@@ -30,7 +30,7 @@ const SpaceVeganPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/spaceVegan/kbSpaceVegan2.png`}
+            src={`../../images/collections/spaceVegan/kbSpaceVegan2.jpg`}
             alt="Space vegan 2"
             className="two-sv abs"
           />
@@ -41,7 +41,7 @@ const SpaceVeganPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/spaceVegan/kbSpaceVegan3.png`}
+            src={`../../images/collections/spaceVegan/kbSpaceVegan3.jpg`}
             alt="Space vegan 3"
             className="three-sv abs w-auto"
           />
@@ -52,7 +52,7 @@ const SpaceVeganPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/spaceVegan/kbSpaceVegan4.png`}
+            src={`../../images/collections/spaceVegan/kbSpaceVegan4.jpg`}
             alt="Space vegan 4"
             className="four-sv abs"
           />
@@ -63,7 +63,7 @@ const SpaceVeganPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/spaceVegan/kbSpaceVegan5.png`}
+            src={`../../images/collections/spaceVegan/kbSpaceVegan5.jpg`}
             alt="Space vegan 5"
             className="five-sv abs w-auto"
           />
@@ -74,7 +74,7 @@ const SpaceVeganPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/spaceVegan/kbSpaceVegan6.png`}
+            src={`../../images/collections/spaceVegan/kbSpaceVegan6.jpg`}
             alt="Space vegan 6"
             className="six-sv abs w-auto"
           />
@@ -85,7 +85,7 @@ const SpaceVeganPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/spaceVegan/kbSpaceVegan7.png`}
+            src={`../../images/collections/spaceVegan/kbSpaceVegan7.jpg`}
             alt="Space vegan 7"
             className="seven-sv abs"
           />
@@ -96,7 +96,7 @@ const SpaceVeganPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/spaceVegan/kbSpaceVegan8.png`}
+            src={`../../images/collections/spaceVegan/kbSpaceVegan8.jpg`}
             alt="Space vegan 8"
             className="eight-sv abs"
           />
@@ -107,7 +107,7 @@ const SpaceVeganPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/spaceVegan/kbSpaceVegan9.png`}
+            src={`../../images/collections/spaceVegan/kbSpaceVegan9.jpg`}
             alt="Space vegan 9"
             className="nine-sv abs w-auto"
           />
@@ -118,7 +118,7 @@ const SpaceVeganPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/spaceVegan/kbSpaceVegan10.png`}
+            src={`../../images/collections/spaceVegan/kbSpaceVegan10.jpg`}
             alt="Space vegan 10"
             className="ten-sv abs"
           />
@@ -129,7 +129,7 @@ const SpaceVeganPage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/spaceVegan/kbSpaceVegan11.png`}
+            src={`../../images/collections/spaceVegan/kbSpaceVegan11.jpg`}
             alt="Space vegan 11"
             className="eleven-sv abs w-auto"
           />
