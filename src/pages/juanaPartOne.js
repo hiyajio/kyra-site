@@ -19,7 +19,7 @@ const JuanaPartOnePage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/juanaPartOne/Juana1.png`}
+            src={`../../images/collections/juanaPartOne/Juana1.jpg`}
             alt="Juana part one 1"
             className="one-js abs"
           />
@@ -30,7 +30,7 @@ const JuanaPartOnePage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/juanaPartOne/Juana2.png`}
+            src={`../../images/collections/juanaPartOne/Juana2.jpg`}
             alt="Juana part one 2"
             className="two-js abs"
           />
@@ -41,7 +41,7 @@ const JuanaPartOnePage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/juanaPartOne/Juana3.png`}
+            src={`../../images/collections/juanaPartOne/Juana3.jpg`}
             alt="Juana part one 3"
             className="three-js abs"
           />
@@ -52,7 +52,7 @@ const JuanaPartOnePage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/juanaPartOne/Juana4.png`}
+            src={`../../images/collections/juanaPartOne/Juana4.jpg`}
             alt="Juana part one 4"
             className="four-js abs"
           />
@@ -63,7 +63,7 @@ const JuanaPartOnePage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/juanaPartOne/Juana5.png`}
+            src={`../../images/collections/juanaPartOne/Juana5.jpg`}
             alt="Juana part one 5"
             className="five-js abs"
           />
@@ -74,7 +74,7 @@ const JuanaPartOnePage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/juanaPartOne/Juana6.png`}
+            src={`../../images/collections/juanaPartOne/Juana6.jpg`}
             alt="Juana part one 6"
             className="six-js abs"
           />
@@ -85,7 +85,7 @@ const JuanaPartOnePage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/juanaPartOne/Juana7.png`}
+            src={`../../images/collections/juanaPartOne/Juana7.jpg`}
             alt="Juana part one 7"
             className="seven-js abs"
           />
@@ -96,7 +96,7 @@ const JuanaPartOnePage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/juanaPartOne/Juana8.png`}
+            src={`../../images/collections/juanaPartOne/Juana8.jpg`}
             alt="Juana part one 8"
             className="eight-js abs"
           />
@@ -107,7 +107,7 @@ const JuanaPartOnePage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/juanaPartOne/Juana9.png`}
+            src={`../../images/collections/juanaPartOne/Juana9.jpg`}
             alt="Juana part one 9"
             className="nine-js abs"
           />
@@ -118,7 +118,7 @@ const JuanaPartOnePage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/juanaPartOne/Juana10.png`}
+            src={`../../images/collections/juanaPartOne/Juana10.jpg`}
             alt="Juana part one 10"
             className="ten-js abs"
           />
@@ -129,7 +129,7 @@ const JuanaPartOnePage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/juanaPartOne/Juana11.png`}
+            src={`../../images/collections/juanaPartOne/Juana11.jpg`}
             alt="Juana part one 11"
             className="eleven-js abs"
           />
@@ -140,7 +140,7 @@ const JuanaPartOnePage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/juanaPartOne/Juana12.png`}
+            src={`../../images/collections/juanaPartOne/Juana12.jpg`}
             alt="Juana part one 12"
             className="twelve-js abs"
           />
@@ -151,7 +151,7 @@ const JuanaPartOnePage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/juanaPartOne/Juana13.png`}
+            src={`../../images/collections/juanaPartOne/Juana13.jpg`}
             alt="Juana part one 13"
             className="thirteen-js abs"
           />
@@ -162,7 +162,7 @@ const JuanaPartOnePage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/juanaPartOne/Juana14.png`}
+            src={`../../images/collections/juanaPartOne/Juana14.jpg`}
             alt="Juana part one 14"
             className="fourteen-js abs"
           />
@@ -173,7 +173,7 @@ const JuanaPartOnePage = props => {
             type="image/webp"
           />
           <img
-            src={`../../images/collections/juanaPartOne/Juana15.png`}
+            src={`../../images/collections/juanaPartOne/Juana15.jpg`}
             alt="Juana part one 15"
             className="fifteen-js abs"
           />
