@@ -383,8 +383,84 @@
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Semi large devices (laptops/desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .one-gc {
+        height: calc(40rem*(0.83));
+        left: calc(16rem*(0.83));
+        top: calc(6rem*(0.83));
+    }
+    .two-gc {
+        height: calc(36rem*(0.83));
+        left: calc(44rem*(0.83));
+        top: calc(18rem*(0.83));
+    }
+    .three-gc {
+        height: calc(32rem*(0.83));
+        left: calc(3rem*(0.83));
+        top: calc(38rem*(0.83));
+    }
+    .four-gc {
+        height: calc(40rem*(0.83));
+        left: calc(58rem*(0.83));
+        top: calc(62rem*(0.83));
+    }
+    .five-gc {
+        height: calc(32rem*(0.83));
+        left: calc(38rem*(0.83));
+        top: calc(88rem*(0.83));
+    }
+    .six-gc {
+        height: calc(36rem*(0.83));
+        left: calc(12rem*(0.83));
+        top: calc(80rem*(0.83));
+    }
+    .seven-gc {
+        height: calc(40rem*(0.83));
+        left: calc(16rem*(0.83));
+        top: calc(118rem*(0.83));
+    }
+    .eight-gc {
+        height: calc(48rem*(0.83));
+        left: calc(60rem*(0.83));
+        top: calc(145rem*(0.83));
+    }
+    .nine-gc {
+        height: calc(32rem*(0.83));
+        left: calc(30rem*(0.83));
+        top: calc(170rem*(0.83));
+    }
+    .ten-gc {
+        height: calc(32rem*(0.83));
+        left: calc(8rem*(0.83));
+        top: calc(180rem*(0.83));
+    }
+    .eleven-gc {
+        height: calc(36rem*(0.83));
+        left: calc(15rem*(0.83));
+        top: calc(210rem*(0.83));
+    }
+    .twelve-gc {
+        height: calc(40rem*(0.83));
+        left: calc(55rem*(0.83));
+        top: calc(215rem*(0.83));
+    }
+    .thirteen-gc {
+        height: calc(32rem*(0.83));
+        left: calc(40rem*(0.83));
+        top: calc(245rem*(0.83));
+    }
+    .fourteen-gc {
+        height: calc(44rem*(0.83));
+        left: calc(8rem*(0.83));
+        top: calc(260rem*(0.83));
+        padding-bottom: calc(5rem*(0.83));
+        z-index: -1;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1440px) {
     .one-gc {
         height: 40rem;
         left: 16rem;
