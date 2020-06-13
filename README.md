@@ -36,10 +36,8 @@ Progressive Web Application (PWA) developed in React through Gatsby using styled
 - [ ] Collections: Make modal gallery with navigation
 - [ ] Collections: Make header reappear at end of scroll
 - [ ] Add p5.js for animations
-- [ ] Integrate Contentful API for more client control
 - [ ] Separate 404 page into components
 - [ ] Separate html page into components
-- [ ] Change form to formik or react-hook-form
 - [ ] Delete unused dependencies (depcheck/npm-check-unused)
 
 ---
