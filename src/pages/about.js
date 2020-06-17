@@ -11,11 +11,10 @@ const AboutPage = props => {
         <div className="text-black justify-center content-center object-center m-auto text-xs lg:text-sm xl:text-sm mx-1 sm:mx-2 md:mx-6 lg:mx-12 lg:mb-12 xl:mx-12 xl:mb-12">
           <div className="opacity-100 bg-transparent">
             <p className="mb-4 opacity-100">
-              Kyra Buenviaje is an undergraduate senior creating her thesis
-              collection at the Rhode Island School of Design. She will graduate
-              in May 2020 with a degree in BFA Apparel Design. Prior to pursuing
-              her fashion education in the US, she studied in both the
-              Philippines and Australia on merit scholarships.
+              Kyra Buenviaje graduated from the Apparel Design program of Rhode
+              Island School of Design in May 2020. Prior to pursuing her fashion
+              education in the US, she studied in both the Philippines and
+              Australia on merit scholarships.
             </p>
             <p className="mb-4 opacity-100">
               As a design intern at Zac Posen she was able to assist and
@@ -55,17 +54,17 @@ const AboutPage = props => {
               collection of power suits for women done through a collaboration
               between Thom Browne and Goldman Sachs. She was also a finalist at
               the 2018 MET Costume Institute College Fashion Design Competition
-              for the Heavenly Bodies Exhibit. She exhibited her work at the
-              Metropolitan Museum of Art.
+              for the Heavenly Bodies Exhibit. Currently, she’s competing as the
+              representative of RISD at the Supima Design Competition where she
+              will showcase 5 looks at New York Fashion Week.
             </p>
             <p className="mb-4 opacity-100">
-              She’s a womenswear designer who’s favorite undergraduate class was
-              menswear tailoring. She believes that women’s figures can be
-              joyously celebrated through comfort and space. She drives her
-              designs to be constantly rooted in the classics and she jumps into
-              them conceptually, tweaking cleverly and thoughtfully. It is her
-              goal to keep creating unusual pieces that can be worn excessively
-              and worn comfortably at that.
+              She designs womenswear with a tailored menswear lens. She believes
+              that women’s figures can be joyously celebrated through comfort
+              and space. She drives her designs to be constantly rooted in the
+              classics and she jumps into them conceptually, tweaking cleverly
+              and thoughtfully. It is her goal to keep creating unusual pieces
+              that can be worn excessively and worn comfortably at that.
             </p>
           </div>
         </div>
