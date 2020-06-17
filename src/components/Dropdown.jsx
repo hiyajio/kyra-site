@@ -8,7 +8,7 @@ const DropDownWrapper = styled.div`
   }
 
   .dropdown:hover .dropdown-content {
-    height: 7.5rem;
+    height: 6rem;
   }
 `
 
@@ -46,13 +46,13 @@ const Dropdown = props => {
               </li>
             </ul>
           </Link>
-          <Link to="grandmasCouch" aria-label="Grandma's couch">
+          {/* <Link to="grandmasCouch" aria-label="Grandma's couch">
             <ul>
               <li className="hover:text-white hover:bg-silvered">
                 grandma's couch
               </li>
             </ul>
-          </Link>
+  </Link> */}
         </div>
       </div>
     </DropDownWrapper>
