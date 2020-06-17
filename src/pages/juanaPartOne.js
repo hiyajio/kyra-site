@@ -15,7 +15,7 @@ const JuanaPartOnePage = props => {
         ></div>
         <picture>
           <source
-            srcset={`../../images/collections/juanaPartOne/kbJuana1.webp`}
+            srcset={`../../images/collections/juanaPartOne/Juana1.webp`}
             type="image/webp"
           />
           <img
