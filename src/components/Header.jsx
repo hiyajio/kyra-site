@@ -44,12 +44,12 @@ const Header = props => {
               <li className="hover:text-white hover:bg-silvered">/resume</li>
             </ul>
           </a>
-          <Link to="about" aria-label="About">
+          <Link to="/about/" aria-label="About">
             <ul>
               <li className="hover:text-white hover:bg-silvered">/about</li>
             </ul>
           </Link>
-          <Link to="contact" aria-label="Contact">
+          <Link to="/contact/" aria-label="Contact">
             <ul>
               <li className="hover:text-white hover:bg-silvered">/contact</li>
             </ul>
@@ -84,7 +84,7 @@ const Header = props => {
               />
             </a>
             <Link
-              to="contact"
+              to="/contact/"
               className="opacity-50 hover:opacity-0"
               aria-label="Kyra email"
             >
