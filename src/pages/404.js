@@ -14,7 +14,6 @@ const ErrorPage = props => {
           </div>
         </div>
       </div>
-      <Header />
       <div className="flex-1 absolute md:static lg:static xl:static bg-transparent md:bg-white lg:bg-white xl:bg-white font-body h-screen w-screen md:w-2/5 lg:w-2/5 xl:w-2/5 overflow-hidden">
         <div className="absolute bottom-0 mb-8 w-screen lg:w-2/5 xl:w-2/5"></div>
       </div>
@@ -33,6 +32,7 @@ const ErrorPage = props => {
           </picture>
         </Link>
       </div>
+      <Header />
     </Layout>
   )
 }

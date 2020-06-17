@@ -134,8 +134,8 @@ const SpaceVeganPage = props => {
             className="eleven-sv abs w-auto"
           />
         </picture>
-        <HeaderFolio bgColor="bg-transparent z-50" />
         <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden"></div>
+        <HeaderFolio bgColor="bg-transparent z-50" />
       </TopScroll>
     </Layout>
   )

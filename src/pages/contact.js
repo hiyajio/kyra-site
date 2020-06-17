@@ -21,7 +21,6 @@ export default () => (
         </picture>
       </Link>
     </div>
-    <HeaderFolio />
     <div className="flex-1 static bg-white font-body h-screen w-2/5 overflow-hidden z-20">
       <div className="absolute bottom-0 mb-8 w-2/5">
         <form
@@ -99,5 +98,6 @@ export default () => (
         </form>
       </div>
     </div>
+    <HeaderFolio />
   </Layout>
 )

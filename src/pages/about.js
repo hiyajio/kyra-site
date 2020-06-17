@@ -69,8 +69,7 @@ const AboutPage = props => {
           </div>
         </div>
       </div>
-      <HeaderFolio />
-      <div className="flex-1 fixed top-0 right-0 bg-white font-body h-screen w-2/5 overflow-hidden">
+      <div className="flex-1 static bg-white font-body h-screen w-2/5 overflow-hidden z-20">
         <picture className="object-cover h-full max-w-full">
           <source srcset={`../../images/kyra.webp`} type="image/webp" />
           <img
@@ -86,6 +85,7 @@ const AboutPage = props => {
         modalAlt={`../../images/powersuits.jpg`}
         modalImgAlt="Powersuits"
       />
+      <HeaderFolio />
     </Layout>
   )
 }

@@ -30,7 +30,6 @@ export default () => (
         </video>
       </Link>
     </div>
-    <HeaderFolio />
     {/*<div className="flex-1 static bg-white font-body h-screen w-2/5 opacity-100 overflow-hidden">
       <Link to="juanaPartOneC">
         <video
@@ -65,5 +64,6 @@ export default () => (
         </picture>
       </Link>
     </div>
+    <HeaderFolio />
   </Layout>
 )
