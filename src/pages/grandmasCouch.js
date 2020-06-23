@@ -3,7 +3,6 @@ import React from "react"
 import Layout from "../components/Layout"
 import HeaderFolio from "../components/HeaderFolio"
 import TopScroll from "../components/TopScroll"
-import Slider from "react-slick"
 
 import "../styles/grandmasCouch.css"
 
