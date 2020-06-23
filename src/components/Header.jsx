@@ -44,6 +44,11 @@ const Header = props => {
               <li className="hover:text-white hover:bg-silvered">/resume</li>
             </ul>
           </a>
+          <Link to="/press/" aria-label="Press">
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">/press</li>
+            </ul>
+          </Link>
           <Link to="/about/" aria-label="About">
             <ul>
               <li className="hover:text-white hover:bg-silvered">/about</li>
