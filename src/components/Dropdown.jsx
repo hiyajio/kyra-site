@@ -56,6 +56,13 @@ const Dropdown = props => {
           <li className="hover:text-white hover:bg-silvered">/collections</li>
         </ul>
         <div className="dropdown-content relative overflow-hidden h-0">
+          <Link to="/juanaInQuarantine/" aria-label="Juana 1 quarantine">
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">
+                juana in quarantine
+              </li>
+            </ul>
+          </Link>
           <Link to="/juanaPartOneC/" aria-label="Juana 1 curated">
             <ul>
               <li className="hover:text-white hover:bg-silvered">
