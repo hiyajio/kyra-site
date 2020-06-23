@@ -31,7 +31,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using styled
 - [x] Lazy load images (gatsby-image, gatsby-background-image)
 - [x] Add Press carousel page
 - [x] Add juanaInQuarantine thesis carousel page
-- [ ] Fix favicon sizes
+- [x] Fix favicon sizes
 - [ ] Fix 404 error page
 - [ ] Collections: Create image transitions on scroll (?)
 - [ ] Collections: Create parallax effect on scroll (?)
