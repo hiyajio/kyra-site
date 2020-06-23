@@ -1,10 +1,24 @@
 import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
+import Img from "gatsby-image"
 
 import Layout from "../components/Layout"
 import HeaderFolio from "../components/HeaderFolio"
 import Modal from "../components/Modal"
 
 const AboutPage = props => {
+  const data = useStaticQuery(graphql`
+    query About {
+      image: file(relativePath: { eq: "kyra.jpg" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+    }
+  `)
   return (
     <Layout>
       <div className="flex static bg-transparent font-body h-screen w-2/5">
@@ -71,9 +85,9 @@ const AboutPage = props => {
       </div>
       <div className="flex-1 static bg-white font-body h-screen w-2/5 overflow-hidden z-20">
         <picture className="object-cover h-full max-w-full">
-          <source srcset={`../../images/kyra.webp`} type="image/webp" />
-          <img
-            src={`../../images/kyra.jpg`}
+          {/* <source srcset={`../../images/kyra.webp`} type="image/webp" /> */}
+          <Img
+            fluid={data.image.childImageSharp.fluid}
             alt="Kyra headshot"
             className="object-cover w-full h-auto"
           />
