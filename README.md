@@ -32,6 +32,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using styled
 - [x] Add Press carousel page
 - [x] Add juanaInQuarantine thesis carousel page
 - [x] Fix favicon sizes
+- [x] Fix carousel controls/arrows
 - [ ] Fix 404 error page
 - [ ] Collections: Create image transitions on scroll (?)
 - [ ] Collections: Create parallax effect on scroll (?)
@@ -39,6 +40,6 @@ Progressive Web Application (PWA) developed in React through Gatsby using styled
 - [ ] Add p5.js for animations
 - [ ] Separate 404 page into components
 - [ ] Separate html page into components
-- [ ] Delete unused dependencies (depcheck/npm-check-unused)
+- [x] Delete unused dependencies (depcheck/npm-check-unused)
 
 ---
