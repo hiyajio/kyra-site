@@ -7,6 +7,10 @@ import HeaderFolio from "../components/HeaderFolio"
 import TopScroll from "../components/TopScroll"
 import Slider from "react-slick"
 
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+import "../styles/carousel.css"
+
 const PressPage = props => {
   const data = useStaticQuery(graphql`
     query Press {
@@ -85,8 +89,31 @@ const PressPage = props => {
     }
   `)
 
+  /* function SampleNextArrow(props) {
+    const { className, style, onClick } = props
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "red" }}
+        onClick={onClick}
+      />
+    )
+  }
+
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "green" }}
+        onClick={onClick}
+      />
+    )
+  } */
+
   var settings = {
     dots: true,
+    arrows: true,
     infinite: true,
     speed: 2000,
     autoplaySpeed: 3500,
@@ -95,6 +122,8 @@ const PressPage = props => {
     pauseOnHover: false,
     slidesToShow: 1,
     slidesToScroll: 1,
+    /* nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />, */
   }
 
   return (
@@ -103,31 +132,31 @@ const PressPage = props => {
         <div className="flex-1 h-screen w-4/5">
           <Slider {...settings}>
             <div className="h-auto w-full">
-              <Img fluid={data.image1.childImageSharp.fluid} />
+              <Img fluid={data.image1.childImageSharp.fluid} alt="Press 1" />
             </div>
             <div className="h-auto w-full">
-              <Img fluid={data.image2.childImageSharp.fluid} />
+              <Img fluid={data.image2.childImageSharp.fluid} alt="Press 2" />
             </div>
             <div className="h-auto w-full">
-              <Img fluid={data.image3.childImageSharp.fluid} />
+              <Img fluid={data.image3.childImageSharp.fluid} alt="Press 3" />
             </div>
             <div className="h-auto w-full">
-              <Img fluid={data.image4.childImageSharp.fluid} />
+              <Img fluid={data.image4.childImageSharp.fluid} alt="Press 4" />
             </div>
             <div className="h-auto w-full">
-              <Img fluid={data.image5.childImageSharp.fluid} />
+              <Img fluid={data.image5.childImageSharp.fluid} alt="Press 5" />
             </div>
             <div className="h-auto w-full">
-              <Img fluid={data.image6.childImageSharp.fluid} />
+              <Img fluid={data.image6.childImageSharp.fluid} alt="Press 6" />
             </div>
             <div className="h-auto w-full">
-              <Img fluid={data.image7.childImageSharp.fluid} />
+              <Img fluid={data.image7.childImageSharp.fluid} alt="Press 7" />
             </div>
             <div className="h-auto w-full">
-              <Img fluid={data.image8.childImageSharp.fluid} />
+              <Img fluid={data.image8.childImageSharp.fluid} alt="Press 8" />
             </div>
             <div className="h-auto w-full">
-              <Img fluid={data.image9.childImageSharp.fluid} />
+              <Img fluid={data.image9.childImageSharp.fluid} alt="Press 9" />
             </div>
           </Slider>
         </div>
