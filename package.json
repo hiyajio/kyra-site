@@ -35,11 +35,9 @@
     "gatsby-source-filesystem": "^2.1.43",
     "gatsby-transformer-sharp": "^2.3.9",
     "react": "^16.12.0",
-    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-slick": "^0.26.1",
-    "reactstrap": "^8.4.1",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.0.1",
     "tailwindcss": "^1.1.4"
