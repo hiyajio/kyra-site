@@ -28,13 +28,14 @@ Progressive Web Application (PWA) developed in React through Gatsby using styled
 - [x] Fix metadata image
 - [x] Integrate styled-components
 - [x] Convert to jpgs and optimize all images through Netlify plugin
+- [x] Lazy load images (gatsby-image, gatsby-background-image)
+- [x] Add Press carousel page
+- [x] Add juanaInQuarantine thesis carousel page
 - [ ] Fix favicon sizes
 - [ ] Fix 404 error page
-- [ ] Lazy load images (gatsby-image, gatsby-background-image)
 - [ ] Collections: Create image transitions on scroll (?)
 - [ ] Collections: Create parallax effect on scroll (?)
 - [ ] Collections: Make modal gallery with navigation
-- [ ] Collections: Make header reappear at end of scroll
 - [ ] Add p5.js for animations
 - [ ] Separate 404 page into components
 - [ ] Separate html page into components
