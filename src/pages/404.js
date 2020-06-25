@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 import { Link } from "gatsby"
 
 import Layout from "../components/Layout"
-import Header from "../components/Header"
+import HeaderFolio from "../components/HeaderFolio"
 
 const ErrorPage = props => {
   const data = useStaticQuery(graphql`
@@ -46,7 +46,7 @@ const ErrorPage = props => {
           </picture>
         </Link>
       </div>
-      <Header />
+      <HeaderFolio />
     </Layout>
   )
 }
