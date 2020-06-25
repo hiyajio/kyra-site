@@ -1,34 +1,67 @@
-/* Extra small devices (phone-ns, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .homepage {
-        height: calc(750px*(1/2)*(5/8));
+.ind-1 {
+    height: 40rem;
+}
+
+/* Extra extra small devices (phone-gcs, 375px and down) */
+@media only screen and (max-width: 375px) {
+    .ind-1 {
+        top: calc(8rem*(0.22));
+        right: calc(3rem*(0.22));
     }
 }
 
-/* Small devices (portrait tablets and large phone-ns, 600px and up) */
+/* Extra small devices (phone-gcs, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .ind-1 {
+        top: calc(8rem*(0.26));
+        right: calc(3rem*(0.26));
+    }
+}
+
+/* Small devices (portrait tablets and large phone-gcs, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .homepage {
-        height: calc(750px*(1/2));
+    .ind-1 {
+        top: calc(8rem*(0.41));
+        right: calc(3rem*(0.41));
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .homepage {
-        height: calc(750px*(2/3));
+    .ind-1 {
+        top: calc(8rem*(0.53));
+        right: calc(3rem*(0.53));
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .homepage {
-        height: calc(750px*(5/6));
+    .ind-1 {
+        top: calc(8rem*(0.68));
+        right: calc(3rem*(0.68));
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Semi large devices (laptops/desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .homepage {
-        height: 750px;
+    .ind-1 {
+        top: calc(8rem*(0.83));
+        right: calc(3rem*(0.83));
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1440px) {
+    .ind-1 {
+        top: 8rem;
+        right: 3rem;
+    }
+}
+
+/* Extra extra large devices (laptops/desktops, 1680px and up) */
+@media only screen and (min-width: 1680px) {
+    .ind-1 {
+        top: calc(8rem*(1.16));
+        right: calc(3rem*(1.16));
     }
 }

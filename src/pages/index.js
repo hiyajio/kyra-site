@@ -60,15 +60,15 @@ const IndexPage = props => {
         </video>
       </Link>
 </div>*/}
-      <div className="flex-1 relative bg-white font-body h-screen w-2/5 opacity-100 overflow-hidden">
-        <div className="absolute inset-0 flex items-center justify-left">
+      <div className="flex-1 relative bg-white font-body h-screen w-2/5 opacity-100">
+        <div className="absolute inset-0">
           <Link to="juanaPartOneC" aria-label="Juana 1 curated">
             <video
               autoplay="true"
               loop="true"
               muted="true"
               playsinline="true"
-              className="align-middle object-cover min-w-full hover:opacity-75"
+              className="hover:opacity-75 ind-1 absolute"
             >
               <source
                 src={`../../videos/juanaVestBW.webm`}
