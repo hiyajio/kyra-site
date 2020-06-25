@@ -37,7 +37,7 @@ const ContactPage = props => {
         </Link>
       </div>
       <div className="flex-1 static bg-white font-body h-screen w-2/5 overflow-hidden z-20">
-        <div className="absolute bottom-0 mb-8 w-2/5">
+        <div className="absolute bottom-0 mb-6 ml-2 sm:ml-8 md:ml-16 w-2/5">
           <form
             action="https://formspree.io/xrgeoooy"
             method="POST"
