@@ -24,7 +24,7 @@ const IndexPage = props => {
   return (
     <Layout>
       <div className="flex-1 static bg-white font-body h-screen w-2/5 overflow-hidden">
-        <Link to="juanaPartOne" aria-label="Juana 1 simple">
+        <Link to="/juanaPartOne/" aria-label="Juana 1 simple">
           <picture className="object-cover hover:opacity-75 bottom-0 ">
             {/* <source
               srcset={`../../images/juanaDressHP.webp`}
@@ -62,7 +62,7 @@ const IndexPage = props => {
 </div>*/}
       <div className="flex-1 relative bg-white font-body h-screen w-2/5 opacity-100">
         <div className="absolute inset-0">
-          <Link to="juanaPartOneC" aria-label="Juana 1 curated">
+          <Link to="/juanaPartOneC/" aria-label="Juana 1 curated">
             <video
               autoplay="true"
               loop="true"

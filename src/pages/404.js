@@ -32,7 +32,7 @@ const ErrorPage = props => {
         <div className="absolute bottom-0 mb-8 w-screen lg:w-2/5 xl:w-2/5"></div>
       </div>
       <div className="flex-1 absolute md:static lg:static xl:static bg-white font-body h-screen w-screen md:w-2/5 lg:w-2/5 xl:w-2/5 overflow-hidden">
-        <Link to="spaceVegan">
+        <Link to="/spaceVegan/" aria-label="Space vegan">
           <picture className="object-cover bg-auto min-w-full h-full">
             {/* <source
               srcset={`../../images/spaceVeganContact.webp`}
