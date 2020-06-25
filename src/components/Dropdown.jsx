@@ -17,9 +17,15 @@ const DropDownWrapper = styled.div`
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (min-width: 375px) {
     .dropdown:hover .dropdown-content {
       height: 15rem;
+    }
+  }
+
+  @media only screen and (min-width: 510px) {
+    .dropdown:hover .dropdown-content {
+      height: 13.5rem;
     }
   }
 
@@ -29,19 +35,25 @@ const DropDownWrapper = styled.div`
     }
   }
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 674px) {
     .dropdown:hover .dropdown-content {
       height: 12rem;
     }
   }
 
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 768px) {
     .dropdown:hover .dropdown-content {
       height: 10.5rem;
     }
   }
 
-  @media only screen and (min-width: 1680px) {
+  @media only screen and (min-width: 834px) {
+    .dropdown:hover .dropdown-content {
+      height: 9rem;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
     .dropdown:hover .dropdown-content {
       height: 7.5rem;
     }
