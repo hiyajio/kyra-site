@@ -53,7 +53,7 @@ const DropDownWrapper = styled.div`
     }
   }
 
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1252px) {
     .dropdown:hover .dropdown-content {
       height: 7.5rem;
     }
