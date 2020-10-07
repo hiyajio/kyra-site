@@ -1,165 +1,284 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
-import Img from "gatsby-image"
 
 import Layout from "../components/Layout"
 import HeaderFolio from "../components/HeaderFolio"
 import TopScroll from "../components/TopScroll"
-import Slider from "react-slick"
 
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
-import "../styles/carousel.css"
+import "../styles/press.css"
 
 const PressPage = props => {
-  const data = useStaticQuery(graphql`
-    query Press {
-      image1: file(relativePath: { eq: "press/press1.png" }) {
-        id
-        childImageSharp {
-          fluid(maxHeight: 900) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      image2: file(relativePath: { eq: "press/press2.png" }) {
-        id
-        childImageSharp {
-          fluid(maxHeight: 900) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      image3: file(relativePath: { eq: "press/press3.png" }) {
-        id
-        childImageSharp {
-          fluid(maxHeight: 900) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      image4: file(relativePath: { eq: "press/press4.png" }) {
-        id
-        childImageSharp {
-          fluid(maxHeight: 900) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      image5: file(relativePath: { eq: "press/press5.png" }) {
-        id
-        childImageSharp {
-          fluid(maxHeight: 900) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      image6: file(relativePath: { eq: "press/press6.png" }) {
-        id
-        childImageSharp {
-          fluid(maxHeight: 900) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      image7: file(relativePath: { eq: "press/press7.png" }) {
-        id
-        childImageSharp {
-          fluid(maxHeight: 900) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      image8: file(relativePath: { eq: "press/press8.png" }) {
-        id
-        childImageSharp {
-          fluid(maxHeight: 900) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      image9: file(relativePath: { eq: "press/press9.png" }) {
-        id
-        childImageSharp {
-          fluid(maxHeight: 900) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-    }
-  `)
-
-  /* function SampleNextArrow(props) {
-    const { className, style, onClick } = props
-    return (
-      <div
-        className={className}
-        style={{ ...style, display: "block", background: "red" }}
-        onClick={onClick}
-      />
-    )
-  }
-
-  function SamplePrevArrow(props) {
-    const { className, style, onClick } = props
-    return (
-      <div
-        className={className}
-        style={{ ...style, display: "block", background: "green" }}
-        onClick={onClick}
-      />
-    )
-  } */
-
-  var settings = {
-    dots: true,
-    arrows: true,
-    infinite: true,
-    speed: 2000,
-    autoplaySpeed: 3500,
-    fadeIn: false,
-    autoplay: true,
-    pauseOnHover: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    /* nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />, */
-  }
-
   return (
     <Layout>
       <TopScroll>
-        <div className="flex-1 h-screen w-4/5">
-          <Slider {...settings}>
-            <div className="h-auto w-full">
-              <Img fluid={data.image1.childImageSharp.fluid} alt="Press 1" />
-            </div>
-            <div className="h-auto w-full">
-              <Img fluid={data.image2.childImageSharp.fluid} alt="Press 2" />
-            </div>
-            <div className="h-auto w-full">
-              <Img fluid={data.image3.childImageSharp.fluid} alt="Press 3" />
-            </div>
-            <div className="h-auto w-full">
-              <Img fluid={data.image4.childImageSharp.fluid} alt="Press 4" />
-            </div>
-            <div className="h-auto w-full">
-              <Img fluid={data.image5.childImageSharp.fluid} alt="Press 5" />
-            </div>
-            <div className="h-auto w-full">
-              <Img fluid={data.image6.childImageSharp.fluid} alt="Press 6" />
-            </div>
-            <div className="h-auto w-full">
-              <Img fluid={data.image7.childImageSharp.fluid} alt="Press 7" />
-            </div>
-            <div className="h-auto w-full">
-              <Img fluid={data.image8.childImageSharp.fluid} alt="Press 8" />
-            </div>
-            <div className="h-auto w-full">
-              <Img fluid={data.image9.childImageSharp.fluid} alt="Press 9" />
-            </div>
-          </Slider>
-        </div>
+        <div
+          className={`flex bg-white font-body h-screen w-2/5 overflow-hidden`}
+        ></div>
+        <a
+          href="https://www.vogue.com/article/rhode-island-school-of-design-risd-class-of-2020"
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="opacity-50 hover:opacity-100"
+          aria-label="Vogue 1 link"
+        >
+          <picture>
+            <source
+              srcset={`../../images/collections/press/vogue1.webp`}
+              type="image/webp"
+            />
+            <img
+              src={`../../images/collections/press/vogue1.png`}
+              alt="Vogue 1"
+              className="one-npr abs"
+            />
+          </picture>
+        </a>
+        <a
+          href="https://www.vogue.com/article/law-roach-supima-design-competition-interview"
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="opacity-50 hover:opacity-100"
+          aria-label="Vogue 2 link"
+        >
+          <picture>
+            <source
+              srcset={`../../images/collections/press/vogue2.webp`}
+              type="image/webp"
+            />
+            <img
+              src={`../../images/collections/press/vogue2.png`}
+              alt="Vogue 1"
+              className="two-npr abs"
+            />
+          </picture>
+        </a>
+        <a
+          href="https://www.papermag.com/fashion-grads-cfda-2646067843"
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="opacity-50 hover:opacity-100"
+          aria-label="Paper 1 link"
+        >
+          <picture>
+            <source
+              srcset={`../../images/collections/press/paper1.webp`}
+              type="image/webp"
+            />
+            <img
+              src={`../../images/collections/press/paper1.png`}
+              alt="Paper 1"
+              className="three-npr abs"
+            />
+          </picture>
+        </a>
+        <a
+          href="https://www.papermag.com/law-roach-supima-design-competition-2647042424"
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="opacity-50 hover:opacity-100"
+          aria-label="Paper 2 link"
+        >
+          <picture>
+            <source
+              srcset={`../../images/collections/press/paper2.webp`}
+              type="image/webp"
+            />
+            <img
+              src={`../../images/collections/press/paper2.png`}
+              alt="Paper 2"
+              className="four-npr abs"
+            />
+          </picture>
+        </a>
+        <a
+          href="https://wwd.com/fashion-news/fashion-scoops/cfda-papermag-com-team-up-to-support-2020-fashion-school-grads-1203640022"
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="opacity-50 hover:opacity-100"
+          aria-label="WWD 1 link"
+        >
+          <picture>
+            <source
+              srcset={`../../images/collections/press/wwd1.webp`}
+              type="image/webp"
+            />
+            <img
+              src={`../../images/collections/press/wwd1.png`}
+              alt="WWD 1"
+              className="five-npr abs"
+            />
+          </picture>
+        </a>
+        <a
+          href="https://wwd.com/business-news/business-features/supima-finalists-for-annual-design-competition-1202758508"
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="opacity-50 hover:opacity-100"
+          aria-label="WWD 2 link"
+        >
+          <picture>
+            <source
+              srcset={`../../images/collections/press/wwd2.webp`}
+              type="image/webp"
+            />
+            <img
+              src={`../../images/collections/press/wwd2.png`}
+              alt="WWD 2"
+              className="six-npr abs"
+            />
+          </picture>
+        </a>
+        <a
+          href="https://www.thecut.com/2020/09/nyfw-designers-on-their-spring-summer-inspirations.html"
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="opacity-50 hover:opacity-100"
+          aria-label="The Cut 1 link"
+        >
+          <picture>
+            <source
+              srcset={`../../images/collections/press/thecut1.webp`}
+              type="image/webp"
+            />
+            <img
+              src={`../../images/collections/press/thecut1.png`}
+              alt="The Cut 1"
+              className="seven-npr abs"
+            />
+          </picture>
+        </a>
+        <a
+          href="https://cfda.com/news/paper-cfda-celebrate-2020-graduates"
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="opacity-50 hover:opacity-100"
+          aria-label="CFDA 1 link"
+        >
+          <picture>
+            <source
+              srcset={`../../images/collections/press/cfda1.webp`}
+              type="image/webp"
+            />
+            <img
+              src={`../../images/collections/press/cfda1.png`}
+              alt="CFDA 1"
+              className="eight-npr abs"
+            />
+          </picture>
+        </a>
+        <a
+          href="https://supima.com/design-competition/finalists/2020/Kyra%2520Buenviaje"
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="opacity-50 hover:opacity-100"
+          aria-label="Supima 1 link"
+        >
+          <picture>
+            <source
+              srcset={`../../images/collections/press/supima1.webp`}
+              type="image/webp"
+            />
+            <img
+              src={`../../images/collections/press/supima1.png`}
+              alt="Supima 1"
+              className="nine-npr abs"
+            />
+          </picture>
+        </a>
+        <a
+          href="https://fashionista.com/page/supima-design-competition-2020-kyra-buenviaje-rhode-island-school-of-design"
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="opacity-50 hover:opacity-100"
+          aria-label="Fashionista 1 link"
+        >
+          <picture>
+            <source
+              srcset={`../../images/collections/press/fashionista1.webp`}
+              type="image/webp"
+            />
+            <img
+              src={`../../images/collections/press/fashionista1.png`}
+              alt="Fashionista 1"
+              className="ten-npr abs"
+            />
+          </picture>
+        </a>
+        <a
+          href="https://fashionweekdaily.com/supima-design-competition-more-inspirations"
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="opacity-50 hover:opacity-100"
+          aria-label="The Daily Front Row 1 link"
+        >
+          <picture>
+            <source
+              srcset={`../../images/collections/press/daily1.webp`}
+              type="image/webp"
+            />
+            <img
+              src={`../../images/collections/press/daily1.png`}
+              alt="The Daily Front Row 1"
+              className="eleven-npr abs"
+            />
+          </picture>
+        </a>
+        <a
+          href="https://daily-front-row-inc.foleon.com/supima-2020/2020-supima-design-competition/kyra-buenviaje"
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="opacity-50 hover:opacity-100"
+          aria-label="The Daily Front Row 2 link"
+        >
+          <picture>
+            <source
+              srcset={`../../images/collections/press/daily2.webp`}
+              type="image/webp"
+            />
+            <img
+              src={`../../images/collections/press/daily2.png`}
+              alt="The Daily Front Row 2"
+              className="twelve-npr abs"
+            />
+          </picture>
+        </a>
+        <a
+          href="https://www.risd.edu/news/stories/apparel-design-graduate-kyra-buenviaje-competes-in-supima-design-competition-2020"
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="opacity-50 hover:opacity-100"
+          aria-label="RISD 1 link"
+        >
+          <picture>
+            <source
+              srcset={`../../images/collections/press/risd1.webp`}
+              type="image/webp"
+            />
+            <img
+              src={`../../images/collections/press/risd1.png`}
+              alt="RISD 1"
+              className="thirteen-npr abs"
+            />
+          </picture>
+        </a>
+        <a
+          href="https://publications.risdmuseum.org/risd-senior-show-2020-apparel-design/kyra-buenviaje-apparel-design-risd-senior-show-2020"
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="opacity-50 hover:opacity-100"
+          aria-label="RISD 2 link"
+        >
+          <picture>
+            <source
+              srcset={`../../images/collections/press/risd2.webp`}
+              type="image/webp"
+            />
+            <img
+              src={`../../images/collections/press/risd2.png`}
+              alt="RISD 2"
+              className="fourteen-npr abs"
+            />
+          </picture>
+        </a>
         <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden"></div>
         <HeaderFolio bgColor="bg-transparent z-50" />
       </TopScroll>
