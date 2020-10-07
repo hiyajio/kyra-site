@@ -354,170 +354,200 @@
     .one-jc {
         position: absolute;
         height: auto;
-        width: calc(40rem*(0.41));
+        width: calc(44rem*(0.41));
         left: calc(32rem*(0.41));
         top: calc(6rem*(0.41));
     }
     .two-jc {
-        height: calc(36rem*(0.41));
-        left: calc(13rem*(0.41));
-        top: calc(10rem*(0.41));
+        height: calc(40rem*(0.41));
+        left: calc(2rem*(0.41));
+        top: calc(14rem*(0.41));
     }
     .three-jc {
-        height: calc(44rem*(0.41));
-        left: calc(25rem*(0.41));
-        top: calc(43rem*(0.41));
+        height: calc(40rem*(0.41));
+        left: calc(18rem*(0.41));
+        top: calc(46rem*(0.41));
     }
     .four-jc {
         position: absolute;
         height: auto;
         width: calc(40rem*(0.41));
-        left: calc(1rem*(0.41));
-        top: calc(89rem*(0.41));
+        left: calc(45rem*(0.41));
+        top: calc(62rem*(0.41));
     }
     .five-jc {
-        height: calc(32rem*(0.41));
-        left: calc(62rem*(0.41));
-        top: calc(92rem*(0.41));
+        height: calc(36rem*(0.41));
+        left: calc(2rem*(0.41));
+        top: calc(88rem*(0.41));
     }
     .six-jc {
         height: calc(36rem*(0.41));
-        left: calc(36rem*(0.41));
-        top: calc(112rem*(0.41));
+        left: calc(33rem*(0.41));
+        top: calc(120rem*(0.41));
     }
     .seven-jc {
         position: absolute;
         height: auto;
         width: calc(32rem*(0.41));
-        left: calc(54rem*(0.41));
-        top: calc(152rem*(0.41));
+        left: calc(5rem*(0.41));
+        top: calc(132rem*(0.41));
     }
     .eight-jc {
-        height: calc(36rem*(0.41));
-        left: calc(4rem*(0.41));
-        top: calc(154rem*(0.41));
+        height: calc(44rem*(0.41));
+        left: calc(10rem*(0.41));
+        top: calc(178rem*(0.41));
     }
     .nine-jc {
         height: calc(40rem*(0.41));
-        left: calc(62rem*(0.41));
-        top: calc(180rem*(0.41));
+        left: calc(3rem*(0.41));
+        top: calc(218rem*(0.41));
     }
     .ten-jc {
         height: calc(32rem*(0.41));
-        left: calc(20rem*(0.41));
-        top: calc(186rem*(0.41));
+        left: calc(40rem*(0.41));
+        top: calc(256rem*(0.41));
     }
     .eleven-jc {
         height: calc(44rem*(0.41));
-        left: calc(32rem*(0.41));
-        top: calc(216rem*(0.41));
+        left: calc(12rem*(0.41));
+        top: calc(260rem*(0.41));
     }
     .twelve-jc {
         height: calc(40rem*(0.41));
-        left: calc(58rem*(0.41));
-        top: calc(229rem*(0.41));
+        left: calc(24rem*(0.41));
+        top: calc(301rem*(0.41));
     }
     .thirteen-jc {
-        height: calc(32rem*(0.41));
-        left: calc(40rem*(0.41));
-        top: calc(261rem*(0.41));
+        height: calc(36rem*(0.41));
+        left: calc(42rem*(0.41));
+        top: calc(338rem*(0.41));
     }
     .fourteen-jc {
-        height: calc(36rem*(0.41));
-        left: calc(10rem*(0.41));
-        top: calc(270rem*(0.41));
+        height: calc(32rem*(0.41));
+        left: calc(6rem*(0.41));
+        top: calc(340rem*(0.41));
     }
     .fifteen-jc {
-        height: calc(32rem*(0.41));
-        left: calc(68rem*(0.41));
-        top: calc(290rem*(0.41));
+        height: calc(40rem*(0.41));
+        left: calc(5rem*(0.41));
+        top: calc(374rem*(0.41));
     }
     .sixteen-jc {
         height: calc(36rem*(0.41));
-        left: calc(16rem*(0.41));
-        top: calc(309rem*(0.41));
+        left: calc(64rem*(0.41));
+        top: calc(410rem*(0.41));
     }
     .seventeen-jc {
-        height: calc(36rem*(0.41));
-        left: calc(50rem*(0.41));
-        top: calc(325rem*(0.41));
+        height: calc(44rem*(0.41));
+        left: calc(2rem*(0.41));
+        top: calc(444rem*(0.41));
     }
     .eighteen-jc {
-        height: calc(36rem*(0.41));
-        left: calc(30rem*(0.41));
-        top: calc(347rem*(0.41));
+        height: calc(44rem*(0.41));
+        left: calc(5rem*(0.41));
+        top: calc(487rem*(0.41));
     }
     .nineteen-jc {
         height: calc(40rem*(0.41));
-        left: calc(5rem*(0.41));
-        top: calc(376rem*(0.41));
+        left: calc(60rem*(0.41));
+        top: calc(487rem*(0.41));
     }
     .twenty-jc {
-        height: calc(32rem*(0.41));
-        left: calc(64rem*(0.41));
-        top: calc(392rem*(0.41));
+        height: calc(36rem*(0.41));
+        left: calc(56rem*(0.41));
+        top: calc(525rem*(0.41));
     }
     .twentyone-jc {
-        height: calc(32rem*(0.41));
-        left: calc(46rem*(0.41));
-        top: calc(421rem*(0.41));
+        height: calc(40rem*(0.41));
+        left: calc(12rem*(0.41));
+        top: calc(535rem*(0.41));
     }
     .twentytwo-jc {
         height: calc(44rem*(0.41));
-        left: calc(10rem*(0.41));
-        top: calc(419rem*(0.41));
+        left: calc(2rem*(0.41));
+        top: calc(576rem*(0.41));
     }
     .twentythree-jc {
         height: calc(32rem*(0.41));
-        left: calc(60rem*(0.41));
-        top: calc(449rem*(0.41));
+        left: calc(40rem*(0.41));
+        top: calc(616rem*(0.41));
     }
     .twentyfour-jc {
         height: calc(40rem*(0.41));
-        left: calc(22rem*(0.41));
-        top: calc(462rem*(0.41));
+        left: calc(15rem*(0.41));
+        top: calc(629rem*(0.41));
     }
     .twentyfive-jc {
         height: calc(32rem*(0.41));
-        left: calc(3rem*(0.41));
-        top: calc(480rem*(0.41));
+        left: calc(39rem*(0.41));
+        top: calc(656rem*(0.41));
     }
     .twentysix-jc {
-        height: calc(36rem*(0.41));
-        left: calc(29rem*(0.41));
-        top: calc(504rem*(0.41));
+        height: calc(40rem*(0.41));
+        left: calc(1rem*(0.41));
+        top: calc(687rem*(0.41));
     }
     .twentyseven-jc {
-        height: calc(32rem*(0.41));
-        left: calc(6rem*(0.41));
-        top: calc(520rem*(0.41));
+        height: calc(36rem*(0.41));
+        left: calc(49rem*(0.41));
+        top: calc(712rem*(0.41));
     }
     .twentyeight-jc {
         height: calc(36rem*(0.41));
-        left: calc(19rem*(0.41));
-        top: calc(550rem*(0.41));
+        left: calc(4rem*(0.41));
+        top: calc(726rem*(0.41));
     }
     .twentynine-jc {
-        height: calc(32rem*(0.41));
-        left: calc(64rem*(0.41));
-        top: calc(608rem*(0.41));
+        height: calc(40rem*(0.41));
+        left: calc(26rem*(0.41));
+        top: calc(751rem*(0.41));
     }
     .thirty-jc {
         position: absolute;
         height: auto;
-        width: calc(36rem*(0.41));
-        left: calc(51rem*(0.41));
-        top: calc(553rem*(0.41));
+        width: calc(32rem*(0.41));
+        left: calc(1rem*(0.41));
+        top: calc(786rem*(0.41));
     }
     .thirtyone-jc {
         height: calc(32rem*(0.41));
-        left: calc(44rem*(0.41));
-        top: calc(581rem*(0.41));
+        left: calc(32rem*(0.41));
+        top: calc(798rem*(0.41));
     }
     .thirtytwo-jc {
-        height: calc(49rem*(0.41));
-        left: calc(8rem*(0.41));
-        top: calc(600rem*(0.41));
+        height: calc(44rem*(0.41));
+        left: calc(6rem*(0.41));
+        top: calc(833rem*(0.41));
+    }
+    .thirtythree-jc {
+        height: calc(44rem*(0.41));
+        left: calc(22rem*(0.41));
+        top: calc(864rem*(0.41));
+    }
+    .thirtyfour-jc {
+        height: calc(44rem*(0.41));
+        left: calc(3rem*(0.41));
+        top: calc(902rem*(0.41));
+    }
+    .thirtyfive-jc {
+        height: calc(48rem*(0.41));
+        left: calc(15rem*(0.41));
+        top: calc(945rem*(0.41));
+    }
+    .thirtysix-jc {
+        height: calc(48rem*(0.41));
+        left: calc(40rem*(0.41));
+        top: calc(990rem*(0.41));
+    }
+    .thirtyseven-jc {
+        height: calc(40rem*(0.41));
+        left: calc(2rem*(0.41));
+        top: calc(996rem*(0.41));
+    }
+    .thirtyeight-jc {
+        height: calc(52rem*(0.41));
+        left: calc(6rem*(0.41));
+        top: calc(1040rem*(0.41));
         padding-bottom: calc(5rem*(0.41));
     }
 }
