@@ -75,7 +75,7 @@ const Dropdown = props => {
               </li>
             </ul>
           </Link>
-          <Link to="/juanaPartOneC/" aria-label="Juana 1 curated">
+          <Link to="/juana/" aria-label="Juana 1 curated">
             <ul>
               <li className="hover:text-white hover:bg-silvered">
                 juana part i - curated
