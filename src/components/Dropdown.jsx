@@ -8,54 +8,54 @@ const DropDownWrapper = styled.div`
   }
 
   .dropdown:hover .dropdown-content {
-    height: 9rem;
+    height: 6rem;
   }
 
   @media only screen and (max-width: 375px) {
     .dropdown:hover .dropdown-content {
-      height: 16.5rem;
+      height: 7.5rem;
     }
   }
 
   @media only screen and (min-width: 375px) {
     .dropdown:hover .dropdown-content {
-      height: 15rem;
+      height: 4.5rem;
     }
   }
 
   @media only screen and (min-width: 510px) {
     .dropdown:hover .dropdown-content {
-      height: 13.5rem;
+      height: 4.5rem;
     }
   }
 
   @media only screen and (min-width: 600px) {
     .dropdown:hover .dropdown-content {
-      height: 13.5rem;
+      height: 4.5rem;
     }
   }
 
   @media only screen and (min-width: 674px) {
     .dropdown:hover .dropdown-content {
-      height: 12rem;
+      height: 6rem;
     }
   }
 
   @media only screen and (min-width: 768px) {
     .dropdown:hover .dropdown-content {
-      height: 10.5rem;
+      height: 6rem;
     }
   }
 
   @media only screen and (min-width: 834px) {
     .dropdown:hover .dropdown-content {
-      height: 9rem;
+      height: 4.5rem;
     }
   }
 
   @media only screen and (min-width: 1252px) {
     .dropdown:hover .dropdown-content {
-      height: 7.5rem;
+      height: 4.5rem;
     }
   }
 `
@@ -68,14 +68,14 @@ const Dropdown = props => {
           <li className="hover:text-white hover:bg-silvered">/collections</li>
         </ul>
         <div className="dropdown-content relative overflow-hidden h-0">
-          <Link to="/juanaInQuarantine/" aria-label="Juana 1 quarantine">
+          {/*<Link to="/juanaInQuarantine/" aria-label="Juana 1 quarantine">
             <ul>
               <li className="hover:text-white hover:bg-silvered">
                 juana in quarantine
               </li>
             </ul>
           </Link>
-          <Link to="/juana/" aria-label="Juana 1 curated">
+          <Link to="/juanaPartOneC/" aria-label="Juana 1 curated">
             <ul>
               <li className="hover:text-white hover:bg-silvered">
                 juana part i - curated
@@ -87,6 +87,11 @@ const Dropdown = props => {
               <li className="hover:text-white hover:bg-silvered">
                 juana part i - 100% recycled denim
               </li>
+            </ul>
+  </Link>*/}
+          <Link to="/juana/" aria-label="Juana">
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">juana</li>
             </ul>
           </Link>
           <Link to="/hold/" aria-label="Hold">
