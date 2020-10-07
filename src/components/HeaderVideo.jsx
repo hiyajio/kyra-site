@@ -31,15 +31,10 @@ const HeaderVideo = props => {
         </picture>
       </Link>
       <div className="text-right w-2/5 justify-center content-center object-center m-auto pb-64 mt-64 pt-4 mr-40 z-10 text-white">
-        <div className="fixed opacity-25 hover:opacity-100">
+        <div className="fixed opacity-50 hover:opacity-100">
           <Link to="/" aria-label="Home">
             <ul>
               <li className="hover:text-white hover:bg-silvered">/home</li>
-            </ul>
-          </Link>
-          <Link to="/supima/" aria-label="Supima">
-            <ul>
-              <li className="hover:text-white hover:bg-silvered">/supima</li>
             </ul>
           </Link>
           <Dropdown />
