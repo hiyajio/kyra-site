@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import useDocumentScrollThrottled from "./useDocumentScrollThrottled"
 import Dropdown from "./Dropdown"
 
-const HeaderFolio = props => {
+const HeaderHome = props => {
   const [shouldHideHeader, setShouldHideHeader] = useState(false)
 
   const TIMEOUT_DELAY = 50
@@ -35,6 +35,11 @@ const HeaderFolio = props => {
           <Link to="/" aria-label="Home">
             <ul>
               <li className="hover:text-white hover:bg-silvered">/home</li>
+            </ul>
+          </Link>
+          <Link to="/supima/" aria-label="Supima">
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">/supima</li>
             </ul>
           </Link>
           <Dropdown />
@@ -111,4 +116,4 @@ const HeaderFolio = props => {
   )
 }
 
-export default HeaderFolio
+export default HeaderHome
