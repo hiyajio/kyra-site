@@ -365,6 +365,72 @@ const JuanaPage = props => {
             className="thirtytwo-jc abs"
           />
         </picture>
+        <picture>
+          <source
+            srcset={`../../images/collections/juana/FJuana33.webp`}
+            type="image/webp"
+          />
+          <img
+            src={`../../images/collections/juana/FJuana33.jpg`}
+            alt="Juana part one curated 33"
+            className="thirtythree-jc abs"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset={`../../images/collections/juana/FJuana34.webp`}
+            type="image/webp"
+          />
+          <img
+            src={`../../images/collections/juana/FJuana34.jpg`}
+            alt="Juana part one curated 34"
+            className="thirtyfour-jc abs"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset={`../../images/collections/juana/FJuana35.webp`}
+            type="image/webp"
+          />
+          <img
+            src={`../../images/collections/juana/FJuana35.jpg`}
+            alt="Juana part one curated 35"
+            className="thirtyfive-jc abs"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset={`../../images/collections/juana/FJuana36.webp`}
+            type="image/webp"
+          />
+          <img
+            src={`../../images/collections/juana/FJuana36.jpg`}
+            alt="Juana part one curated 36"
+            className="thirtysix-jc abs"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset={`../../images/collections/juana/FJuana37.webp`}
+            type="image/webp"
+          />
+          <img
+            src={`../../images/collections/juana/FJuana37.jpg`}
+            alt="Juana part one curated 37"
+            className="thirtyseven-jc abs"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset={`../../images/collections/juana/FJuana38.webp`}
+            type="image/webp"
+          />
+          <img
+            src={`../../images/collections/juana/FJuana38.jpg`}
+            alt="Juana part one curated 38"
+            className="thirtyeight-jc abs"
+          />
+        </picture>
         <div className="flex-1 bg-white font-body h-screen w-2/5 overflow-hidden"></div>
         <HeaderFolio bgColor="bg-transparent z-50" />
       </TopScroll>
