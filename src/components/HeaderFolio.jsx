@@ -26,10 +26,14 @@ const HeaderFolio = props => {
 
   return (
     <div className={headerStyle}>
-      <picture className={`fixed w-8/12 top-0 right-0 z-30 ${hiddenStyle}`}>
-        <source srcset={`../../images/logo.webp`} type="image/webp" />
-        <img src={`../../images/logo.png`} alt="Kyra logo" />
-      </picture>
+      <Link to="/" aria-label="Home">
+        <picture
+          className={`fixed w-8/12 top-0 right-0 z-30 hover:opacity-75 ${hiddenStyle}`}
+        >
+          <source srcset={`../../images/logo.webp`} type="image/webp" />
+          <img src={`../../images/logo.png`} alt="Kyra logo" />
+        </picture>
+      </Link>
       <div className="text-right w-2/5 justify-center content-center object-center m-auto pb-64 mt-64 pt-4 mr-40 z-10">
         <div className={`fixed ${hiddenStyle}`}>
           <Link to="/" aria-label="Home">
