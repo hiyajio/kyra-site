@@ -8,54 +8,54 @@ const DropDownWrapper = styled.div`
   }
 
   .dropdown:hover .dropdown-content {
-    height: 6rem;
+    height: 7.5rem;
   }
 
   @media only screen and (max-width: 375px) {
     .dropdown:hover .dropdown-content {
-      height: 7.5rem;
+      height: 9rem;
     }
   }
 
   @media only screen and (min-width: 375px) {
     .dropdown:hover .dropdown-content {
-      height: 4.5rem;
+      height: 6rem;
     }
   }
 
   @media only screen and (min-width: 510px) {
     .dropdown:hover .dropdown-content {
-      height: 4.5rem;
+      height: 6rem;
     }
   }
 
   @media only screen and (min-width: 600px) {
     .dropdown:hover .dropdown-content {
-      height: 4.5rem;
+      height: 6rem;
     }
   }
 
   @media only screen and (min-width: 674px) {
     .dropdown:hover .dropdown-content {
-      height: 6rem;
+      height: 7.5rem;
     }
   }
 
   @media only screen and (min-width: 768px) {
     .dropdown:hover .dropdown-content {
-      height: 6rem;
+      height: 7.5rem;
     }
   }
 
   @media only screen and (min-width: 834px) {
     .dropdown:hover .dropdown-content {
-      height: 4.5rem;
+      height: 6rem;
     }
   }
 
   @media only screen and (min-width: 1252px) {
     .dropdown:hover .dropdown-content {
-      height: 4.5rem;
+      height: 6rem;
     }
   }
 `
@@ -89,6 +89,11 @@ const Dropdown = props => {
               </li>
             </ul>
   </Link>*/}
+          <Link to="/supima/" aria-label="Supima">
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">supima</li>
+            </ul>
+          </Link>
           <Link to="/juana/" aria-label="Juana">
             <ul>
               <li className="hover:text-white hover:bg-silvered">juana</li>

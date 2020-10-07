@@ -37,11 +37,6 @@ const Header = props => {
               <li className="hover:text-white hover:bg-silvered">/home</li>
             </ul>
           </Link>
-          <Link to="/supima/" aria-label="Supima">
-            <ul>
-              <li className="hover:text-white hover:bg-silvered">/supima</li>
-            </ul>
-          </Link>
           <Dropdown />
           <a
             href={`../../files/resumeBuenviaje.pdf`}
