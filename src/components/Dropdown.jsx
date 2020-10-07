@@ -13,13 +13,13 @@ const DropDownWrapper = styled.div`
 
   @media only screen and (max-width: 375px) {
     .dropdown:hover .dropdown-content {
-      height: 9rem;
+      height: 7.5rem;
     }
   }
 
   @media only screen and (min-width: 375px) {
     .dropdown:hover .dropdown-content {
-      height: 6rem;
+      height: 7.5rem;
     }
   }
 
@@ -37,13 +37,13 @@ const DropDownWrapper = styled.div`
 
   @media only screen and (min-width: 674px) {
     .dropdown:hover .dropdown-content {
-      height: 7.5rem;
+      height: 6rem;
     }
   }
 
   @media only screen and (min-width: 768px) {
     .dropdown:hover .dropdown-content {
-      height: 7.5rem;
+      height: 6rem;
     }
   }
 
