@@ -16,12 +16,12 @@ const IndexPage = props => {
           <picture>
             <source
               class="w-screen h-screen object-cover"
-              srcset={`../../images/juanaHome.webp`}
+              srcset={`../../images/juanaNewHome.webp`}
               type="image/webp"
             />
             <img
               class="w-screen h-screen object-cover"
-              src="../../images/juanaHome.jpg"
+              src="../../images/juanaNewHome.jpg"
               alt="Juana collection"
             />
           </picture>
