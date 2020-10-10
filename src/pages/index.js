@@ -4,7 +4,7 @@ import React from "react"
 // import { Link } from "gatsby"
 
 import Layout from "../components/Layout"
-import HeaderHome from "../components/HeaderHome"
+import HeaderVideo from "../components/HeaderVideo"
 
 import "../styles/index.css"
 
@@ -27,7 +27,7 @@ const IndexPage = props => {
           </picture>
         </div>
         <div className="absolute right-0">
-          <HeaderHome bgColor="bg-transparent z-50 pr-40" />
+          <HeaderVideo bgColor="bg-transparent z-50 pr-40" />
         </div>
       </div>
     </Layout>
