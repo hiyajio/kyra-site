@@ -25,7 +25,7 @@ const HeaderVideo = props => {
   return (
     <div className={headerStyle}>
       <Link to="/" aria-label="Home">
-        <picture className="fixed w-8/12 top-0 right-0 z-30 opacity-25 hover:opacity-100">
+        <picture className="fixed w-8/12 top-0 right-0 z-30 opacity-50 hover:opacity-100">
           <source srcset={`../../images/logo.webp`} type="image/webp" />
           <img src={`../../images/logo.png`} alt="Kyra logo" />
         </picture>
