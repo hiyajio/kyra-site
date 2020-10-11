@@ -28,7 +28,7 @@ const HeaderFolio = props => {
     <div className={headerStyle}>
       <Link to="/" aria-label="Home">
         <picture
-          className={`fixed w-8/12 top-0 right-0 z-30 hover:opacity-75 ${hiddenStyle}`}
+          className={`fixed w-9/12 top-0 right-0 z-30 hover:opacity-75 ${hiddenStyle}`}
         >
           <source srcset={`../../images/logo.webp`} type="image/webp" />
           <img src={`../../images/logo.png`} alt="Kyra logo" />
