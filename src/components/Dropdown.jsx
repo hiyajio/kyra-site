@@ -90,7 +90,7 @@ const Dropdown = props => {
               <li className="hover:text-white hover:bg-silvered">juana</li>
             </ul>
           </Link>
-          <Link to="/juana/" aria-label="Juana Collaboration">
+          <Link to="/juanaCollab/" aria-label="Juana Collaboration">
             <ul>
               <li className="hover:text-white hover:bg-silvered">juana - collaboration</li>
             </ul>
