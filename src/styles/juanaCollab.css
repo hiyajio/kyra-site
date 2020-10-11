@@ -9,6 +9,7 @@
         height: calc(40rem*(0.22));
         left: calc(16rem*(0.22));
         top: calc(6rem*(0.22));
+        z-index: 1;
     }
     .two-jco {
         height: calc(36rem*(0.22));
@@ -40,7 +41,7 @@
         left: calc(16rem*(0.22));
         top: calc(118rem*(0.22));
         padding-bottom: calc(5rem*(0.22));
-        z-index: -1;
+        z-index: 1;
     }
 }
 
@@ -50,6 +51,7 @@
         height: calc(40rem*(0.26));
         left: calc(16rem*(0.26));
         top: calc(6rem*(0.26));
+        z-index: 1;
     }
     .two-jco {
         height: calc(36rem*(0.26));
@@ -81,7 +83,7 @@
         left: calc(16rem*(0.26));
         top: calc(118rem*(0.26));
         padding-bottom: calc(5rem*(0.26));
-        z-index: -1;
+        z-index: 1;
     }
 }
 
@@ -91,6 +93,7 @@
         height: calc(40rem*(0.41));
         left: calc(16rem*(0.41));
         top: calc(6rem*(0.41));
+        z-index: 1;
     }
     .two-jco {
         height: calc(36rem*(0.41));
@@ -122,7 +125,7 @@
         left: calc(16rem*(0.41));
         top: calc(118rem*(0.41));
         padding-bottom: calc(5rem*(0.41));
-        z-index: -1;
+        z-index: 1;
     }
 }
 
@@ -132,6 +135,7 @@
         height: calc(40rem*(0.53));
         left: calc(16rem*(0.53));
         top: calc(6rem*(0.53));
+        z-index: 1;
     }
     .two-jco {
         height: calc(36rem*(0.53));
@@ -163,7 +167,7 @@
         left: calc(16rem*(0.53));
         top: calc(118rem*(0.53));
         padding-bottom: calc(5rem*(0.53));
-        z-index: -1;
+        z-index: 1;
     }
 }
 
@@ -173,6 +177,7 @@
         height: calc(40rem*(0.68));
         left: calc(16rem*(0.68));
         top: calc(6rem*(0.68));
+        z-index: 1;
     }
     .two-jco {
         height: calc(36rem*(0.68));
@@ -204,7 +209,7 @@
         left: calc(16rem*(0.68));
         top: calc(118rem*(0.68));
         padding-bottom: calc(5rem*(0.68));
-        z-index: -1;
+        z-index: 1;
     }
 }
 
@@ -214,6 +219,7 @@
         height: calc(40rem*(0.83));
         left: calc(16rem*(0.83));
         top: calc(6rem*(0.83));
+        z-index: 1;
     }
     .two-jco {
         height: calc(36rem*(0.83));
@@ -245,7 +251,7 @@
         left: calc(16rem*(0.83));
         top: calc(118rem*(0.83));
         padding-bottom: calc(5rem*(0.83));
-        z-index: -1;
+        z-index: 1;
     }
 }
 
@@ -297,6 +303,7 @@
         height: calc(40rem*(1.16));
         left: calc(16rem*(1.16));
         top: calc(6rem*(1.16));
+        z-index: 1;
     }
     .two-jco {
         height: calc(36rem*(1.16));
@@ -328,6 +335,6 @@
         left: calc(16rem*(1.16));
         top: calc(118rem*(1.16));
         padding-bottom: calc(5rem*(1.16));
-        z-index: -1;
+        z-index: 1;
     }
 }
