@@ -65,7 +65,7 @@ const Header = props => {
           </Link>
           <div className="block">
             <a
-              href="https://instagram.com/kyrainstudio"
+              href="https://instagram.com/kyra.buenviaje"
               rel="noopener noreferrer"
               target="_BLANK"
               className="hover:opacity-0"
