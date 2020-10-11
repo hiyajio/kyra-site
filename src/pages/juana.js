@@ -200,7 +200,7 @@ const JuanaPage = props => {
             className="seventeen-jf abs"
           />
         </picture>
-        <picture>
+        {/*<picture>
           <source
             srcset={`../../images/collections/juana/FJuana18.webp`}
             type="image/webp"
@@ -210,7 +210,7 @@ const JuanaPage = props => {
             alt="Juana part one curated 18"
             className="eighteen-jf abs"
           />
-        </picture>
+        </picture>*/}
         <picture>
           <source
             srcset={`../../images/collections/juana/FJuana19.webp`}
