@@ -252,41 +252,42 @@
 /* Extra large devices (large laptops and desktops, 1440px and up) */
 @media only screen and (min-width: 1440px) {
     .one-jco {
-        height: 40rem;
+        height: 44rem;
         left: 16rem;
-        top: 6rem;
+        top: 10rem;
+        z-index: 1;
     }
     .two-jco {
-        height: 36rem;
-        left: 44rem;
-        top: 18rem;
+        height: 40rem;
+        left: 47rem;
+        top: 24rem;
     }
     .three-jco {
-        height: 32rem;
-        left: 3rem;
-        top: 38rem;
+        height: 36rem;
+        left: 5rem;
+        top: 59rem;
     }
     .four-jco {
-        height: 40rem;
-        left: 58rem;
+        height: 44rem;
+        left: 54rem;
         top: 62rem;
     }
     .five-jco {
-        height: 32rem;
-        left: 38rem;
-        top: 88rem;
+        height: 36rem;
+        left: 26rem;
+        top: 89rem;
     }
     .six-jco {
-        height: 36rem;
-        left: 12rem;
-        top: 80rem;
+        height: 40rem;
+        left: 55rem;
+        top: 114rem;
     }
     .seven-jco {
-        height: 40rem;
-        left: 16rem;
-        top: 118rem;
+        height: 44rem;
+        left: 3rem;
+        top: 130rem;
         padding-bottom: 5rem;
-        z-index: -1;
+        z-index: 1;
     }
 }
 
