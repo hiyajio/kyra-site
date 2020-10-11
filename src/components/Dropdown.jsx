@@ -6,56 +6,47 @@ const DropDownWrapper = styled.div`
   .dropdown-content {
     transition: all 0.5s ease-in;
   }
-
   .dropdown:hover .dropdown-content {
-    height: 7.5rem;
+    height: 9rem;
   }
-
   @media only screen and (max-width: 375px) {
     .dropdown:hover .dropdown-content {
-      height: 7.5rem;
+      height: 16.5rem;
     }
   }
-
   @media only screen and (min-width: 375px) {
     .dropdown:hover .dropdown-content {
-      height: 7.5rem;
+      height: 15rem;
     }
   }
-
   @media only screen and (min-width: 510px) {
     .dropdown:hover .dropdown-content {
-      height: 6rem;
+      height: 13.5rem;
     }
   }
-
   @media only screen and (min-width: 600px) {
     .dropdown:hover .dropdown-content {
-      height: 6rem;
+      height: 13.5rem;
     }
   }
-
   @media only screen and (min-width: 674px) {
     .dropdown:hover .dropdown-content {
-      height: 6rem;
+      height: 12rem;
     }
   }
-
   @media only screen and (min-width: 768px) {
     .dropdown:hover .dropdown-content {
-      height: 6rem;
+      height: 10.5rem;
     }
   }
-
   @media only screen and (min-width: 834px) {
     .dropdown:hover .dropdown-content {
-      height: 6rem;
+      height: 9rem;
     }
   }
-
   @media only screen and (min-width: 1252px) {
     .dropdown:hover .dropdown-content {
-      height: 6rem;
+      height: 7.5rem;
     }
   }
 `
@@ -97,6 +88,11 @@ const Dropdown = props => {
           <Link to="/juana/" aria-label="Juana">
             <ul>
               <li className="hover:text-white hover:bg-silvered">juana</li>
+            </ul>
+          </Link>
+          <Link to="/juana/" aria-label="Juana Collaboration">
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">juana - collaboration</li>
             </ul>
           </Link>
           <Link to="/hold/" aria-label="Hold">
