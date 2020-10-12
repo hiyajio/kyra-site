@@ -25,7 +25,7 @@ const HeaderHome = props => {
   return (
     <div className={headerStyle}>
       <Link to="/" aria-label="Home">
-        <picture className="fixed w-8/12 top-0 mt-0 lg:mt-24 xxl:mt-4 right-0 mr-0 lg:mr-56 xxl:mr-56 z-30 opacity-50 hover:opacity-100">
+        <picture className="fixed w-8/12 top-0 mt-0 lg:mt-24 xxl:mt-4 right-0 mr-0 lg:mr-56 xxl:mr-56 z-30 opacity-25 hover:opacity-100">
           <source srcset={`../../images/logoWhite.webp`} type="image/webp" />
           <img src={`../../images/logoWhite.png`} alt="Kyra logo" />
         </picture>
