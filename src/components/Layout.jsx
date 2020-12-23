@@ -21,7 +21,7 @@ const Layout = props => {
         <meta property="og:title" content="Kyra Buenviaje" />
         <meta
           property="og:image"
-          content="https://user-images.githubusercontent.com/50670255/85933091-fdc44d00-b8a0-11ea-851b-8bd2a33eb0be.png"
+          content="https://user-images.githubusercontent.com/50670255/101298634-fbc1cb00-37fc-11eb-9b82-76523b1253d0.png"
         />
         <meta
           property="og:description"
@@ -51,7 +51,7 @@ const Layout = props => {
         />
         <meta
           property="twitter:image"
-          content="https://user-images.githubusercontent.com/50670255/85933091-fdc44d00-b8a0-11ea-851b-8bd2a33eb0be.png"
+          content="https://user-images.githubusercontent.com/50670255/101298634-fbc1cb00-37fc-11eb-9b82-76523b1253d0.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://kyrabuenviaje.com/" />
