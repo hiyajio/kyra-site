@@ -48,6 +48,16 @@ const HeaderFolio = props => {
             </ul>
           </Link>
           <a
+            href={`https://urmaong.com/`}
+            rel="noopener noreferrer"
+            target="_BLANK"
+            aria-label="URMA ONG store"
+          >
+            <ul>
+              <li className="hover:text-white hover:bg-silvered">/shop</li>
+            </ul>
+          </a>
+          <a
             href={`../../files/resumeBuenviaje.pdf`}
             rel="noopener noreferrer"
             target="_BLANK"
