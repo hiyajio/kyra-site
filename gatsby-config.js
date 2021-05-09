@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Kyra Buenviaje`,
     description: `Portfolio website of Kyra Gabrielle Buenviaje: Clothing Enthusiast, Fashion Designer, Artist, Creative and proud Filipino.`,
-    author: `@lockjio`,
+    author: `@saejhi`,
     siteUrl: `https://kyrabuenviaje.com/`,
   },
   plugins: [
