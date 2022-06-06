@@ -25,10 +25,19 @@ const AboutPage = props => {
         <div className="text-black justify-center content-center object-center m-auto text-xs lg:text-sm xl:text-sm mx-1 sm:mx-2 md:mx-6 lg:mx-12 lg:mb-12 xl:mx-12 xl:mb-12">
           <div className="opacity-100 bg-transparent">
             <p className="mb-4 opacity-100">
-              Kyra Buenviaje is a born and raised Filipino who graduated with a BFA in Apparel Design from the Rhode Island School of Design in May 2020. Prior to pursuing her fashion education in the US, she studied in both the Philippines and Australia on merit scholarships.
+              Kyra Buenviaje is a born and raised Filipina who graduated with a
+              BFA in Apparel Design from the Rhode Island School of Design in
+              May 2020. Prior to pursuing her fashion education in the US, she
+              studied in both the Philippines and Australia on merit
+              scholarships.
             </p>
             <p className="mb-4 opacity-100">
-              She debuted in NYFW last September 2020 as a finalist for the Supima competition with a collection that was inspired by the feeling of isolation during the pandemic. Her thesis collection on her FIlipino heritage and culture as a 21st century Filipino was made fully out of upcycled and deadstock denim. It gained features on Vogue, Paper, WWD and CFDA.
+              She debuted in NYFW last September 2020 as a finalist for the
+              Supima competition with a collection that was inspired by the
+              feeling of isolation during the pandemic. Her thesis collection on
+              her Philippine heritage and culture as a 21st century Filipina was
+              made fully out of upcycled and deadstock denim. It gained features
+              on Vogue, Paper, WWD and CFDA.
             </p>
             {/*<p className="mb-4 opacity-100">
               As a design intern at Zac Posen she was able to assist and
@@ -73,7 +82,10 @@ const AboutPage = props => {
               will showcase 5 looks at New York Fashion Week.
 </p>*/}
             <p className="mb-4 opacity-100">
-              It was a menswear tailoring class that showed her who she wants to be as a womenswear designer. Ease, quality and concept are the pillars of her art. It is her goal to keep creating unusual pieces that can be worn excessively, and comfortably at that.
+              It was a menswear tailoring class that showed her who she wants to
+              be as a womenswear designer. Ease, quality and concept are the
+              pillars of her art. It is her goal to keep creating unusual pieces
+              that can be worn excessively, and comfortably at that.
             </p>
           </div>
         </div>
